@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "USLetter" portrait)
 	(title_block
-		(date "2025-09-08")
-		(rev "1.0")
+		(date "2025-09-09")
+		(rev "1.0.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -423,6 +423,140 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:ACK_E-04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ELT"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ACK_E-04_1_1"
+				(rectangle
+					(start 0 0)
+					(end 13.97 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -1.27 180)
+					(length 2.54)
+					(name "POWER_A+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -3.81 180)
+					(length 2.54)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "RS-232_REC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "RS-232_SEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2545,6 +2679,17 @@
 		)
 		(uuid "5897a8ba-1694-49ad-aa62-8bc896bb627e")
 	)
+	(text "To ELT\nNMEA 9600"
+		(exclude_from_sim no)
+		(at 73.914 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9703e9cd-c7b2-4869-8c11-0666ba9bf72b")
+	)
 	(text "From GAD 29\nEFIS/AirData Low Gama Format 1\nG3X 24-38\nGPS 175 11-13"
 		(exclude_from_sim no)
 		(at 132.08 163.83 0)
@@ -2555,17 +2700,6 @@
 			(justify left bottom)
 		)
 		(uuid "abedd006-8f8d-45e4-839f-4ff04b94dad8")
-	)
-	(text "To GTR 205x\nConnext 57600\nGPS 175 11-12"
-		(exclude_from_sim no)
-		(at 93.218 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc70e9bb-02ca-4e9f-b9b7-b70400b6366e")
 	)
 	(text "From GTX 345\nP: Position Data to Transponder\nN: Traffic & Weather from Transponder\nGTX #1\nG3X 24-35\nGPS 175 11-16"
 		(exclude_from_sim no)
@@ -2684,16 +2818,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 73.66 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e28a0bd-03d9-4e20-86b4-be0e4ab605e4")
-	)
-	(wire
-		(pts
 			(xy 64.77 156.21) (xy 68.58 156.21)
 		)
 		(stroke
@@ -2744,6 +2868,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380038b2-237e-428a-bb8a-665002e350af")
+	)
+	(wire
+		(pts
 			(xy 129.54 43.18) (xy 152.4 43.18)
 		)
 		(stroke
@@ -2751,6 +2885,16 @@
 			(type default)
 		)
 		(uuid "419b8e04-66c8-4208-801a-4afd0690863a")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44901755-3c3b-4f92-ad92-48d917c5644e")
 	)
 	(wire
 		(pts
@@ -2774,6 +2918,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0b4bef-b012-496b-9122-5b7b1d4248fb")
+	)
+	(wire
+		(pts
 			(xy 129.54 160.02) (xy 129.54 48.26)
 		)
 		(stroke
@@ -2791,16 +2945,6 @@
 			(type default)
 		)
 		(uuid "4f964fd3-d17f-41d6-bab4-8165ad980d7c")
-	)
-	(wire
-		(pts
-			(xy 64.77 95.25) (xy 73.66 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507c5d6b-60a4-4f80-9153-1f3c6eccd111")
 	)
 	(wire
 		(pts
@@ -2964,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 134.62) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df95439-f251-4b77-90e2-b1a128c664bc")
+	)
+	(wire
+		(pts
 			(xy 68.58 29.21) (xy 68.58 26.67)
 		)
 		(stroke
@@ -2991,16 +3145,6 @@
 			(type default)
 		)
 		(uuid "927c78ab-8d22-4968-892d-e634b900902d")
-	)
-	(wire
-		(pts
-			(xy 64.77 97.79) (xy 73.66 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9788d23b-dedf-48d7-bda7-c83f208fdcc6")
 	)
 	(wire
 		(pts
@@ -3121,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "cbec8251-9a47-4b89-9d8b-eae6915e9190")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf44cc77-090d-42d8-9b5c-46a62912d619")
 	)
 	(wire
 		(pts
@@ -3343,6 +3497,17 @@
 		)
 		(uuid "18c78f90-6926-40b1-8dd4-0f1efd4b4718")
 	)
+	(hierarchical_label "ELT_PWR"
+		(shape input)
+		(at 160.02 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1db48d38-5f43-490d-b5d3-8af6da113631")
+	)
 	(hierarchical_label "CAN_LO_OUT"
 		(shape output)
 		(at 129.54 45.72 180)
@@ -3453,28 +3618,6 @@
 		)
 		(uuid "9cacc9c3-0339-4ddd-9540-afaa7c5f0ca4")
 	)
-	(hierarchical_label "COM_SERIAL_IN"
-		(shape input)
-		(at 73.66 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9dbd6f49-49cb-4d93-abd9-e5d9d3bcbaaa")
-	)
-	(hierarchical_label "COM_SERIAL_GND"
-		(shape passive)
-		(at 73.66 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4fe067b-32de-47bd-bd33-a1cf5cc47f81")
-	)
 	(hierarchical_label "CAN_HI_IN"
 		(shape input)
 		(at 129.54 31.75 180)
@@ -3541,16 +3684,16 @@
 		)
 		(uuid "d218837b-8cec-404e-a323-11cc70203f5c")
 	)
-	(hierarchical_label "COM_SERIAL_OUT"
-		(shape output)
-		(at 73.66 92.71 0)
+	(hierarchical_label "GND_BUS"
+		(shape passive)
+		(at 160.02 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d4a4dc27-8ac9-4863-ab70-2dc489c23d25")
+		(uuid "ff181ca7-68a1-48b6-9d3b-b56484bea5b6")
 	)
 	(hierarchical_label "TOGA_OUT"
 		(shape output)
@@ -4272,6 +4415,79 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/a7d1a714-f940-4397-adef-d76b5058aa57"
 					(reference "GPS175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:ACK_E-04")
+		(at 191.77 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d590705c-aa49-4a03-8589-8faad46b653f")
+		(property "Reference" "ELT"
+			(at 184.785 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b6c7537-9dc4-432e-b811-ad9da80e87b7")
+		)
+		(pin "2"
+			(uuid "e868baa8-dca8-4d0c-bf37-14c5818960be")
+		)
+		(pin "4"
+			(uuid "5108f53d-24a3-4742-a1bf-ce537f8833cd")
+		)
+		(pin "3"
+			(uuid "03903604-af70-4b37-9ba1-1c9fb4e4520f")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/a7d1a714-f940-4397-adef-d76b5058aa57"
+					(reference "ELT")
 					(unit 1)
 				)
 			)
