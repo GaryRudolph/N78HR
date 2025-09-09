@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Communication")
-		(date "2025-09-08")
-		(rev "1.0")
+		(date "2025-09-09")
+		(rev "1.0.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -1989,28 +1989,6 @@
 		)
 		(uuid "4438de89-ddac-42d9-9cf8-e1f3b19f7df9")
 	)
-	(text "Ethernet on GPS 175 already used by GTX 345"
-		(exclude_from_sim no)
-		(at 64.262 70.612 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64bedae0-0347-4bcd-a76e-2f2f9d185be1")
-	)
-	(text "From GPS 175\nNMEA 1\nGTX205X 10-11"
-		(exclude_from_sim no)
-		(at 90.932 80.772 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd6f8f19-2d62-4c3b-b927-415999e3ee55")
-	)
 	(junction
 		(at 165.1 139.7)
 		(diameter 0)
@@ -2192,16 +2170,6 @@
 			(type default)
 		)
 		(uuid "15e1fe26-af2a-4b36-9eae-59c3770531f5")
-	)
-	(wire
-		(pts
-			(xy 60.96 78.74) (xy 74.93 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22769081-7c75-49bd-8c76-7d291ed0d3f6")
 	)
 	(wire
 		(pts
@@ -2835,16 +2803,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 81.28) (xy 74.93 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd82163a-16ef-4453-944f-4842a2c1dc84")
-	)
-	(wire
-		(pts
 			(xy 87.63 176.53) (xy 85.09 176.53)
 		)
 		(stroke
@@ -2882,16 +2840,6 @@
 			(type default)
 		)
 		(uuid "dd520d0c-c4d9-4dca-8129-945057db5fee")
-	)
-	(wire
-		(pts
-			(xy 60.96 83.82) (xy 74.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e982f4da-8816-483d-83f9-51728262de88")
 	)
 	(wire
 		(pts
@@ -3103,17 +3051,6 @@
 		)
 		(uuid "1320bcd6-08ac-4213-9850-9e70c6cb009a")
 	)
-	(hierarchical_label "SERIAL_OUT"
-		(shape output)
-		(at 74.93 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b5885b3-cf10-4696-b4ca-c7708fadb13f")
-	)
 	(hierarchical_label "CAN_HI_IN"
 		(shape input)
 		(at 74.93 55.88 0)
@@ -3169,17 +3106,6 @@
 		)
 		(uuid "c83456b2-d057-48e0-b203-95c79ecd5c29")
 	)
-	(hierarchical_label "SERIAL_IN"
-		(shape input)
-		(at 74.93 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d27af412-81a8-45f4-8cd2-93d8e95c1c12")
-	)
 	(hierarchical_label "LEMO_PWR"
 		(shape input)
 		(at 119.38 97.79 180)
@@ -3201,17 +3127,6 @@
 			(justify right)
 		)
 		(uuid "e653b409-52de-4829-8c7d-afb12d2f0b0c")
-	)
-	(hierarchical_label "SERIAL_GND"
-		(shape passive)
-		(at 74.93 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe60a6d2-76c1-4f90-bf5c-5f5bee3ea413")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")

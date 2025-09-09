@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-09-08")
-		(rev "1.0")
+		(date "2025-09-09")
+		(rev "1.0.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3293,16 +3293,6 @@
 		)
 		(uuid "ad76ad4f-855a-4e36-a4fd-b97aceaad1ee")
 	)
-	(text "Not enough serial\nports on GDU"
-		(exclude_from_sim no)
-		(at 80.264 39.116 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af2d7c03-b95c-4a72-90c8-6536feaa07be")
-	)
 	(text "IE Probe\nYellow/Red (yellow +)"
 		(exclude_from_sim no)
 		(at 116.332 277.622 0)
@@ -3357,14 +3347,6 @@
 		(uuid "0892b92e-6f98-44fa-889f-6cbbfa00c7c1")
 	)
 	(no_connect
-		(at 67.31 36.83)
-		(uuid "1bec8928-a6fc-449b-b1a8-b6a58ced94f1")
-	)
-	(no_connect
-		(at 67.31 41.91)
-		(uuid "2245c0d9-f5ac-45f3-8799-47d38040bbd6")
-	)
-	(no_connect
 		(at 95.25 134.62)
 		(uuid "2fec0193-615d-47d6-b84d-1a2791d7af81")
 	)
@@ -3387,10 +3369,6 @@
 	(no_connect
 		(at 67.31 213.36)
 		(uuid "7331b71e-fee9-4535-9d81-e523b9cad110")
-	)
-	(no_connect
-		(at 67.31 39.37)
-		(uuid "7d9d5b12-2346-42c3-85cb-b62aa92e2584")
 	)
 	(no_connect
 		(at 67.31 220.98)
@@ -3884,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 41.91) (xy 78.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70650fa1-1876-44a7-ae60-cb2ce8782f0d")
+	)
+	(wire
+		(pts
 			(xy 86.36 106.68) (xy 67.31 106.68)
 		)
 		(stroke
@@ -4114,6 +4102,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 39.37) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af36126f-233b-455e-9bd3-430572f6e2b3")
+	)
+	(wire
+		(pts
 			(xy 67.31 177.8) (xy 95.25 177.8)
 		)
 		(stroke
@@ -4331,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "dffcef92-d0d8-4c81-be63-3b3e474e2fcb")
+	)
+	(wire
+		(pts
+			(xy 67.31 36.83) (xy 78.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bae108-9dda-42c5-8b4d-35f753ccead6")
 	)
 	(wire
 		(pts
@@ -4638,6 +4646,17 @@
 			)
 		)
 	)
+	(hierarchical_label "SERIAL_OUT"
+		(shape output)
+		(at 78.74 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0869d8d3-4dd5-4656-b420-075e314e0af6")
+	)
 	(hierarchical_label "GEA24_PWR"
 		(shape input)
 		(at 78.74 21.59 0)
@@ -4670,6 +4689,17 @@
 			(justify left)
 		)
 		(uuid "3bf3a28e-3842-4751-9b04-b9038089f5ac")
+	)
+	(hierarchical_label "SERIAL_GND"
+		(shape passive)
+		(at 78.74 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "478d099b-4370-410a-8ccb-57d0741e51fa")
 	)
 	(hierarchical_label "IGN_BAK_LOW_VOLTS"
 		(shape input)
@@ -4714,6 +4744,17 @@
 			(justify left)
 		)
 		(uuid "8b9d7e13-871b-4540-bb0f-ab04d60500e9")
+	)
+	(hierarchical_label "SERIAL_IN"
+		(shape input)
+		(at 78.74 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d897664-efc5-468f-82fd-072054d17920")
 	)
 	(hierarchical_label "SHUNT_HI"
 		(shape input)

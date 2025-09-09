@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2025-09-08")
-		(rev "1.0")
+		(date "2025-09-09")
+		(rev "1.0.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -114,140 +114,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "flyerx:ACK_E-04"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ELT"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ACK_E-04_1_1"
-				(rectangle
-					(start 0 0)
-					(end 13.97 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -1.27 180)
-					(length 2.54)
-					(name "POWER_A+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -3.81 180)
-					(length 2.54)
-					(name "GROUND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 -7.62 180)
-					(length 2.54)
-					(name "RS-232_REC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -10.16 180)
-					(length 2.54)
-					(name "RS-232_SEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2542,17 +2408,6 @@
 		)
 		(uuid "b1932116-e4ec-440b-9754-79ad59183f1f")
 	)
-	(text "To ELT\nNMEA 9600"
-		(exclude_from_sim no)
-		(at 69.85 91.186 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1b807b5-5679-4548-a00b-d96be4dcdd80")
-	)
 	(text "Audio only used on 465\nwith SXM built-in"
 		(exclude_from_sim no)
 		(at 65.532 140.97 0)
@@ -2563,6 +2418,17 @@
 			(justify left)
 		)
 		(uuid "b7a54433-60ac-4323-b096-01b86f016807")
+	)
+	(text "Canbus Backup"
+		(exclude_from_sim no)
+		(at 70.866 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8caccda-7030-47bf-9183-b7138f8b2e5a")
 	)
 	(text "Need Terminator"
 		(exclude_from_sim no)
@@ -2662,10 +2528,6 @@
 		(uuid "f649297f-6242-4f79-82b1-59ca271b1f8d")
 	)
 	(no_connect
-		(at 62.23 91.44)
-		(uuid "1bc5600a-a2d5-4981-bc50-f56816b74449")
-	)
-	(no_connect
 		(at 62.23 144.78)
 		(uuid "22c799be-7f61-4527-a559-5ce9193ce798")
 	)
@@ -2720,10 +2582,6 @@
 	(no_connect
 		(at 157.48 160.02)
 		(uuid "acd69d7f-0c51-4b0b-819e-e140e8263036")
-	)
-	(no_connect
-		(at 62.23 88.9)
-		(uuid "d9a52d22-fa85-4c75-be02-41d93adafb59")
 	)
 	(no_connect
 		(at 62.23 137.16)
@@ -2795,16 +2653,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 109.22 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb3359d-abff-422b-be55-c87c7964bce4")
-	)
-	(wire
-		(pts
 			(xy 62.23 55.88) (xy 64.77 55.88)
 		)
 		(stroke
@@ -2852,6 +2700,16 @@
 			(type default)
 		)
 		(uuid "2596da0b-d29c-4158-b6aa-56f90d501efa")
+	)
+	(wire
+		(pts
+			(xy 62.23 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b21fad4-a2f7-419f-8ceb-c69289a27ade")
 	)
 	(wire
 		(pts
@@ -2995,16 +2853,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 199.39) (xy 163.83 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae38efd-3bbe-4270-bca1-0ad4947893ba")
-	)
-	(wire
-		(pts
 			(xy 120.65 127) (xy 120.65 95.25)
 		)
 		(stroke
@@ -3052,6 +2900,16 @@
 			(type default)
 		)
 		(uuid "67492448-552c-4e20-9c9c-73a5cec868c2")
+	)
+	(wire
+		(pts
+			(xy 62.23 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fd7431-db0d-4e3f-8129-ff41534342c8")
 	)
 	(wire
 		(pts
@@ -3142,6 +3000,16 @@
 			(type default)
 		)
 		(uuid "807da518-2d24-4edc-a5a8-7a0a968d4120")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8270d650-24bf-4b6f-bea5-eb145dcd983e")
 	)
 	(wire
 		(pts
@@ -3282,16 +3150,6 @@
 			(type default)
 		)
 		(uuid "9ec2714d-915e-4519-bf31-04c3f045470e")
-	)
-	(wire
-		(pts
-			(xy 148.59 195.58) (xy 163.83 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a081da47-6d4d-455d-83fb-c54e50dc92dc")
 	)
 	(wire
 		(pts
@@ -3472,26 +3330,6 @@
 			(type default)
 		)
 		(uuid "e7375f4d-4a16-4638-a94a-49e185b0a0c2")
-	)
-	(wire
-		(pts
-			(xy 148.59 193.04) (xy 163.83 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98779f6-579b-4fa2-b326-14f7f1cf4ee9")
-	)
-	(wire
-		(pts
-			(xy 62.23 86.36) (xy 109.22 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb3df471-e8cf-4401-bbb5-b802d3bac86d")
 	)
 	(wire
 		(pts
@@ -3751,6 +3589,17 @@
 		)
 		(uuid "4dbe70b8-23d8-4fc7-9398-ea19b81ac6ab")
 	)
+	(hierarchical_label "EIS_SERIAL_OUT"
+		(shape output)
+		(at 68.58 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52254fc9-4d52-4fab-94f8-1bd4c99099ed")
+	)
 	(hierarchical_label "ADSB_SERIAL_GND"
 		(shape passive)
 		(at 68.58 127 0)
@@ -3761,6 +3610,17 @@
 			(justify left)
 		)
 		(uuid "5253eaf7-625a-4127-8ea6-46f19493a8ec")
+	)
+	(hierarchical_label "EIS_SERIAL_GND"
+		(shape passive)
+		(at 68.58 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5331674b-e86d-4f4b-a4d9-f9e8e1235d46")
 	)
 	(hierarchical_label "VPX_SERIAL_OUT"
 		(shape output)
@@ -3839,17 +3699,6 @@
 		)
 		(uuid "7889ed80-caa3-4cf8-8c6b-22ff92dfb254")
 	)
-	(hierarchical_label "ELT_PWR"
-		(shape input)
-		(at 148.59 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f105f2c-2e39-46bc-ad57-33cb6a32cd68")
-	)
 	(hierarchical_label "GSU25_BAK_PWR"
 		(shape input)
 		(at 149.86 53.34 180)
@@ -3905,6 +3754,17 @@
 		)
 		(uuid "97128acb-f106-4024-9751-b008ad4a648e")
 	)
+	(hierarchical_label "EIS_SERIAL_IN"
+		(shape input)
+		(at 68.58 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c16de65-fc61-406a-b4a4-9ea28635992e")
+	)
 	(hierarchical_label "NAV_CONNEXT_SERIAL_IN"
 		(shape input)
 		(at 68.58 106.68 0)
@@ -3926,17 +3786,6 @@
 			(justify right)
 		)
 		(uuid "a41dc09e-f8a7-4a75-b776-a08727d5fd12")
-	)
-	(hierarchical_label "GND_BUS"
-		(shape passive)
-		(at 148.59 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "adc6ca2d-31bc-44e4-8f40-70655dada94a")
 	)
 	(hierarchical_label "VPX_SERIAL_GND"
 		(shape passive)
@@ -4609,79 +4458,6 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
 					(reference "GDU460")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "flyerx:ACK_E-04")
-		(at 180.34 191.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d590705c-aa49-4a03-8589-8faad46b653f")
-		(property "Reference" "ELT"
-			(at 173.355 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 180.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b6c7537-9dc4-432e-b811-ad9da80e87b7")
-		)
-		(pin "2"
-			(uuid "e868baa8-dca8-4d0c-bf37-14c5818960be")
-		)
-		(pin "4"
-			(uuid "5108f53d-24a3-4742-a1bf-ce537f8833cd")
-		)
-		(pin "3"
-			(uuid "03903604-af70-4b37-9ba1-1c9fb4e4520f")
-		)
-		(instances
-			(project "electrical"
-				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/633b5331-dc3f-449e-8212-24f89753723c"
-					(reference "ELT")
 					(unit 1)
 				)
 			)
