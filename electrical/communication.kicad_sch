@@ -7,7 +7,7 @@
 	(title_block
 		(title "Communication")
 		(date "2025-09-09")
-		(rev "1.0.1")
+		(rev "1.0.3")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -1989,6 +1989,16 @@
 		)
 		(uuid "4438de89-ddac-42d9-9cf8-e1f3b19f7df9")
 	)
+	(text "One end of CAN"
+		(exclude_from_sim no)
+		(at 80.264 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e466d970-42b5-491f-8821-2a3ceccd297c")
+	)
 	(junction
 		(at 165.1 139.7)
 		(diameter 0)
@@ -2002,22 +2012,10 @@
 		(uuid "1b3df0b4-dac9-4d99-9c7f-3f5ad908a7b1")
 	)
 	(junction
-		(at 71.12 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32591846-3523-4eac-a9d8-9daa37ab8391")
-	)
-	(junction
 		(at 64.77 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "372b5c41-fee5-4089-a13f-98c8ecf0b854")
-	)
-	(junction
-		(at 72.39 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "469d87ca-c675-473f-bffc-70c5f07178c4")
 	)
 	(junction
 		(at 87.63 110.49)
@@ -2110,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "06e794e8-f421-44ea-97ef-577b08fe3111")
+	)
+	(wire
+		(pts
+			(xy 64.77 60.96) (xy 64.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09689819-229f-4d20-aa22-dfbf3c64e566")
 	)
 	(wire
 		(pts
@@ -2383,13 +2391,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 72.39 62.23)
+			(xy 60.96 63.5) (xy 64.77 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bfe8d04-58fc-4260-9c26-a6d55aa61704")
+		(uuid "4ae4041b-589d-4d62-bbf7-94e7687b0dbe")
 	)
 	(wire
 		(pts
@@ -2423,16 +2431,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 62.23) (xy 72.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e599762-eec6-4d0c-b8da-990238256d01")
-	)
-	(wire
-		(pts
 			(xy 60.96 115.57) (xy 111.76 115.57)
 		)
 		(stroke
@@ -2450,16 +2448,6 @@
 			(type default)
 		)
 		(uuid "607609a6-f17d-473c-b929-1dee8d8cf855")
-	)
-	(wire
-		(pts
-			(xy 72.39 55.88) (xy 74.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6255834a-8e43-42cd-8fd5-8c40907c557a")
 	)
 	(wire
 		(pts
@@ -2533,7 +2521,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 55.88) (xy 72.39 55.88)
+			(xy 60.96 60.96) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b86c16-601d-41df-ad9a-1f874db5eefe")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2550,16 +2548,6 @@
 			(type default)
 		)
 		(uuid "8ece9543-2b06-4484-b6bf-94c7a8bb4f1e")
-	)
-	(wire
-		(pts
-			(xy 71.12 64.77) (xy 71.12 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911e28cf-ce51-438c-aa6e-af657dc72fa4")
 	)
 	(wire
 		(pts
@@ -2713,23 +2701,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 71.12 58.42)
+			(xy 60.96 58.42) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad4c7920-fb48-44f4-9bbe-c9fc86b11138")
-	)
-	(wire
-		(pts
-			(xy 71.12 58.42) (xy 74.93 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68c4e64-7e14-4eae-b43a-719a08df70c5")
 	)
 	(wire
 		(pts
@@ -2750,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "c1430b89-834c-4956-ba5b-8b4c89fe7f0b")
-	)
-	(wire
-		(pts
-			(xy 90.17 64.77) (xy 71.12 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c49b1e0d-7121-43ea-909c-e2a0bf1b588e")
 	)
 	(wire
 		(pts
@@ -3029,17 +2997,6 @@
 			)
 		)
 	)
-	(hierarchical_label "CAN_LO_IN"
-		(shape input)
-		(at 74.93 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0469b80b-9606-49da-bb24-13800c5cd4ef")
-	)
 	(hierarchical_label "AUDIO_IN_LO"
 		(shape input)
 		(at 74.93 167.64 0)
@@ -3051,20 +3008,9 @@
 		)
 		(uuid "1320bcd6-08ac-4213-9850-9e70c6cb009a")
 	)
-	(hierarchical_label "CAN_HI_IN"
-		(shape input)
-		(at 74.93 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c963509-66b6-4c2b-a9d3-c791cf66eb67")
-	)
 	(hierarchical_label "CAN_HI_OUT"
 		(shape output)
-		(at 90.17 62.23 0)
+		(at 78.74 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3097,7 +3043,7 @@
 	)
 	(hierarchical_label "CAN_LO_OUT"
 		(shape output)
-		(at 90.17 64.77 0)
+		(at 78.74 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
