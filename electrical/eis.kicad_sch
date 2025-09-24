@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-09-09")
-		(rev "1.0.1")
+		(date "2025-09-24")
+		(rev "1.0.4")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3632,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 266.7) (xy 73.66 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dbc5cd-0474-48ea-8228-6ca98760ab8b")
+	)
+	(wire
+		(pts
 			(xy 71.755 255.27) (xy 79.375 255.27)
 		)
 		(stroke
@@ -3742,6 +3752,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 266.7) (xy 82.55 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548f905a-928d-4861-a64f-6d530ca882dc")
+	)
+	(wire
+		(pts
 			(xy 67.31 57.15) (xy 78.74 57.15)
 		)
 		(stroke
@@ -3749,6 +3769,16 @@
 			(type default)
 		)
 		(uuid "569a94a8-4a42-4195-9bbb-51f02183c2a3")
+	)
+	(wire
+		(pts
+			(xy 81.28 266.7) (xy 82.55 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a893ff-39c3-4e14-8f1e-74baf5a1a96f")
 	)
 	(wire
 		(pts
@@ -4139,6 +4169,16 @@
 			(type default)
 		)
 		(uuid "b2e41124-699d-40ff-b885-fea0ade7b710")
+	)
+	(wire
+		(pts
+			(xy 82.55 271.78) (xy 67.31 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3271781-a42e-47ef-b40e-fa86508f3970")
 	)
 	(wire
 		(pts
@@ -4832,7 +4872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1182511b-7c4e-48c5-bf6a-73f9f8cb3c1e")
-		(property "Reference" "OIL_AIR_TEMP"
+		(property "Reference" "OIL_AIR_PRE_TEMP"
 			(at 85.09 192.786 90)
 			(effects
 				(font
@@ -4887,7 +4927,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "OIL_AIR_TEMP")
+					(reference "OIL_AIR_PRE_TEMP")
 					(unit 1)
 				)
 			)
@@ -5873,6 +5913,77 @@
 	)
 	(symbol
 		(lib_id "Device:R_Variable_US")
+		(at 77.47 266.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8846249d-4dfe-405c-a1fe-da2da55ea8ca")
+		(property "Reference" "OIL_AIR_POST_TEMP"
+			(at 83.566 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Variable_US"
+			(at 76.2382 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 268.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Variable resistor, US symbol"
+			(at 77.47 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "775307aa-552c-47e9-a52e-98d8291e825c")
+		)
+		(pin "2"
+			(uuid "a8b89bda-298a-4aa8-ab52-68fe3649811d")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
+					(reference "OIL_AIR_POST_TEMP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Variable_US")
 		(at 82.55 83.82 270)
 		(mirror x)
 		(unit 1)
@@ -6023,7 +6134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d9f69bd-918e-4d06-a867-d697c58be403")
-		(property "Reference" "1A3"
+		(property "Reference" "UMS1A3"
 			(at 104.775 121.92 0)
 			(effects
 				(font
@@ -6082,7 +6193,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "1A3")
+					(reference "UMS1A3")
 					(unit 1)
 				)
 			)
