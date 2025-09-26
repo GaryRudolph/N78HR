@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Power Distribution")
-		(date "2025-09-24")
-		(rev "1.0.4")
+		(date "2025-09-25")
+		(rev "1.0.5")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3312,6 +3312,12 @@
 		(uuid "20e38c0e-a1b2-4556-b630-f422cc0d4362")
 	)
 	(junction
+		(at 74.93 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21642782-cca8-4a5d-a6b7-ef8bfd4c478b")
+	)
+	(junction
 		(at 76.2 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4040,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338dea49-729a-4bef-a0b1-7d1f13adb015")
+	)
+	(wire
+		(pts
 			(xy 161.29 200.66) (xy 157.48 200.66)
 		)
 		(stroke
@@ -4157,6 +4173,16 @@
 			(type default)
 		)
 		(uuid "42af86e5-40e0-4170-8193-d370c5064abd")
+	)
+	(wire
+		(pts
+			(xy 133.35 185.42) (xy 137.16 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bb623d-59a6-4e0e-8161-2f5ba4a128d5")
 	)
 	(wire
 		(pts
@@ -5710,6 +5736,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 185.42) (xy 120.65 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e459b895-6ed4-4b78-93ac-e69435c2ae32")
+	)
+	(wire
+		(pts
 			(xy 156.21 177.8) (xy 156.21 172.72)
 		)
 		(stroke
@@ -5717,6 +5753,16 @@
 			(type default)
 		)
 		(uuid "e53eff9a-3e08-4862-a2b5-a10c31fbd6b6")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 74.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5975eeb-21fc-43c4-b639-55de754f09a3")
 	)
 	(wire
 		(pts
@@ -5860,6 +5906,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 102.87) (xy 74.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46e7065-fa10-4790-baf5-a3b911f93a05")
+	)
+	(wire
+		(pts
 			(xy 57.15 125.73) (xy 63.5 125.73)
 		)
 		(stroke
@@ -5887,6 +5943,16 @@
 			(type default)
 		)
 		(uuid "f9833599-7810-4003-878c-0bb8e39252da")
+	)
+	(wire
+		(pts
+			(xy 57.15 167.64) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa51e1ea-cd28-4352-a343-49c7f2799a0f")
 	)
 	(wire
 		(pts
@@ -6086,6 +6152,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FUEL_PWR"
+		(shape output)
+		(at 63.5 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b9422c6-c5de-4a11-b9b1-e5a59966ec99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.0404 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6576,6 +6664,28 @@
 	)
 	(global_label "GND"
 		(shape passive)
+		(at 137.16 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a14b1a72-34ef-4e5c-8d2b-e99e994747c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9044 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
 		(at 176.53 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6592,6 +6702,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FUEL_PWR"
+		(shape input)
+		(at 116.84 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0717427-719e-4210-93d3-07c5dc8edc82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.2996 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9209,7 +9341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa42de96-aada-4b0c-a8b5-0add7efb7b29")
-		(property "Reference" "12V_SW"
+		(property "Reference" "FUEL_SW"
 			(at 83.312 84.836 0)
 			(effects
 				(font
@@ -9262,7 +9394,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
-					(reference "12V_SW")
+					(reference "FUEL_SW")
 					(unit 1)
 				)
 			)
@@ -9753,7 +9885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2af1d65-1c41-4b15-ad2e-bc06ee4cada9")
-		(property "Reference" "CABIN_SW"
+		(property "Reference" "SMOKE_SW"
 			(at 83.312 100.076 0)
 			(effects
 				(font
@@ -9806,7 +9938,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
-					(reference "CABIN_SW")
+					(reference "SMOKE_SW")
 					(unit 1)
 				)
 			)
@@ -9885,6 +10017,74 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
+		(at 67.31 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd276e47-9207-4e20-93e4-8f8b1dcb9c7f")
+		(property "Reference" "12V_SW"
+			(at 83.312 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8af6ef41-d076-44b8-8a02-92a06f7f3b7e")
+		)
+		(pin "1"
+			(uuid "951e692a-a7f5-4a78-8a9c-58d4c0d418b4")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
+					(reference "12V_SW")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
 		(at 67.31 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9892,7 +10092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2a76284-262f-42e1-840b-cd05654ad3fe")
-		(property "Reference" "SMOKE_SW"
+		(property "Reference" "CABIN_SW"
 			(at 83.312 97.536 0)
 			(effects
 				(font
@@ -9945,7 +10145,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
-					(reference "SMOKE_SW")
+					(reference "CABIN_SW")
 					(unit 1)
 				)
 			)
@@ -10081,6 +10281,74 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
 					(reference "PASSENGERUSB")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 125.73 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8c86bdd-02fa-4ab2-8be2-dc493e69ffd0")
+		(property "Reference" "FUEL_PUMP"
+			(at 128.27 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.016 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.016 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f42a10fb-a361-4b00-9587-7658c024c42d")
+		)
+		(pin "1"
+			(uuid "23765740-57fe-49b5-8496-ed5768eef9d3")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
+					(reference "FUEL_PUMP")
 					(unit 1)
 				)
 			)
