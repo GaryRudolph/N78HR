@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-09-25")
-		(rev "1.0.6")
+		(date "2025-09-29")
+		(rev "1.0.7")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -5255,6 +5255,16 @@
 		)
 		(uuid "3362e2eb-4a6c-41fc-9ff3-e02c404b3351")
 	)
+	(text "Amps come from VPX"
+		(exclude_from_sim no)
+		(at 82.804 206.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b5e67b4-c1fd-4de3-87f7-c48e94143fd0")
+	)
 	(text "Reusing US-8A Connector / Wiring"
 		(exclude_from_sim no)
 		(at 193.294 37.592 0)
@@ -5275,6 +5285,17 @@
 			(justify left)
 		)
 		(uuid "79f01acd-6725-416a-89c0-6678b3662d53")
+	)
+	(text "Voltage comes from VPX"
+		(exclude_from_sim no)
+		(at 75.692 309.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83ef5965-b6ae-4c88-b813-8d45bafd3551")
 	)
 	(text "IE 411K\nSingle wire, grounded on firewall"
 		(exclude_from_sim no)
@@ -5339,6 +5360,10 @@
 	(no_connect
 		(at 67.31 227.33)
 		(uuid "0892b92e-6f98-44fa-889f-6cbbfa00c7c1")
+	)
+	(no_connect
+		(at 67.31 208.28)
+		(uuid "0ab95a54-b715-4333-a21c-e480e0e2beef")
 	)
 	(no_connect
 		(at 95.25 134.62)
@@ -5411,6 +5436,10 @@
 	(no_connect
 		(at 67.31 137.16)
 		(uuid "f58c3478-2b7f-4587-961b-cad9ef4ddaf7")
+	)
+	(no_connect
+		(at 67.31 205.74)
+		(uuid "fef84d1d-62ad-4807-af05-808f474f4c24")
 	)
 	(wire
 		(pts
@@ -6164,16 +6193,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 208.28) (xy 73.66 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c027e12-a216-497f-92b6-8ee2c04036c9")
-	)
-	(wire
-		(pts
 			(xy 173.99 142.24) (xy 189.23 142.24)
 		)
 		(stroke
@@ -6304,7 +6323,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 284.48) (xy 80.01 284.48)
+			(xy 67.31 284.48) (xy 74.93 284.48)
 		)
 		(stroke
 			(width 0)
@@ -7194,16 +7213,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 205.74) (xy 73.66 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f09828ae-c39b-4f9c-8dec-187f9ab8da84")
-	)
-	(wire
-		(pts
 			(xy 105.41 256.54) (xy 105.41 260.35)
 		)
 		(stroke
@@ -7541,17 +7550,6 @@
 		)
 		(uuid "3353a81b-17a7-4d11-af32-cd3dcd61d1b4")
 	)
-	(hierarchical_label "SHUNT_LO"
-		(shape input)
-		(at 73.66 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3bf3a28e-3842-4751-9b04-b9038089f5ac")
-	)
 	(hierarchical_label "SERIAL_GND"
 		(shape passive)
 		(at 78.74 41.91 0)
@@ -7587,7 +7585,7 @@
 	)
 	(hierarchical_label "IGN_BAK_VOLTS"
 		(shape input)
-		(at 80.01 284.48 0)
+		(at 74.93 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7617,17 +7615,6 @@
 			(justify left)
 		)
 		(uuid "8d897664-efc5-468f-82fd-072054d17920")
-	)
-	(hierarchical_label "SHUNT_HI"
-		(shape input)
-		(at 73.66 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99e2327e-aba6-420f-907c-d280b57f9cb6")
 	)
 	(hierarchical_label "CAN_LOW_IN"
 		(shape input)
