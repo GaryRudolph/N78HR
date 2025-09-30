@@ -6,8 +6,8 @@
 	(paper "A" portrait)
 	(title_block
 		(title "Lycoming")
-		(date "2025-09-25")
-		(rev "1.0.5")
+		(date "2025-09-29")
+		(rev "1.0.7")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -1946,6 +1946,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Shunt not needed with VPX"
+		(exclude_from_sim no)
+		(at 91.694 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "177174a9-1a69-4174-9004-bf15ff3c7971")
+	)
 	(text "P-Leads shown as label for simplicity"
 		(exclude_from_sim no)
 		(at 58.42 119.634 0)
@@ -2049,6 +2059,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e43def02-2b56-47a5-913b-0cf8c74a5d55")
+	)
+	(no_connect
+		(at 76.2 46.99)
+		(uuid "032edf26-9d71-4d82-803a-2b0e8ec03e56")
+	)
+	(no_connect
+		(at 71.12 46.99)
+		(uuid "185f482c-89e2-4a0b-b2cf-9173b41c5dbe")
 	)
 	(wire
 		(pts
@@ -2309,16 +2327,6 @@
 			(type default)
 		)
 		(uuid "6bca03ac-21bd-4a08-b088-6014099b3d47")
-	)
-	(wire
-		(pts
-			(xy 71.12 46.99) (xy 71.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72c8b720-75d1-499f-812a-5bfa888b6f36")
 	)
 	(wire
 		(pts
@@ -2602,16 +2610,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 76.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2227281-21f1-4113-895e-8f70e1d8bc44")
-	)
-	(wire
-		(pts
 			(xy 54.61 22.86) (xy 49.53 22.86)
 		)
 		(stroke
@@ -2852,17 +2850,6 @@
 			)
 		)
 	)
-	(hierarchical_label "AMPS_HI"
-		(shape output)
-		(at 71.12 49.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37912c8e-b20d-4f3b-b610-f43109616e81")
-	)
 	(hierarchical_label "START_PWR"
 		(shape input)
 		(at 101.6 34.29 180)
@@ -2884,17 +2871,6 @@
 			(justify left)
 		)
 		(uuid "57db20f3-fbae-4d7a-988c-6702321dad2d")
-	)
-	(hierarchical_label "AMPS_LO"
-		(shape output)
-		(at 76.2 49.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "87faeb8e-182d-45b3-b087-e010d1c81ba0")
 	)
 	(hierarchical_label "AIRCRAFT_POWER"
 		(shape output)
