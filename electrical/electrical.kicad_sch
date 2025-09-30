@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-09-09")
-		(rev "1.0.3")
+		(date "2025-09-29")
+		(rev "1.0.7")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -170,16 +170,6 @@
 			(type default)
 		)
 		(uuid "0fe50401-9326-406c-9055-d263f6f08407")
-	)
-	(wire
-		(pts
-			(xy 38.1 45.72) (xy 38.1 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10006314-930e-46a3-bdf6-4cee4cfc537d")
 	)
 	(wire
 		(pts
@@ -523,16 +513,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 43.18) (xy 39.37 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4bed0b-1e95-4446-8adb-9a6c4c8bdc01")
-	)
-	(wire
-		(pts
 			(xy 133.35 157.48) (xy 133.35 106.68)
 		)
 		(stroke
@@ -630,16 +610,6 @@
 			(type default)
 		)
 		(uuid "47b427a6-19db-4ad9-a4a2-6c5acf3156f7")
-	)
-	(wire
-		(pts
-			(xy 38.1 176.53) (xy 58.42 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486ac9e3-8f25-42ea-a207-d60c3932f1df")
 	)
 	(wire
 		(pts
@@ -923,16 +893,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 45.72) (xy 36.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc95091-6e96-4af9-8915-fbab275bb573")
-	)
-	(wire
-		(pts
 			(xy 102.87 172.72) (xy 116.84 172.72)
 		)
 		(stroke
@@ -1030,16 +990,6 @@
 			(type default)
 		)
 		(uuid "8174636e-c180-4b12-b69a-76af62cf13bd")
-	)
-	(wire
-		(pts
-			(xy 39.37 173.99) (xy 58.42 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850c9a44-d160-40a2-9bb3-cce8eb8cc0a2")
 	)
 	(wire
 		(pts
@@ -1590,16 +1540,6 @@
 			(type default)
 		)
 		(uuid "e4123dd2-5eee-4fc1-91a1-94be8e7b3a36")
-	)
-	(wire
-		(pts
-			(xy 39.37 43.18) (xy 39.37 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5cb0f01-89ee-4b1b-8a84-c4dc758100c8")
 	)
 	(wire
 		(pts
@@ -3071,7 +3011,7 @@
 	)
 	(sheet
 		(at 16.51 29.21)
-		(size 20.32 17.78)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3095,7 +3035,7 @@
 			)
 		)
 		(property "Sheetfile" "rotax.kicad_sch"
-			(at 16.51 47.5746 0)
+			(at 16.51 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,26 +3086,6 @@
 		(pin "START_VOLTS" output
 			(at 36.83 40.64 0)
 			(uuid "4bc37e00-5e65-4024-809c-75b0169bbe73")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AMPS_HI" output
-			(at 36.83 43.18 0)
-			(uuid "e2f9e9c9-a368-4ebb-bb35-87ed4cdd3d53")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AMPS_LO" output
-			(at 36.83 45.72 0)
-			(uuid "badd48ba-64ab-4ab6-b208-e4cf9de61d75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,26 +3842,6 @@
 		(pin "IGN_BAK_VOLTS" input
 			(at 58.42 170.18 180)
 			(uuid "9773018f-010c-4d20-9f2c-22fcd0db76f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SHUNT_HI" input
-			(at 58.42 173.99 180)
-			(uuid "bf691b36-0428-43df-8d3f-14618767268a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SHUNT_LO" input
-			(at 58.42 176.53 180)
-			(uuid "eefa7e00-3b82-427d-8716-56906cd6e675")
 			(effects
 				(font
 					(size 1.27 1.27)
