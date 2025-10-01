@@ -7,7 +7,7 @@
 	(title_block
 		(title "Electrical Overview")
 		(date "2025-10-01")
-		(rev "1.1")
+		(rev "1.1.1")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -30,6 +30,26 @@
 			(justify left top)
 		)
 		(uuid "02b7fa7a-cbf4-4f53-b240-3bd77a5b98f8")
+	)
+	(text_box "Connectors Needed\nDT4 x1\nDT6 x3\nDTM3 x1\nDTM4 x2\nDTM6 x2\nDTM8 x5\nDTP4 x1"
+		(exclude_from_sim no)
+		(at 75.565 234.315 0)
+		(size 22.86 18.415)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f88c616b-47c1-400d-8030-953ddec52685")
 	)
 	(wire
 		(pts
