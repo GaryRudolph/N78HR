@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Autopilot")
-		(date "2025-09-09")
-		(rev "1.0.3")
+		(date "2025-10-01")
+		(rev "1.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -179,156 +179,6 @@
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,6 +888,12 @@
 		(uuid "a2cac731-9f9d-4b26-a087-df1b3780d7c9")
 	)
 	(junction
+		(at 64.77 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab9e7891-d179-4893-a899-ec59a94601bf")
+	)
+	(junction
 		(at 73.66 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1048,12 +904,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6bb0ba5-c0c8-497c-bb9a-c65f19af924a")
-	)
-	(junction
-		(at 64.77 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7346c71-ad6b-4905-bc99-8a4bb9e6400d")
 	)
 	(junction
 		(at 73.66 31.75)
@@ -1177,6 +1027,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30be9d89-de2f-471a-8d18-463fa909c42d")
+	)
+	(wire
+		(pts
 			(xy 58.42 182.88) (xy 58.42 185.42)
 		)
 		(stroke
@@ -1184,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "39bae40f-6374-4035-881c-967e090e03ce")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a751653-4e46-4bca-a8ff-6bcc86df4c22")
 	)
 	(wire
 		(pts
@@ -1234,6 +1104,16 @@
 			(type default)
 		)
 		(uuid "6422659d-6165-40c6-8be0-fe69175cfd9b")
+	)
+	(wire
+		(pts
+			(xy 67.31 115.57) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "656b5a8c-8be8-432f-af60-722abef425c7")
 	)
 	(wire
 		(pts
@@ -1297,6 +1177,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 121.92) (xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbea5cf-7aee-4edc-87e6-bcecbde49511")
+	)
+	(wire
+		(pts
 			(xy 55.88 104.14) (xy 90.17 104.14)
 		)
 		(stroke
@@ -1334,16 +1224,6 @@
 			(type default)
 		)
 		(uuid "8990b49a-3515-4cf3-b10d-985763a49ef0")
-	)
-	(wire
-		(pts
-			(xy 99.06 53.34) (xy 104.14 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904c666d-4b01-4842-9f69-05735ab8122a")
 	)
 	(wire
 		(pts
@@ -1477,16 +1357,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 53.34) (xy 88.9 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7b8e77-6cf3-436f-a34e-3229cbc42ad3")
-	)
-	(wire
-		(pts
 			(xy 30.48 200.66) (xy 38.1 200.66)
 		)
 		(stroke
@@ -1524,6 +1394,16 @@
 			(type default)
 		)
 		(uuid "cceef369-5831-40ad-800e-75cfe68fc5b9")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.92) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4fc9b5-15bb-4d62-9dbd-19351c4e3eda")
 	)
 	(wire
 		(pts
@@ -1677,16 +1557,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 90.17 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc714bf9-a7b0-47d0-8bc9-2dec0cdbba3d")
-	)
-	(wire
-		(pts
 			(xy 58.42 120.65) (xy 58.42 128.27)
 		)
 		(stroke
@@ -1719,28 +1589,6 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 104.14 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d4d9693-ebef-4f57-bd6f-47886a993e79")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.8844 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
 		(at 90.17 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1752,6 +1600,28 @@
 		(uuid "5ca132f0-2099-46ad-a9a6-630eed460c37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.9144 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 111.76 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9656247f-5b67-4b91-bc2a-af86581e5f89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.5044 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,6 +1851,17 @@
 		)
 		(uuid "d5850fd2-6775-49a8-bb00-c19d14c94796")
 	)
+	(hierarchical_label "CWS"
+		(shape input)
+		(at 78.74 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db3c157a-d819-4408-9f6e-37a28f565782")
+	)
 	(hierarchical_label "GND_BUS"
 		(shape input)
 		(at 30.48 200.66 180)
@@ -1991,73 +1872,6 @@
 			(justify right)
 		)
 		(uuid "f1c4a719-a8f8-4006-8445-d3bb0cb6df1e")
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 93.98 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29511bec-aa41-4110-b4c2-5aecf6821781")
-		(property "Reference" "CWS_SW"
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32dbd302-f871-46e0-94be-c0bb731f9ab4")
-		)
-		(pin "2"
-			(uuid "d4cb84b8-d80d-4097-b273-582a717c9e62")
-		)
-		(instances
-			(project "electrical"
-				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
-					(reference "CWS_SW")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "flyerx:Garmin_GSA28")
