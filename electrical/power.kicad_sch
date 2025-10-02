@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Distribution")
 		(date "2025-10-02")
-		(rev "1.1.3")
+		(rev "1.1.4")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -5502,6 +5502,16 @@
 		)
 		(uuid "03bfcc8f-a276-44ed-aa13-248c516c4977")
 	)
+	(text "Destination\nOpen Shield"
+		(exclude_from_sim no)
+		(at 88.9 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0775bcfb-38b1-4e3d-bb13-9bc212f7caee")
+	)
 	(text "14 AWG"
 		(exclude_from_sim no)
 		(at 80.518 157.48 0)
@@ -5534,6 +5544,16 @@
 		)
 		(uuid "0ae4592e-c85a-42c3-93fd-1495f14c85c9")
 	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 92.456 288.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e4e1e98-70cd-43a7-827d-313ea0b90299")
+	)
 	(text "16 AWG"
 		(exclude_from_sim no)
 		(at 85.598 144.78 0)
@@ -5564,6 +5584,16 @@
 			(justify left)
 		)
 		(uuid "177b7928-4e87-4a72-a234-5794b4f4fcd2")
+	)
+	(text "Pink"
+		(exclude_from_sim no)
+		(at 92.456 291.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19befb98-baf9-4735-8d34-7cf8e2d2cdbd")
 	)
 	(text "Pitot Heat (Reserved)"
 		(exclude_from_sim no)
@@ -5604,6 +5634,26 @@
 			)
 		)
 		(uuid "287de579-c923-4817-a226-379400b998ae")
+	)
+	(text "White/Grey"
+		(exclude_from_sim no)
+		(at 17.78 293.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28c0389f-10bc-46bc-85f3-5aa655b79c1e")
+	)
+	(text "White/Purple"
+		(exclude_from_sim no)
+		(at 19.304 285.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28d8a3af-28ce-49df-8367-994de26e6a0f")
 	)
 	(text "14 AWG"
 		(exclude_from_sim no)
@@ -5801,6 +5851,16 @@
 		)
 		(uuid "5d3fea9d-6d53-4522-a3d4-093044cf095b")
 	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 91.44 280.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f9552f7-3cf4-488a-960e-f70673155cdd")
+	)
 	(text "14 AWG"
 		(exclude_from_sim no)
 		(at 142.494 133.604 0)
@@ -5893,6 +5953,16 @@
 			(justify left bottom)
 		)
 		(uuid "82825102-9536-4526-ad50-f55aaff3c0e1")
+	)
+	(text "White/Black"
+		(exclude_from_sim no)
+		(at 19.558 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84f0a73d-2e9a-4495-8ea8-91484cfcd0e3")
 	)
 	(text "RS7"
 		(exclude_from_sim no)
@@ -5998,6 +6068,16 @@
 		)
 		(uuid "9a87e316-1b11-46b7-848c-af5760c31a93")
 	)
+	(text "White"
+		(exclude_from_sim no)
+		(at 92.71 296.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d302363-df19-40b2-a07e-aca793bd91f6")
+	)
 	(text "15A"
 		(exclude_from_sim no)
 		(at 38.1 194.31 0)
@@ -6017,6 +6097,16 @@
 			)
 		)
 		(uuid "a2be5d39-8817-4f50-8f37-791283a2fd78")
+	)
+	(text "Purple"
+		(exclude_from_sim no)
+		(at 92.456 286.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a372786f-dde3-45de-8db8-266fe76adf18")
 	)
 	(text "2A"
 		(exclude_from_sim no)
@@ -6059,6 +6149,46 @@
 		)
 		(uuid "be8a9757-aa09-4943-b418-d1df23fa6099")
 	)
+	(text "Brown"
+		(exclude_from_sim no)
+		(at 92.456 293.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0f3c473-8d60-428d-8bec-a9c777cb9956")
+	)
+	(text "White/Blue"
+		(exclude_from_sim no)
+		(at 19.05 280.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0f98e50-676e-48dc-a8f7-a49bbd684ca4")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 92.456 298.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3215b36-ab43-4f99-a011-cbac491abb7a")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 92.202 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c343a197-12b7-49f6-b443-a4956c439d58")
+	)
 	(text "Avionics\nBackup"
 		(exclude_from_sim no)
 		(at 203.2 81.28 90)
@@ -6089,6 +6219,26 @@
 			)
 		)
 		(uuid "d10028e3-1ce5-4380-a340-a2773794d845")
+	)
+	(text "White/Yellow"
+		(exclude_from_sim no)
+		(at 19.05 288.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d39d4ced-ce1e-4fa9-aa51-8161f25aa159")
+	)
+	(text "White/Orange"
+		(exclude_from_sim no)
+		(at 19.05 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d51af145-8ae0-490a-b916-550a13cd93f5")
 	)
 	(text "5A"
 		(exclude_from_sim no)
@@ -6183,6 +6333,16 @@
 		)
 		(uuid "ef73873e-36e1-4228-9fe8-1d28468e4f69")
 	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 91.694 277.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef913c25-fb5e-44f6-a9f4-fb416d96be4a")
+	)
 	(text "5A"
 		(exclude_from_sim no)
 		(at 39.116 167.894 0)
@@ -6192,6 +6352,26 @@
 			)
 		)
 		(uuid "fa636adc-4221-4f8e-a295-c85f683dd766")
+	)
+	(text "White"
+		(exclude_from_sim no)
+		(at 18.034 295.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa7e2da3-ba3e-4784-8ea4-017cf15c4f0d")
+	)
+	(text "White/Green"
+		(exclude_from_sim no)
+		(at 19.558 282.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fabc6c7e-f43f-4970-9b2f-e228bc5dd92f")
 	)
 	(text "LS6"
 		(exclude_from_sim no)

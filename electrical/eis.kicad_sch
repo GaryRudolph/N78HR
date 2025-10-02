@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-10-01")
-		(rev "1.1")
+		(date "2025-10-02")
+		(rev "1.1.4")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -6656,6 +6656,16 @@
 			)
 		)
 		(uuid "40dea4b4-396b-45de-aa6e-397dbf89c546")
+	)
+	(text "Destination\nConnector Shield"
+		(exclude_from_sim no)
+		(at 75.692 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54514f84-f7db-4b9b-85ac-9dfc858e53c6")
 	)
 	(text "IE F-385B Left\nIE F-385C Right"
 		(exclude_from_sim no)

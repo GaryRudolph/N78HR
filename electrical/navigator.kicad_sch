@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "USLetter" portrait)
 	(title_block
-		(date "2025-10-01")
-		(rev "1.1")
+		(date "2025-10-02")
+		(rev "1.1.4")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3162,6 +3162,16 @@
 		)
 		(uuid "3137c1c0-135f-4672-8de1-f0596c198d3c")
 	)
+	(text "Connector Shield"
+		(exclude_from_sim no)
+		(at 83.058 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3410f76a-c69b-4c10-917d-cb6b989aaf28")
+	)
 	(text "To GDU 460\nConnext 57600"
 		(exclude_from_sim no)
 		(at 97.79 87.63 0)
@@ -3172,6 +3182,46 @@
 			(justify left bottom)
 		)
 		(uuid "5897a8ba-1694-49ad-aa62-8bc896bb627e")
+	)
+	(text "Connector Shield"
+		(exclude_from_sim no)
+		(at 77.978 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5eb0c84e-199e-46a9-b3b0-11dc11492149")
+	)
+	(text "Connector Shield"
+		(exclude_from_sim no)
+		(at 150.876 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "760a26b4-9175-4d21-85e7-a8005a812c0e")
+	)
+	(text "Destination\nConnector Shield"
+		(exclude_from_sim no)
+		(at 119.634 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a386620-292c-445c-82e4-1b2594f330d5")
+	)
+	(text "Connector Shield"
+		(exclude_from_sim no)
+		(at 76.708 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80a3a1a5-1f3f-4f1f-8340-b86beab9ff2d")
 	)
 	(text "To ELT\nNMEA 9600"
 		(exclude_from_sim no)
@@ -3184,6 +3234,16 @@
 		)
 		(uuid "9703e9cd-c7b2-4869-8c11-0666ba9bf72b")
 	)
+	(text "Destination\nConnector Shield"
+		(exclude_from_sim no)
+		(at 120.65 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97e8062a-a71b-43fe-acf5-dc56f2975eda")
+	)
 	(text "From GAD 29\nEFIS/AirData Low Gama Format 1\nG3X 24-38\nGPS 175 11-13"
 		(exclude_from_sim no)
 		(at 132.08 163.83 0)
@@ -3194,6 +3254,16 @@
 			(justify left bottom)
 		)
 		(uuid "abedd006-8f8d-45e4-839f-4ff04b94dad8")
+	)
+	(text "Connector Shielded"
+		(exclude_from_sim no)
+		(at 79.248 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ccc89a0f-a7b5-426b-bb85-47838bcc75a4")
 	)
 	(text "From GTX 345\nP: Position Data to Transponder\nN: Traffic & Weather from Transponder\nGTX #1\nG3X 24-35\nGPS 175 11-16"
 		(exclude_from_sim no)
@@ -3226,6 +3296,16 @@
 			(justify left)
 		)
 		(uuid "e5c5caa3-38bf-49b3-b893-9591f45b36e5")
+	)
+	(text "Connector Shield"
+		(exclude_from_sim no)
+		(at 145.542 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6f7eda8-86cc-441e-b74d-188219dd5566")
 	)
 	(junction
 		(at 68.58 31.75)
