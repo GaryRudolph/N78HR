@@ -6,8 +6,8 @@
 	(paper "A" portrait)
 	(title_block
 		(title "Lycoming")
-		(date "2025-10-01")
-		(rev "1.1.1")
+		(date "2025-10-02")
+		(rev "1.1.3")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3374,6 +3374,16 @@
 		)
 		(uuid "4225bfd3-47d9-48ab-babf-a59bc11b8427")
 	)
+	(text "RS5"
+		(exclude_from_sim no)
+		(at 71.882 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bad2a6c-9378-48c5-99e4-27b182027af6")
+	)
 	(text "IBBS Output has 10A fuse\nnone needed here"
 		(exclude_from_sim no)
 		(at 111.252 147.32 0)
@@ -3396,6 +3406,16 @@
 		)
 		(uuid "5b86159f-dd01-4962-a3b0-1e6f0658cc8b")
 	)
+	(text "RS4"
+		(exclude_from_sim no)
+		(at 71.628 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "726ee798-7e82-4f3d-83f8-128341b3341f")
+	)
 	(text "14 AWG Master/Start Power\n22 AWG Start Volts"
 		(exclude_from_sim no)
 		(at 117.602 90.17 0)
@@ -3406,6 +3426,16 @@
 			(justify left)
 		)
 		(uuid "b0a9934b-eb8b-4ef9-a2aa-5779f7c010f0")
+	)
+	(text "RS2"
+		(exclude_from_sim no)
+		(at 133.096 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e181f25d-6f29-44ae-b1f3-edac85b10ae5")
 	)
 	(text "IE VAMSHUNT 40\n40 Amp, 40 mV"
 		(exclude_from_sim no)
@@ -3427,6 +3457,16 @@
 		)
 		(uuid "e6f41713-85ca-4c26-ac00-7f234b2fad72")
 	)
+	(text "RS3"
+		(exclude_from_sim no)
+		(at 108.204 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e71e9e82-3837-4772-8e98-4938364f854b")
+	)
 	(text "22 AWG"
 		(exclude_from_sim no)
 		(at 169.418 44.45 0)
@@ -3436,6 +3476,16 @@
 			)
 		)
 		(uuid "ef805528-c626-41fa-be1c-959dc6026c7f")
+	)
+	(text "RS1"
+		(exclude_from_sim no)
+		(at 121.666 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f587ef33-37da-4eb8-8489-578b23137f38")
 	)
 	(junction
 		(at 154.94 19.05)
