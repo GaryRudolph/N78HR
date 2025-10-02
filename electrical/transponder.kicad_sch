@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Transponder")
-		(date "2025-09-08")
-		(rev "1.0")
+		(date "2025-10-02")
+		(rev "1.1.4")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -1600,6 +1600,36 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Open Shield"
+		(exclude_from_sim no)
+		(at 93.98 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a366dfb-eb08-4f4d-ad4f-42a876b4940e")
+	)
+	(text "Destination\nOpen Shield"
+		(exclude_from_sim no)
+		(at 91.44 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "640ebcc4-b022-4cdf-b6bb-fd7853c48beb")
+	)
+	(text "Destination\nOpen Shield"
+		(exclude_from_sim no)
+		(at 90.17 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ed89d70-cf1e-4a7a-8834-725a7144ea09")
 	)
 	(text "Traffic & Weather Out\nfor GDU460\nConnext Fmt 4\nPage 24-35"
 		(exclude_from_sim no)

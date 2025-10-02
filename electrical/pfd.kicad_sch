@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2025-09-09")
-		(rev "1.0.3")
+		(date "2025-10-02")
+		(rev "1.1.4")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -2364,6 +2364,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Source\nConnector Shield"
+		(exclude_from_sim no)
+		(at 108.966 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f880d44-2656-4d6f-bcdc-e50b05d118b9")
+	)
+	(text "Connector Shield"
+		(exclude_from_sim no)
+		(at 102.87 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36f793ea-678f-488a-a2ed-99ef6597ce61")
+	)
+	(text "Source\nConnector Shield"
+		(exclude_from_sim no)
+		(at 110.744 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41bf1d53-9987-4dd6-98dd-e3747fd8633a")
+	)
+	(text "Source\nConnector Shield"
+		(exclude_from_sim no)
+		(at 102.616 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55e186e7-baa9-4369-8df1-7a3dec30ba4e")
+	)
+	(text "Destination\nConnector Shield"
+		(exclude_from_sim no)
+		(at 146.05 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b8f1fea-a150-45e1-b6e8-240a1ef7f0ab")
+	)
 	(text "Vertical Power\nPage 24-25"
 		(exclude_from_sim no)
 		(at 87.122 115.062 0)
@@ -2375,6 +2425,16 @@
 		)
 		(uuid "6fb8121a-9531-4337-ae6a-66b00259f121")
 	)
+	(text "Source\nConnector Shield"
+		(exclude_from_sim no)
+		(at 70.612 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a18e432-9d96-4ca3-979b-d2b1cf933292")
+	)
 	(text "To GPS175\nMapMX Format 1\nG3X 24-38\nGPS 175 11-17"
 		(exclude_from_sim no)
 		(at 173.99 134.366 0)
@@ -2385,6 +2445,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e3191e8-8b92-4f2a-a7b5-7c5c83d52fe1")
+	)
+	(text "Source\nConnector Shield"
+		(exclude_from_sim no)
+		(at 132.334 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a864ebe0-5ab9-484d-8700-d324b703b37c")
 	)
 	(text "From GTX 345\nConnext 115200\nPage 24-35"
 		(exclude_from_sim no)
@@ -2462,6 +2532,16 @@
 			(justify left bottom)
 		)
 		(uuid "bf4a0b7d-3f1a-487f-aff1-4f6de01e2f07")
+	)
+	(text "Source\nConnector Shield"
+		(exclude_from_sim no)
+		(at 107.696 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3564411-abbd-4cc0-8f61-0458054fcce2")
 	)
 	(text "Alert Audio\nPage 24-26"
 		(exclude_from_sim no)
