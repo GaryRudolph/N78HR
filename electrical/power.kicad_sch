@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Distribution")
 		(date "2025-10-01")
-		(rev "1.1")
+		(rev "1.1.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -5481,27 +5481,79 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "20 AWG"
+	(text "16 AWG"
 		(exclude_from_sim no)
-		(at 79.248 143.51 0)
+		(at 82.804 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "0c4daf99-6b1b-462a-a922-b697e8d1d4da")
+		(uuid "0001fc67-8770-4945-8a89-3e8595d783e0")
 	)
-	(text "20 AWG"
+	(text "16 AWG"
 		(exclude_from_sim no)
-		(at 79.756 174.498 0)
+		(at 74.93 225.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "11232151-9245-42db-9f9f-7da71c2147f2")
+		(uuid "03bfcc8f-a276-44ed-aa13-248c516c4977")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 80.518 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "086a6984-3215-4f1a-88ac-c03ec2af547d")
+	)
+	(text "16 AWG Flaps, Smoke\n20 AWG Trim"
+		(exclude_from_sim no)
+		(at 129.794 258.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09bf18df-c742-40b1-a2ed-4137aa0bb6fd")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 82.804 165.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ae4592e-c85a-42c3-93fd-1495f14c85c9")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 85.598 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15af8655-6664-482e-99d2-9fdf863bd3d6")
+	)
+	(text "Power/Ground 20 AWG\nSignals 22 AWG\nUnless Noted"
+		(exclude_from_sim no)
+		(at 208.534 19.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "177b7928-4e87-4a72-a234-5794b4f4fcd2")
 	)
 	(text "Pitot Heat (Reserved)"
 		(exclude_from_sim no)
@@ -5512,6 +5564,46 @@
 			)
 		)
 		(uuid "1e4dea11-00f5-4393-a191-4192f015287d")
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 38.354 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23a1cff6-0d0d-4076-b75c-3d42ebff9008")
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 38.354 152.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "287de579-c923-4817-a226-379400b998ae")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 80.772 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a92d720-39a3-4dd1-8b2c-aede79be1a5e")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 163.576 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d0adc3f-0dfc-4072-b9f1-82f8f8be6b7d")
 	)
 	(text "Tail\n* Position .35A\n* Strobe .4A (2.35A Peak)\n\nWing (Pair)\n* Position 1.6A\n* Strobe 1.3A (9.8A Peak)\n\nLeft/Right Lights\n* No idea, but 2\" halogen?"
 		(exclude_from_sim no)
@@ -5526,7 +5618,7 @@
 	)
 	(text "Backup"
 		(exclude_from_sim no)
-		(at 200.152 70.612 90)
+		(at 193.294 71.882 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5535,9 +5627,29 @@
 		)
 		(uuid "30733c5b-1e9c-47ca-8590-39d7a69ef3c8")
 	)
+	(text "1A"
+		(exclude_from_sim no)
+		(at 38.862 213.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30fcc6f2-674b-45de-8e56-07d678118273")
+	)
 	(text "18 AWG"
 		(exclude_from_sim no)
-		(at 79.502 202.184 0)
+		(at 105.156 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31f36fe0-1a87-452a-bb8a-717d4b6ac93b")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 78.486 201.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5546,18 +5658,68 @@
 		)
 		(uuid "342fa751-6605-4034-b90b-2b8bb6b6504f")
 	)
-	(text "22 AWG"
+	(text "1A"
 		(exclude_from_sim no)
-		(at 77.724 210.058 0)
+		(at 38.354 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35e99ca1-eca8-4fc2-bb21-74a4a004bdb1")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 193.04 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35fff072-968e-48b9-a428-15c52fee1c3a")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 38.354 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f5200e3-66fc-4551-aea4-7673c74d6a2a")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 78.486 204.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "36704d6b-46ba-4bbb-ba4f-2b5c50b43687")
+		(uuid "4311973a-5439-4806-bc41-aaa228aa0f1e")
 	)
-	(text "8 AWG"
+	(text "10A"
+		(exclude_from_sim no)
+		(at 37.338 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a0abe04-e779-49f2-a45c-2eb2f89a3fe6")
+	)
+	(text "1A"
+		(exclude_from_sim no)
+		(at 38.862 171.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4de81ffb-e04f-4e56-b5e4-2edc8f62482a")
+	)
+	(text "6 AWG"
 		(exclude_from_sim no)
 		(at 83.058 232.156 0)
 		(effects
@@ -5579,40 +5741,80 @@
 		)
 		(uuid "5127e2a3-7a59-4597-b9fa-14681784c8bb")
 	)
-	(text "22 AWG"
+	(text "16 AWG All"
 		(exclude_from_sim no)
-		(at 79.502 140.716 0)
+		(at 34.036 338.582 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5628ab86-511d-430d-9b83-ebf99464ded2")
+		(uuid "549e4524-47f6-4d5c-ba37-db2e26ad4e7f")
 	)
-	(text "20 AWG"
+	(text "2A"
 		(exclude_from_sim no)
-		(at 81.534 203.708 0)
+		(at 38.862 209.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58bc9e25-c2e1-4f33-982a-33acaaa739bc")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 142.494 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60c18b7d-2874-4fc0-b58f-109cea2cfd87")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 78.74 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "79ffd3d2-3bfb-4726-b29f-f09c104e153a")
+		(uuid "6197980a-ea5f-4fa7-9e4b-84595324b24c")
 	)
-	(text "20 AWG"
+	(text "16 AWG"
 		(exclude_from_sim no)
-		(at 79.248 166.116 0)
+		(at 83.312 168.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "80b18799-0ef2-40af-ab60-9f4d07735781")
+		(uuid "62d38af9-15b9-4820-b5ef-d2f956885130")
 	)
-	(text "20 AWG"
+	(text "3A"
+		(exclude_from_sim no)
+		(at 39.116 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cbf7f6b-7935-4956-8a70-f2dd6f5146b7")
+	)
+	(text "13A"
+		(exclude_from_sim no)
+		(at 39.624 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "827454c3-058b-4531-b69c-e4d65501ae82")
+	)
+	(text "16 AWG"
 		(exclude_from_sim no)
 		(at 149.86 74.93 0)
 		(effects
@@ -5622,6 +5824,16 @@
 			(justify left bottom)
 		)
 		(uuid "82825102-9536-4526-ad50-f55aaff3c0e1")
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 39.116 165.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "889597b2-b717-48af-a54a-ba20009f50fb")
 	)
 	(text "GROUND_BLOCK"
 		(exclude_from_sim no)
@@ -5645,7 +5857,17 @@
 		)
 		(uuid "9057a6b0-a8f0-4f7f-a725-6ae370071d74")
 	)
-	(text "20 AWG"
+	(text "2A"
+		(exclude_from_sim no)
+		(at 38.608 182.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92056627-f336-4334-8037-54e627921ee9")
+	)
+	(text "16 AWG"
 		(exclude_from_sim no)
 		(at 147.32 51.435 0)
 		(effects
@@ -5655,6 +5877,26 @@
 			(justify left bottom)
 		)
 		(uuid "938dc8d1-b993-4ba2-bfba-00025f7195a9")
+	)
+	(text "10A"
+		(exclude_from_sim no)
+		(at 38.1 200.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "971ac44c-9e6e-46ad-93d6-27c76e3d52cf")
+	)
+	(text "3A"
+		(exclude_from_sim no)
+		(at 38.354 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97459a00-a5bd-4dfc-b93f-060f8df9dbfc")
 	)
 	(text "34 Pin Ground Block"
 		(exclude_from_sim no)
@@ -5667,27 +5909,46 @@
 		)
 		(uuid "9a87e316-1b11-46b7-848c-af5760c31a93")
 	)
-	(text "20 AWG"
+	(text "15A"
 		(exclude_from_sim no)
-		(at 78.994 168.656 0)
+		(at 38.1 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "9e23ed86-7e5c-449f-8d55-70daa0336744")
+		(uuid "a00d320a-df54-409b-ab3b-7494ae8e4b61")
 	)
-	(text "20 AWG"
+	(text "16 AWG"
 		(exclude_from_sim no)
-		(at 78.74 218.44 0)
+		(at 81.534 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2be5d39-8817-4f50-8f37-791283a2fd78")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 39.116 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5ee272f-2c8a-4b45-befb-2bfa2dba59bc")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 75.184 228.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a6280270-26a6-4997-ad3b-c3f14991a487")
+		(uuid "a68b0d84-eb47-4ce9-a9b6-c0496b16e7f4")
 	)
 	(text "Routes through GSA 28"
 		(exclude_from_sim no)
@@ -5699,20 +5960,19 @@
 		)
 		(uuid "b2a13938-d87a-4110-bf02-7fc09d6a6aed")
 	)
-	(text "22 AWG"
+	(text "5A"
 		(exclude_from_sim no)
-		(at 79.756 177.038 0)
+		(at 38.354 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "c01784bb-fc41-4d9b-98bf-ef72f59e92e4")
+		(uuid "be8a9757-aa09-4943-b418-d1df23fa6099")
 	)
 	(text "Avionics\nBackup"
 		(exclude_from_sim no)
-		(at 202.184 80.01 90)
+		(at 195.58 81.28 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5720,6 +5980,16 @@
 			(justify bottom)
 		)
 		(uuid "ca1fd641-f12b-4070-a8b4-aace15e4237c")
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 38.862 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbea6529-ce6e-49df-ab18-e17a4aa65d05")
 	)
 	(text "Pitot Heat (Reserved)"
 		(exclude_from_sim no)
@@ -5730,6 +6000,16 @@
 			)
 		)
 		(uuid "d10028e3-1ce5-4380-a340-a2773794d845")
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 39.37 217.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6735116-4c30-469e-a41c-845a00901523")
 	)
 	(text "J1, J2, J8 are by IBBS\nJ10, J12 are by AV stack"
 		(exclude_from_sim no)
@@ -5742,9 +6022,39 @@
 		)
 		(uuid "d97cbf81-6dd2-40d4-804d-99409b27ed65")
 	)
-	(text "16 AWG"
+	(text "5A"
 		(exclude_from_sim no)
-		(at 79.375 195.58 0)
+		(at 38.354 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de2f825c-e3f4-427f-a87e-be36c7eeea2b")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 167.894 182.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "def0ef14-28ef-4038-b43e-5032fbe62034")
+	)
+	(text "6A"
+		(exclude_from_sim no)
+		(at 38.354 205.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfe60735-f7d0-461c-8d25-59e9b5c6695e")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 75.438 195.072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5753,16 +6063,26 @@
 		)
 		(uuid "e5ca4af2-c922-4e80-87c1-de3bbc47be0f")
 	)
-	(text "20 AWG"
+	(text "10A"
 		(exclude_from_sim no)
-		(at 189.23 68.834 0)
+		(at 38.354 203.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "ee728f1f-4b2b-497e-a990-7732388f67ce")
+		(uuid "ea20cab1-cd11-4dda-b63f-d0bc8bb5dae2")
+	)
+	(text "14 AWG 12V\n16 AWG GSA 28\n16 AWG Fuel Pump"
+		(exclude_from_sim no)
+		(at 127 224.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea587944-f896-457e-b1ba-1b708d327778")
 	)
 	(text "Page 24-7"
 		(exclude_from_sim no)
@@ -5774,16 +6094,15 @@
 		)
 		(uuid "ef73873e-36e1-4228-9fe8-1d28468e4f69")
 	)
-	(text "20 AWG"
+	(text "5A"
 		(exclude_from_sim no)
-		(at 190.246 81.026 0)
+		(at 39.116 167.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "f0d06694-c672-4f52-a481-dfad4d1c56c4")
+		(uuid "fa636adc-4221-4f8e-a295-c85f683dd766")
 	)
 	(text_box "Wire Gauges\n1A:   24 AWG\n2.5A: 22 AWG\n5A:   20 AWG\n7.5A: 18 AWG\n10A:  16 AWG\n15A:  14 AWG\n20A:  12 AWG\n40A:  10 AWG\nData: 22 AWG"
 		(exclude_from_sim no)
@@ -6289,16 +6608,6 @@
 			(type default)
 		)
 		(uuid "056edb38-7a66-46f3-b2f0-0484a110f4c9")
-	)
-	(wire
-		(pts
-			(xy 57.15 167.64) (xy 63.5 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075fa1da-0848-4c39-844a-7721fa626ffe")
 	)
 	(wire
 		(pts
@@ -8242,6 +8551,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 167.64) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bca29ca-944f-42ba-9183-b85014922d1d")
+	)
+	(wire
+		(pts
 			(xy 99.06 339.09) (xy 99.06 341.63)
 		)
 		(stroke
@@ -8682,16 +9001,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 179.07) (xy 63.5 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a22af3-f87a-41f5-93b3-dea1f2e59394")
-	)
-	(wire
-		(pts
 			(xy 57.15 100.33) (xy 62.23 100.33)
 		)
 		(stroke
@@ -8699,6 +9008,16 @@
 			(type default)
 		)
 		(uuid "c20cdb86-fcf4-4dc7-9dbb-23158cef98aa")
+	)
+	(wire
+		(pts
+			(xy 57.15 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c150a5-e4da-42cd-9bd6-63dd039637c3")
 	)
 	(wire
 		(pts
@@ -8859,16 +9178,6 @@
 			(type default)
 		)
 		(uuid "d007307e-4eca-4813-958c-b5942fda8abe")
-	)
-	(wire
-		(pts
-			(xy 57.15 181.61) (xy 63.5 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d039f81f-99c2-4f85-8810-db1ab2336e33")
 	)
 	(wire
 		(pts
@@ -9319,16 +9628,6 @@
 			(type default)
 		)
 		(uuid "f53b1cf9-8cee-4b45-a642-b7535052cbb8")
-	)
-	(wire
-		(pts
-			(xy 57.15 165.1) (xy 63.5 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f80573d8-c9ea-4fb4-890b-4ed84f11b162")
 	)
 	(wire
 		(pts
@@ -10486,7 +10785,7 @@
 	)
 	(global_label "LEFT_LIGHT_PWR"
 		(shape output)
-		(at 63.5 179.07 0)
+		(at 63.5 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10496,7 +10795,7 @@
 		)
 		(uuid "81410525-251c-4217-86a5-3d2e66b9607c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 179.07 0)
+			(at 81.8461 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10873,7 @@
 	)
 	(global_label "RIGHT_LIGHT_PWR"
 		(shape output)
-		(at 63.5 181.61 0)
+		(at 63.5 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10584,7 +10883,7 @@
 		)
 		(uuid "95bcce0c-b8d9-4015-9654-e3746929ec6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.0557 181.61 0)
+			(at 83.0557 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11621,7 @@
 	)
 	(hierarchical_label "GPS175_PWR"
 		(shape output)
-		(at 63.5 165.1 0)
+		(at 63.5 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11597,7 +11896,7 @@
 	)
 	(hierarchical_label "GTX345_PWR"
 		(shape output)
-		(at 63.5 167.64 0)
+		(at 63.5 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13299,7 +13598,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fcccb65-c78b-49cf-964a-f6b42240190d")
 		(property "Reference" "VPX"
-			(at 34.925 21.59 0)
+			(at 34.925 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,6 +13611,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -13795,6 +14095,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -14039,6 +14340,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
