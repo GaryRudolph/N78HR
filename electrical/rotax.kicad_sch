@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lycoming")
 		(date "2025-10-01")
-		(rev "1.1")
+		(rev "1.1.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3342,6 +3342,16 @@
 		)
 		(uuid "177174a9-1a69-4174-9004-bf15ff3c7971")
 	)
+	(text "1K 1W Resistor"
+		(exclude_from_sim no)
+		(at 167.386 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c757d38-0758-4f41-8322-805d944fac3b")
+	)
 	(text "Separate ground wires\nfor each SureFly"
 		(exclude_from_sim no)
 		(at 114.3 117.348 0)
@@ -3352,6 +3362,17 @@
 			(justify left)
 		)
 		(uuid "41c8ebef-52e4-413a-acc2-41b2d7a14910")
+	)
+	(text "14 AWG Power/Ground\n18 AWG P-Leads"
+		(exclude_from_sim no)
+		(at 85.344 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4225bfd3-47d9-48ab-babf-a59bc11b8427")
 	)
 	(text "IBBS Output has 10A fuse\nnone needed here"
 		(exclude_from_sim no)
@@ -3364,6 +3385,28 @@
 		)
 		(uuid "4c4fd0cc-a83e-4632-8752-4a41eaf59026")
 	)
+	(text "6 AWG Aircraft Power/Ground"
+		(exclude_from_sim no)
+		(at 100.838 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b86159f-dd01-4962-a3b0-1e6f0658cc8b")
+	)
+	(text "14 AWG Master/Start Power\n22 AWG Start Volts"
+		(exclude_from_sim no)
+		(at 117.602 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0a9934b-eb8b-4ef9-a2aa-5779f7c010f0")
+	)
 	(text "IE VAMSHUNT 40\n40 Amp, 40 mV"
 		(exclude_from_sim no)
 		(at 69.088 51.816 0)
@@ -3373,6 +3416,26 @@
 			)
 		)
 		(uuid "e35dcf80-cb71-422d-be91-7737ac75a98a")
+	)
+	(text "14 AWG"
+		(exclude_from_sim no)
+		(at 45.212 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6f41713-85ca-4c26-ac00-7f234b2fad72")
+	)
+	(text "22 AWG"
+		(exclude_from_sim no)
+		(at 169.418 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef805528-c626-41fa-be1c-959dc6026c7f")
 	)
 	(junction
 		(at 154.94 19.05)
@@ -3409,12 +3472,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59bb8698-6b2c-4cd7-bf29-29fe199bd4dc")
-	)
-	(junction
-		(at 154.94 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "791713eb-6a36-4f1f-8930-21daa37a378b")
 	)
 	(junction
 		(at 96.52 74.93)
@@ -3459,6 +3516,12 @@
 		(uuid "cc0ed9c9-bb15-46c9-83b1-af950621a0ec")
 	)
 	(junction
+		(at 154.94 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d708e458-f351-4ab3-9e7f-d7fe46594e18")
+	)
+	(junction
 		(at 148.59 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3495,6 +3558,16 @@
 			(type default)
 		)
 		(uuid "0124b9ab-4925-422f-84f4-afeb4bd2e8fb")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08780c50-a847-4cc7-964b-4c1ae7bea227")
 	)
 	(wire
 		(pts
@@ -3548,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 44.45) (xy 86.36 44.45)
+			(xy 99.06 57.15) (xy 96.52 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3625,16 +3698,6 @@
 			(type default)
 		)
 		(uuid "28f6a763-86c5-4451-a563-2289bce52025")
-	)
-	(wire
-		(pts
-			(xy 100.33 101.6) (xy 102.87 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "352b0eab-ad61-4db4-852f-2971298ef215")
 	)
 	(wire
 		(pts
@@ -3848,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 46.99) (xy 161.29 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e96e773-d779-477b-b742-586cdab8c76a")
-	)
-	(wire
-		(pts
 			(xy 68.58 128.27) (xy 90.17 128.27)
 		)
 		(stroke
@@ -3865,16 +3918,6 @@
 			(type dash)
 		)
 		(uuid "60dde397-e94a-4048-bba1-07beb74dcdd8")
-	)
-	(wire
-		(pts
-			(xy 110.49 101.6) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622ced04-936c-48cb-9683-f75de60e928e")
 	)
 	(wire
 		(pts
@@ -3905,6 +3948,16 @@
 			(type default)
 		)
 		(uuid "6bca03ac-21bd-4a08-b088-6014099b3d47")
+	)
+	(wire
+		(pts
+			(xy 96.52 57.15) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721786dc-9713-4f23-8eed-b0ac33057368")
 	)
 	(wire
 		(pts
@@ -4098,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 96.52 71.12)
+			(xy 99.06 59.69) (xy 96.52 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4258,6 +4311,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 46.99) (xy 172.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a79e12-5dcb-45d9-a669-3120e09b42a4")
+	)
+	(wire
+		(pts
 			(xy 100.33 138.43) (xy 139.7 138.43)
 		)
 		(stroke
@@ -4328,6 +4391,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 46.99) (xy 160.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6a8eaa-6067-43f0-9b26-9680e80d02cb")
+	)
+	(wire
+		(pts
+			(xy 96.52 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eccec280-d2fa-4995-a835-fc22d5413f06")
+	)
+	(wire
+		(pts
 			(xy 143.51 24.13) (xy 148.59 24.13)
 		)
 		(stroke
@@ -4378,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 96.52 74.93)
+			(xy 96.52 59.69) (xy 96.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4650,7 +4733,7 @@
 	)
 	(global_label "START_VOLTS"
 		(shape output)
-		(at 161.29 46.99 0)
+		(at 172.72 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4660,7 +4743,7 @@
 		)
 		(uuid "e81233c3-fb44-45e5-bf77-7bfd69e17218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3704 46.99 0)
+			(at 187.8004 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4766,7 @@
 	)
 	(hierarchical_label "START_VOLTS"
 		(shape output)
-		(at 114.3 101.6 0)
+		(at 102.87 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4694,7 +4777,7 @@
 	)
 	(hierarchical_label "AIRCRAFT_POWER"
 		(shape output)
-		(at 92.71 44.45 0)
+		(at 99.06 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4716,7 +4799,7 @@
 	)
 	(hierarchical_label "AIRCRAFT_GROUND"
 		(shape output)
-		(at 99.06 71.12 0)
+		(at 99.06 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5264,7 +5347,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 101.6 270)
+		(at 163.83 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5272,7 +5355,7 @@
 		(dnp no)
 		(uuid "354b72ec-8a08-45a4-8622-d7fc1685560e")
 		(property "Reference" "START_R"
-			(at 106.68 104.648 90)
+			(at 163.83 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5363,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 105.4101 104.14 0)
+			(at 162.5601 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 99.822 90)
+			(at 163.83 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 101.6 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5391,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 101.6 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

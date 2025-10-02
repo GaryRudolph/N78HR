@@ -7,7 +7,7 @@
 	(title_block
 		(title "Autopilot")
 		(date "2025-10-01")
-		(rev "1.1")
+		(rev "1.1.1")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -838,6 +838,56 @@
 			)
 		)
 		(uuid "5d544db2-c8c4-4d97-8982-43e421f4fcfc")
+	)
+	(text "20 AWG"
+		(exclude_from_sim no)
+		(at 115.062 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a181d0d-0986-40eb-80d5-fecb068092d9")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 57.658 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92b62b52-3429-40b4-9162-0c4d70c050ce")
+	)
+	(text "20 AWG"
+		(exclude_from_sim no)
+		(at 83.058 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b43b5d0e-6658-4403-8260-69694c3e65ed")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 61.976 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc4e84d8-5678-4792-9bd7-ee3927d33b68")
+	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 57.404 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db81dfa7-38ea-4e87-9a89-07661ecd7c38")
 	)
 	(junction
 		(at 62.23 86.36)
