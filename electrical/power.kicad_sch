@@ -6,8 +6,8 @@
 	(paper "B" portrait)
 	(title_block
 		(title "Power Distribution")
-		(date "2025-10-01")
-		(rev "1.1.2")
+		(date "2025-10-02")
+		(rev "1.1.3")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -5544,6 +5544,16 @@
 		)
 		(uuid "15af8655-6664-482e-99d2-9fdf863bd3d6")
 	)
+	(text "RS8"
+		(exclude_from_sim no)
+		(at 138.43 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "176efad9-4034-487d-a6d4-225d8a26e842")
+	)
 	(text "Power/Ground 20 AWG\nSignals 22 AWG\nUnless Noted"
 		(exclude_from_sim no)
 		(at 208.534 19.812 0)
@@ -5574,6 +5584,16 @@
 			)
 		)
 		(uuid "23a1cff6-0d0d-4076-b75c-3d42ebff9008")
+	)
+	(text "RS6"
+		(exclude_from_sim no)
+		(at 100.584 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27762aea-5164-4cca-b59d-b6f0af31a112")
 	)
 	(text "2A"
 		(exclude_from_sim no)
@@ -5615,6 +5635,16 @@
 			(justify left)
 		)
 		(uuid "2da7a350-9950-4b1c-a076-4d8266eedd32")
+	)
+	(text "LS3"
+		(exclude_from_sim no)
+		(at 100.584 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2df26281-154d-4633-95df-bfacee931718")
 	)
 	(text "Backup"
 		(exclude_from_sim no)
@@ -5677,6 +5707,16 @@
 			)
 		)
 		(uuid "3f5200e3-66fc-4551-aea4-7673c74d6a2a")
+	)
+	(text "LS4"
+		(exclude_from_sim no)
+		(at 100.33 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4304c032-9f84-42e6-a52d-47ab49bedd77")
 	)
 	(text "16 AWG"
 		(exclude_from_sim no)
@@ -5741,6 +5781,26 @@
 		)
 		(uuid "58bc9e25-c2e1-4f33-982a-33acaaa739bc")
 	)
+	(text "LS7"
+		(exclude_from_sim no)
+		(at 100.838 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5afd84cd-84b5-4783-a14b-a38115186522")
+	)
+	(text "RS9"
+		(exclude_from_sim no)
+		(at 144.526 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d3fea9d-6d53-4522-a3d4-093044cf095b")
+	)
 	(text "14 AWG"
 		(exclude_from_sim no)
 		(at 142.494 133.604 0)
@@ -5761,6 +5821,16 @@
 			(justify left bottom)
 		)
 		(uuid "6197980a-ea5f-4fa7-9e4b-84595324b24c")
+	)
+	(text "LS5"
+		(exclude_from_sim no)
+		(at 100.33 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6207ee64-6c66-4984-aa72-00c329e48d5f")
 	)
 	(text "16 AWG"
 		(exclude_from_sim no)
@@ -5793,6 +5863,16 @@
 		)
 		(uuid "7cbf7f6b-7935-4956-8a70-f2dd6f5146b7")
 	)
+	(text "LS2"
+		(exclude_from_sim no)
+		(at 100.584 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7df8755e-9b9d-4725-b9ff-2611deba431d")
+	)
 	(text "13A"
 		(exclude_from_sim no)
 		(at 39.624 161.29 0)
@@ -5814,6 +5894,16 @@
 		)
 		(uuid "82825102-9536-4526-ad50-f55aaff3c0e1")
 	)
+	(text "RS7"
+		(exclude_from_sim no)
+		(at 118.364 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "884e06d0-e0b8-40b8-a5ee-7ef2ffe74f49")
+	)
 	(text "5A"
 		(exclude_from_sim no)
 		(at 39.116 165.354 0)
@@ -5823,6 +5913,16 @@
 			)
 		)
 		(uuid "889597b2-b717-48af-a54a-ba20009f50fb")
+	)
+	(text "LS8"
+		(exclude_from_sim no)
+		(at 100.584 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c79ed61-68af-4e53-97bc-dc1953b095be")
 	)
 	(text "GROUND_BLOCK"
 		(exclude_from_sim no)
@@ -6092,6 +6192,16 @@
 			)
 		)
 		(uuid "fa636adc-4221-4f8e-a295-c85f683dd766")
+	)
+	(text "LS6"
+		(exclude_from_sim no)
+		(at 100.584 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd54ff60-9643-4a90-a78f-f9d8e511a10b")
 	)
 	(text_box "Wire Gauges\n1A:   24 AWG\n2.5A: 22 AWG\n5A:   20 AWG\n7.5A: 18 AWG\n10A:  16 AWG\n15A:  14 AWG\n20A:  12 AWG\n40A:  10 AWG\nData: 22 AWG"
 		(exclude_from_sim no)
