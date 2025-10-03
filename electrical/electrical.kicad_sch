@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-10-02")
-		(rev "1.1.4")
+		(date "2025-10-03")
+		(rev "1.1.5")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -51,7 +51,7 @@
 		)
 		(uuid "f53bf9aa-7777-46bb-b1da-c08952a70bd5")
 	)
-	(text_box "Connectors Needed\nDT4 x1\nDT6 x3\nDTM3 x1\nDTM4 x2\nDTM6 x2\nDTM8 x5\nDTP4 x1"
+	(text_box "Connectors Needed\nDT4 x1\nDT6 x3\nDTM3 x1\nDTM4 x3\nDTM6 x2\nDTM8 x5\nDTP4 x1"
 		(exclude_from_sim no)
 		(at 75.565 234.315 0)
 		(size 22.86 18.415)
