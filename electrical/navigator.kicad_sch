@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "USLetter" portrait)
 	(title_block
-		(date "2025-10-10")
-		(rev "1.1.6")
+		(date "2025-10-11")
+		(rev "1.1.7")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3244,6 +3244,16 @@
 		)
 		(uuid "97e8062a-a71b-43fe-acf5-dc56f2975eda")
 	)
+	(text "Power Input 1 & 2 are connected\ninside the GPS 175..."
+		(exclude_from_sim no)
+		(at 67.818 15.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e5f58f5-ccfe-4102-89c8-7e7c62d18246")
+	)
 	(text "From GAD 29\nEFIS/AirData Low Gama Format 1\nG3X 24-38\nGPS 175 11-13"
 		(exclude_from_sim no)
 		(at 132.08 163.83 0)
@@ -3691,13 +3701,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 21.59) (xy 72.39 21.59)
+			(xy 99.06 21.59) (xy 100.33 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b2fc8f5-5b9c-402c-be8b-6e9cf882521d")
+		(uuid "7949dd72-dce2-4188-a7ea-de41382587d3")
 	)
 	(wire
 		(pts
@@ -3708,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "7bf4a886-60d9-4994-b631-fc10156894ca")
+	)
+	(wire
+		(pts
+			(xy 91.44 21.59) (xy 64.77 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9dd505-d389-4d7d-9441-4c66f7c6256d")
 	)
 	(wire
 		(pts
@@ -4259,7 +4279,7 @@
 	)
 	(hierarchical_label "GPS175_PWR"
 		(shape input)
-		(at 72.39 21.59 0)
+		(at 100.33 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4725,6 +4745,90 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/a7d1a714-f940-4397-adef-d76b5058aa57"
 					(reference "ELTP")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 95.25 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61927167-d016-4a39-8115-6bb60d8734b2")
+		(property "Reference" "GPS175_PWR_D"
+			(at 95.25 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB560"
+			(at 95.25 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 95.25 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "887b6cad-5000-4317-a8bc-b4c949df8a84")
+		)
+		(pin "1"
+			(uuid "6a4ea1e2-97f6-43a9-9489-7cb0d2e45f19")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/a7d1a714-f940-4397-adef-d76b5058aa57"
+					(reference "GPS175_PWR_D")
 					(unit 1)
 				)
 			)
@@ -5289,6 +5393,7 @@
 	(symbol
 		(lib_id "Diode:1N4007")
 		(at 95.25 24.13 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5296,15 +5401,15 @@
 		(dnp no)
 		(uuid "ca6ffdf1-79ae-445c-bddf-f2c2503b452b")
 		(property "Reference" "GPS175_BAK_D"
-			(at 95.25 17.78 0)
+			(at 95.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4007"
-			(at 95.25 20.32 0)
+		(property "Value" "SB560"
+			(at 95.25 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 95.25 28.575 0)
+			(at 95.25 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
