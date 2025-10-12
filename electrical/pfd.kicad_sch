@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2025-10-03")
-		(rev "1.1.5")
+		(date "2025-10-12")
+		(rev "1.1.8")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -2810,7 +2810,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "W"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2828,7 +2828,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2846,7 +2846,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "O"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4914,13 +4914,13 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "O"
 			(uuid "46f23da8-aa4d-45b6-b6ee-48b24ad16f48")
 		)
-		(pin ""
+		(pin "B"
 			(uuid "06ad48b3-f4ab-4c1c-bac5-0758874abb15")
 		)
-		(pin ""
+		(pin "W"
 			(uuid "7f6c5f63-7228-488c-af41-c03f0bbc7250")
 		)
 		(instances

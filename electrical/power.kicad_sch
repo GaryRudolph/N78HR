@@ -6,8 +6,8 @@
 	(paper "B" portrait)
 	(title_block
 		(title "Power Distribution")
-		(date "2025-10-02")
-		(rev "1.1.4")
+		(date "2025-10-12")
+		(rev "1.1.8")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -5556,7 +5556,7 @@
 	)
 	(text "16 AWG"
 		(exclude_from_sim no)
-		(at 85.598 144.78 0)
+		(at 84.328 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5719,7 +5719,7 @@
 	)
 	(text "18 AWG"
 		(exclude_from_sim no)
-		(at 82.042 171.958 0)
+		(at 83.312 145.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5791,7 +5791,7 @@
 	)
 	(text "2A"
 		(exclude_from_sim no)
-		(at 38.862 171.958 0)
+		(at 38.354 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6049,7 +6049,7 @@
 	)
 	(text "3A"
 		(exclude_from_sim no)
-		(at 38.354 144.78 0)
+		(at 39.624 171.196 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6830,16 +6830,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 171.45) (xy 63.5 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d9a3c9-9a07-43e3-9346-491fb48c6759")
-	)
-	(wire
-		(pts
 			(xy 116.84 347.98) (xy 116.84 350.52)
 		)
 		(stroke
@@ -7370,16 +7360,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 144.78) (xy 64.77 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d21a36-1582-47b1-81c6-5ef9e212d736")
-	)
-	(wire
-		(pts
 			(xy 57.15 128.27) (xy 63.5 128.27)
 		)
 		(stroke
@@ -7620,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 144.78) (xy 64.77 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5f6963-dfe3-4fcd-ab1c-284c57df1818")
+	)
+	(wire
+		(pts
 			(xy 180.34 153.67) (xy 180.34 149.86)
 		)
 		(stroke
@@ -7727,6 +7717,16 @@
 			(type default)
 		)
 		(uuid "45afeaae-3e5c-4823-8864-03811fd47d71")
+	)
+	(wire
+		(pts
+			(xy 57.15 176.53) (xy 63.5 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465c6ee7-f2ae-4989-b4aa-5b83a4a146f8")
 	)
 	(wire
 		(pts
@@ -8010,16 +8010,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 173.99) (xy 63.5 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62aa4fc4-a529-4016-be57-d7dba68bb5b0")
-	)
-	(wire
-		(pts
 			(xy 68.58 298.45) (xy 69.85 298.45)
 		)
 		(stroke
@@ -8080,6 +8070,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 171.45) (xy 63.5 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662de772-09e1-4ab7-8829-ae4ad6ebf2b9")
+	)
+	(wire
+		(pts
 			(xy 139.7 111.76) (xy 143.51 111.76)
 		)
 		(stroke
@@ -8117,16 +8117,6 @@
 			(type default)
 		)
 		(uuid "66b15e51-e627-4d02-8fb2-82b836e5d050")
-	)
-	(wire
-		(pts
-			(xy 57.15 176.53) (xy 63.5 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67273ebd-4dae-4c61-939e-d04d16f5396a")
 	)
 	(wire
 		(pts
@@ -9160,6 +9150,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 173.99) (xy 63.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b374f20d-d7f3-40b1-a423-105b4795b6ac")
+	)
+	(wire
+		(pts
 			(xy 57.15 90.17) (xy 62.23 90.17)
 		)
 		(stroke
@@ -10126,7 +10126,7 @@
 	)
 	(global_label "GMU11_PWR"
 		(shape output)
-		(at 63.5 171.45 0)
+		(at 64.77 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10136,7 +10136,7 @@
 		)
 		(uuid "0fbbaae9-8333-4036-8b09-e96291eccb64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.9151 171.45 0)
+			(at 79.1851 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10852,7 +10852,7 @@
 	)
 	(global_label "POSITION_PWR"
 		(shape output)
-		(at 64.77 144.78 0)
+		(at 63.5 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10862,7 +10862,7 @@
 		)
 		(uuid "5b09fd43-7c0f-4533-ab4b-b6b8eb3ebf21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.3624 144.78 0)
+			(at 80.0924 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
