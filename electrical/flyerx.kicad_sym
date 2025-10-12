@@ -10886,7 +10886,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "W"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10904,7 +10904,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10922,7 +10922,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "O"
 					(effects
 						(font
 							(size 1.27 1.27)
