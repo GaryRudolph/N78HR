@@ -5975,16 +5975,6 @@
 		)
 		(uuid "15af8655-6664-482e-99d2-9fdf863bd3d6")
 	)
-	(text "W/O"
-		(exclude_from_sim no)
-		(at 132.588 298.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1700657b-c25e-4a3e-812e-835ccf7f9aa2")
-	)
 	(text "RS8"
 		(exclude_from_sim no)
 		(at 138.43 108.712 0)
@@ -6117,16 +6107,6 @@
 		)
 		(uuid "2df26281-154d-4633-95df-bfacee931718")
 	)
-	(text "W/B"
-		(exclude_from_sim no)
-		(at 132.588 304.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2ebd29b5-e685-4ed0-a080-a47245986763")
-	)
 	(text "Backup"
 		(exclude_from_sim no)
 		(at 200.914 71.628 90)
@@ -6157,6 +6137,17 @@
 			)
 		)
 		(uuid "31f36fe0-1a87-452a-bb8a-717d4b6ac93b")
+	)
+	(text "White/Blue"
+		(exclude_from_sim no)
+		(at 134.366 303.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33f01ee0-051f-4bdd-8f51-ef9cea150a44")
 	)
 	(text "18 AWG"
 		(exclude_from_sim no)
@@ -6282,23 +6273,25 @@
 		)
 		(uuid "5d3fea9d-6d53-4522-a3d4-093044cf095b")
 	)
-	(text "W"
+	(text "White"
 		(exclude_from_sim no)
-		(at 132.588 284.988 0)
+		(at 134.366 284.734 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "5ed647ed-4a55-4b2f-9140-3f5308986108")
 	)
-	(text "B"
+	(text "Black"
 		(exclude_from_sim no)
-		(at 132.588 287.274 0)
+		(at 134.112 287.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "5f6f0687-dd72-4342-9a71-fdf69b33efac")
 	)
@@ -6365,13 +6358,14 @@
 		)
 		(uuid "62d38af9-15b9-4820-b5ef-d2f956885130")
 	)
-	(text "W"
+	(text "White"
 		(exclude_from_sim no)
-		(at 132.334 277.368 0)
+		(at 134.366 277.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "6823407a-1d3b-436d-a57e-c5e29892a844")
 	)
@@ -6385,33 +6379,25 @@
 		)
 		(uuid "69c2de34-6a08-45bd-943e-4f1e8305064e")
 	)
-	(text "W/B"
+	(text "White/Blue"
 		(exclude_from_sim no)
-		(at 131.318 279.908 0)
+		(at 134.366 279.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "6a21f1e7-230f-4c7b-a354-0c7933d0d80d")
 	)
-	(text "W"
+	(text "White/Orange"
 		(exclude_from_sim no)
-		(at 133.858 301.498 0)
+		(at 134.874 274.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-		)
-		(uuid "74a93110-52d2-4e2c-aed3-7c322e13dba3")
-	)
-	(text "W/O"
-		(exclude_from_sim no)
-		(at 131.064 274.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+			(justify right)
 		)
 		(uuid "7adcf1c7-e175-4e83-8d73-da73a9a28f95")
 	)
@@ -6446,9 +6432,9 @@
 		)
 		(uuid "7fca30d9-582c-41ef-981a-dcffaa0a2f37")
 	)
-	(text "W/B"
+	(text "White/Blue"
 		(exclude_from_sim no)
-		(at 131.318 282.448 0)
+		(at 129.032 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6590,6 +6576,17 @@
 			)
 		)
 		(uuid "97459a00-a5bd-4dfc-b93f-060f8df9dbfc")
+	)
+	(text "White"
+		(exclude_from_sim no)
+		(at 134.62 301.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98b94e83-eda7-40c6-8d32-0d74dfd6bccd")
 	)
 	(text "34 Pin Ground Block"
 		(exclude_from_sim no)
@@ -6733,6 +6730,17 @@
 			)
 		)
 		(uuid "c343a197-12b7-49f6-b443-a4956c439d58")
+	)
+	(text "White/Orange"
+		(exclude_from_sim no)
+		(at 135.128 298.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c79a8a94-3977-4f41-98c0-3a2394fe771e")
 	)
 	(text "Avionics\nBackup"
 		(exclude_from_sim no)
@@ -8369,7 +8377,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 302.26) (xy 134.62 302.26)
+			(xy 121.92 302.26) (xy 134.62 302.26)
 		)
 		(stroke
 			(width 0)
@@ -8409,7 +8417,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 304.8) (xy 134.62 304.8)
+			(xy 121.92 304.8) (xy 134.62 304.8)
 		)
 		(stroke
 			(width 0)
@@ -8459,7 +8467,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 299.72) (xy 134.62 299.72)
+			(xy 121.92 299.72) (xy 134.62 299.72)
 		)
 		(stroke
 			(width 0)
@@ -12081,7 +12089,7 @@
 	)
 	(global_label "FLAPS_GND"
 		(shape passive)
-		(at 129.54 304.8 180)
+		(at 121.92 304.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12091,7 +12099,7 @@
 		)
 		(uuid "bc180f3e-a261-49be-8d51-dbf85eb5c19b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.1432 304.8 0)
+			(at 109.5232 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12213,7 +12221,7 @@
 	)
 	(global_label "FLAPS_POS"
 		(shape output)
-		(at 129.54 302.26 180)
+		(at 121.92 302.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12223,7 +12231,7 @@
 		)
 		(uuid "c4fc2a2c-95be-4290-bb04-a4c8277ec109")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.0924 302.26 0)
+			(at 108.4724 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12287,7 @@
 	)
 	(global_label "FLAPS_REF"
 		(shape input)
-		(at 129.54 299.72 180)
+		(at 121.92 299.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12289,7 +12297,7 @@
 		)
 		(uuid "d6589f20-bd2f-4e41-b299-d8d53fad8bab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3948 299.72 0)
+			(at 108.7748 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
