@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-10-03")
-		(rev "1.1.5")
+		(date "2025-10-15")
+		(rev "1.1.14")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -590,6 +590,16 @@
 			(type default)
 		)
 		(uuid "3baa47f8-be1e-477f-9bc5-c7d6efa7007a")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb0b1bc-91af-4b1f-8ed6-053e28d4a777")
 	)
 	(wire
 		(pts
@@ -3161,6 +3171,16 @@
 				(justify left)
 			)
 		)
+		(pin "ALT_ON" output
+			(at 58.42 43.18 180)
+			(uuid "d33ef189-0217-4469-9e66-607be058f0e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049"
@@ -3171,7 +3191,7 @@
 	)
 	(sheet
 		(at 16.51 29.21)
-		(size 20.32 12.7)
+		(size 20.32 15.875)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3195,7 +3215,7 @@
 			)
 		)
 		(property "Sheetfile" "rotax.kicad_sch"
-			(at 16.51 42.4946 0)
+			(at 16.51 45.6696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,6 +3266,16 @@
 		(pin "START_VOLTS" output
 			(at 36.83 40.64 0)
 			(uuid "4bc37e00-5e65-4024-809c-75b0169bbe73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALT_ON" input
+			(at 36.83 43.18 0)
+			(uuid "c90b7089-3a08-4230-8aa7-e701a08dd045")
 			(effects
 				(font
 					(size 1.27 1.27)
