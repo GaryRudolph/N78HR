@@ -7464,6 +7464,16 @@
 		)
 		(uuid "ef913c25-fb5e-44f6-a9f4-fb416d96be4a")
 	)
+	(text "16 AWG"
+		(exclude_from_sim no)
+		(at 120.396 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6748e30-5289-4379-9a54-a516ac6616c7")
+	)
 	(text "White/Blue"
 		(exclude_from_sim no)
 		(at 79.248 59.944 0)
@@ -15493,24 +15503,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7007a9c9-5393-4665-ae05-c4ae36d28374")
 		(property "Reference" "ALTP"
-			(at 95.885 215.9 0)
+			(at 96.266 225.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 95.885 218.44 0)
+		(property "Value" "DT2"
+			(at 96.266 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17915,26 +17924,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed0fcbeb-23e2-424e-9a89-99648f33da22")
 		(property "Reference" "ALTR"
-			(at 96.52 220.9799 0)
+			(at 94.488 225.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 96.52 223.5199 0)
+		(property "Value" "DT2"
+			(at 94.488 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
