@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2025-10-12")
-		(rev "1.1.8")
+		(date "2025-10-19")
+		(rev "1.1.15")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -4018,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e00b6b5-553f-4e68-a299-12aed74de0a9")
+	)
+	(wire
+		(pts
 			(xy 93.98 62.23) (xy 142.24 62.23)
 		)
 		(stroke
@@ -4486,6 +4496,17 @@
 			(justify left)
 		)
 		(uuid "04ea579a-3a7c-4ca7-88fb-420b4409d045")
+	)
+	(hierarchical_label "LIGHTS_HI"
+		(shape input)
+		(at 68.58 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07e8747c-14ab-4bb0-b2b4-1ad8a35ea6ea")
 	)
 	(hierarchical_label "CAN_GMU_HI_IN"
 		(shape input)

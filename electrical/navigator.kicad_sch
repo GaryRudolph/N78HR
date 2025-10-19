@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "USLetter" portrait)
 	(title_block
-		(date "2025-10-11")
-		(rev "1.1.7")
+		(date "2025-10-19")
+		(rev "1.1.15")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3318,12 +3318,6 @@
 		(uuid "e6f7eda8-86cc-441e-b74d-188219dd5566")
 	)
 	(junction
-		(at 68.58 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44d63f3d-8caf-4c95-8cfd-52d90ac19271")
-	)
-	(junction
 		(at 152.4 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3421,16 +3415,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 156.21) (xy 68.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102ddc14-7b30-440a-b33c-67daa137d752")
-	)
-	(wire
-		(pts
 			(xy 68.58 26.67) (xy 72.39 26.67)
 		)
 		(stroke
@@ -3448,6 +3432,16 @@
 			(type default)
 		)
 		(uuid "23422519-2fa9-4e0b-985d-006d6c53fd96")
+	)
+	(wire
+		(pts
+			(xy 64.77 153.67) (xy 74.93 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2c8bc2-b3aa-4c61-9c8e-ee696dec0ffa")
 	)
 	(wire
 		(pts
@@ -3558,16 +3552,6 @@
 			(type default)
 		)
 		(uuid "52109535-99e9-4b0a-9ea5-0d1aed491b1d")
-	)
-	(wire
-		(pts
-			(xy 68.58 156.21) (xy 68.58 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a0dce4-a42a-448f-a77f-a887cbea3a69")
 	)
 	(wire
 		(pts
@@ -4221,6 +4205,17 @@
 			(justify right)
 		)
 		(uuid "007a3c0d-3492-4758-9486-b9d458471205")
+	)
+	(hierarchical_label "LIGHTS_HI"
+		(shape input)
+		(at 74.93 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0738e090-527a-417b-bfe6-c8489a55b10b")
 	)
 	(hierarchical_label "CONNEXT_SERIAL_OUT"
 		(shape output)
