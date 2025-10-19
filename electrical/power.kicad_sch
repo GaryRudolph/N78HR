@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Distribution")
 		(date "2025-10-19")
-		(rev "1.1.15")
+		(rev "1.1.16")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -9117,6 +9117,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 170.18) (xy 245.11 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6530b6-77d2-496f-a3ab-bb5a19cd196e")
+	)
+	(wire
+		(pts
 			(xy 57.15 224.79) (xy 63.5 224.79)
 		)
 		(stroke
@@ -9317,7 +9327,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 166.37) (xy 238.76 166.37)
+			(xy 233.68 166.37) (xy 248.92 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9907,6 +9917,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 170.18) (xy 233.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ff78fc-bc1d-4e63-b5c4-c0ddf86e7890")
+	)
+	(wire
+		(pts
 			(xy 69.85 283.21) (xy 69.85 280.67)
 		)
 		(stroke
@@ -10487,7 +10507,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 173.99) (xy 238.76 173.99)
+			(xy 233.68 173.99) (xy 248.92 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10854,16 +10874,6 @@
 			(type default)
 		)
 		(uuid "becbaf7a-91a7-4389-9b9c-e293f801d98a")
-	)
-	(wire
-		(pts
-			(xy 229.87 170.18) (xy 234.95 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf471e1f-f2b7-47d8-9a63-fb07c65bca77")
 	)
 	(wire
 		(pts
@@ -15299,6 +15309,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 238.76 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "422efa16-4cff-41cd-b1cd-526f079474ed")
+		(property "Reference" "LIGHTS_SW"
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1061bc07-c26d-41a8-bf12-200826ee29fe")
+		)
+		(pin "1"
+			(uuid "d2ff7411-3eb8-41c3-b52d-ffeb53200929")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
+					(reference "LIGHTS_SW")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 217.17 250.19 0)
 		(unit 1)
@@ -18082,7 +18161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 238.76 170.18 0)
+		(at 248.92 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18091,7 +18170,7 @@
 		(dnp no)
 		(uuid "d6f9ee62-5252-4c36-8b0d-20b301f8ea4c")
 		(property "Reference" "LIGHTS_POT"
-			(at 238.252 164.592 0)
+			(at 248.412 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18099,7 +18178,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_US"
-			(at 245.11 170.18 90)
+			(at 255.27 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18108,7 +18187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 170.18 0)
+			(at 248.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18117,7 +18196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 170.18 0)
+			(at 248.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18126,7 +18205,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 238.76 170.18 0)
+			(at 248.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
