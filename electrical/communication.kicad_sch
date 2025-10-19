@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Communication")
-		(date "2025-10-12")
-		(rev "1.1.9")
+		(date "2025-10-19")
+		(rev "1.1.15")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3022,6 +3022,10 @@
 		(at 149.86 86.36)
 		(uuid "c5090070-74f1-45a6-8ca0-f94521f5a625")
 	)
+	(no_connect
+		(at 60.96 38.1)
+		(uuid "f4e417dc-bfe5-477a-b944-92c2e823b455")
+	)
 	(wire
 		(pts
 			(xy 154.94 137.16) (xy 154.94 143.51)
@@ -3371,6 +3375,16 @@
 			(type dash)
 		)
 		(uuid "39f36020-9b35-4874-a65c-d35da02c3151")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 74.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4e111e-c965-4979-8304-3cee405fc57c")
 	)
 	(wire
 		(pts
@@ -4639,6 +4653,17 @@
 			(justify right)
 		)
 		(uuid "e653b409-52de-4829-8c7d-afb12d2f0b0c")
+	)
+	(hierarchical_label "LIGHTS_HI"
+		(shape input)
+		(at 74.93 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa551e5b-fc4d-4e15-a78d-2e40fbc042c7")
 	)
 	(symbol
 		(lib_id "power:GNDS")
