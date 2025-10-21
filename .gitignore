@@ -3,3 +3,4 @@
 **/*.lck
 **/*.bak
 **/fp-info-cache
+**/#auto_saved_files#
