@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-10-22")
-		(rev "1.1.18")
+		(date "2025-10-23")
+		(rev "1.1.19")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -6254,6 +6254,16 @@
 		)
 		(uuid "83ef5965-b6ae-4c88-b813-8d45bafd3551")
 	)
+	(text "Not enough temperature inputs\nto use this, may swap Cowl Temp\nwith the Oil Air temps."
+		(exclude_from_sim no)
+		(at 193.04 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a171d56-de58-495b-8ea0-15d3f753e34c")
+	)
 	(text "IE Probes\nYellow/Red (yellow +)"
 		(exclude_from_sim no)
 		(at 229.362 141.224 0)
@@ -6561,16 +6571,6 @@
 			(type default)
 		)
 		(uuid "0d197c8e-566e-423d-bc2d-25ded4de5b54")
-	)
-	(wire
-		(pts
-			(xy 67.31 280.67) (xy 184.15 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ea3f51b-1fdc-48ea-9a85-ff71a761133d")
 	)
 	(wire
 		(pts
@@ -6984,26 +6984,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 275.59) (xy 182.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3898a373-283d-4e84-96df-71703270598e")
-	)
-	(wire
-		(pts
-			(xy 67.31 275.59) (xy 182.88 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ad16a4-2d62-41a7-8d04-b02060c59659")
-	)
-	(wire
-		(pts
 			(xy 74.93 251.46) (xy 95.25 251.46)
 		)
 		(stroke
@@ -7131,16 +7111,6 @@
 			(type default)
 		)
 		(uuid "4211302a-cd3a-403a-9b03-38a78e2da72c")
-	)
-	(wire
-		(pts
-			(xy 180.34 139.7) (xy 180.34 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422ec6d4-c84c-4494-ad69-a84ca19cec90")
 	)
 	(wire
 		(pts
@@ -7411,16 +7381,6 @@
 			(type default)
 		)
 		(uuid "5be5bdc2-1e06-4cee-99ec-7f6041915f04")
-	)
-	(wire
-		(pts
-			(xy 182.88 142.24) (xy 189.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c92cfcb-63ed-45e6-8066-1691346af6e3")
 	)
 	(wire
 		(pts
@@ -7934,16 +7894,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 266.7) (xy 179.07 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3487a7-1435-4537-8e2b-fa4b34f448ec")
-	)
-	(wire
-		(pts
 			(xy 67.31 125.73) (xy 99.06 125.73)
 		)
 		(stroke
@@ -8214,16 +8164,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 271.78) (xy 180.34 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3271781-a42e-47ef-b40e-fa86508f3970")
-	)
-	(wire
-		(pts
 			(xy 67.31 99.06) (xy 148.59 99.06)
 		)
 		(stroke
@@ -8311,16 +8251,6 @@
 			(type default)
 		)
 		(uuid "ba595fb7-5d93-41e2-a9d9-71024a4da025")
-	)
-	(wire
-		(pts
-			(xy 179.07 137.16) (xy 189.23 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc73db5b-f5fa-48df-8e80-0ba5bdd80908")
 	)
 	(wire
 		(pts
@@ -8501,16 +8431,6 @@
 			(type dash)
 		)
 		(uuid "d0185d4c-6aec-4c0b-a847-6b123bd6b3ea")
-	)
-	(wire
-		(pts
-			(xy 184.15 280.67) (xy 184.15 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d035f869-747f-416a-be9b-521823966ba5")
 	)
 	(wire
 		(pts
@@ -8864,16 +8784,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 144.78) (xy 189.23 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f45451bc-f05e-4219-81b9-e26a504a2577")
-	)
-	(wire
-		(pts
 			(xy 111.76 132.08) (xy 111.76 125.73)
 		)
 		(stroke
@@ -8991,26 +8901,6 @@
 			(type dash)
 		)
 		(uuid "fe6b398c-6e30-410d-8dc3-aaed47d24cd1")
-	)
-	(wire
-		(pts
-			(xy 180.34 139.7) (xy 189.23 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe9e7e12-69b9-4a8d-92f8-3bd4b6ab3e5c")
-	)
-	(wire
-		(pts
-			(xy 179.07 137.16) (xy 179.07 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff583ee1-a290-4fba-96c2-050a5c5fb7ba")
 	)
 	(global_label "GND"
 		(shape passive)
