@@ -6,12 +6,12 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "Transponder")
-		(date "2025-10-19")
-		(rev "1.1.15")
+		(date "2025-11-01")
+		(rev "1.2.1")
 		(company "N78HR")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_A"
+		(symbol "Connector:USB_B"
 			(pin_names
 				(offset 1.016)
 			)
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB_A"
+			(property "Value" "USB_B"
 				(at -5.08 8.89 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type A connector"
+			(property "Description" "USB Type B connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_A_0_1"
+			(symbol "USB_B_0_1"
 				(rectangle
 					(start -5.08 -7.62)
 					(end 5.08 7.62)
@@ -91,6 +91,30 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 4.318) (xy -2.286 4.318) (xy -2.286 5.715) (xy -2.667 6.096) (xy -3.683 6.096) (xy -4.064 5.715)
+						(xy -4.064 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 5.588)
+					(end -2.54 4.572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(circle
@@ -128,22 +152,12 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.524 4.826)
-					(end -4.318 5.334)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 4.572)
-					(end -4.572 5.842)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -229,19 +243,7 @@
 					)
 				)
 			)
-			(symbol "USB_A_1_1"
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "USB_B_1_1"
 				(pin passive line
 					(at -2.54 -10.16 90)
 					(length 2.54)
@@ -260,7 +262,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -278,7 +280,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "VBUS"
@@ -572,6 +574,214 @@
 						)
 					)
 					(number "WHT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flyerx:Garmin_GSB15"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GSB"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Garmin_GSB15_1_1"
+				(rectangle
+					(start 0 0)
+					(end 22.86 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 22.86 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "J20X"
+					(at 2.794 -1.778 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify right)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "AIRCRAFT_POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 2.54)
+					(name "POWER_GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "BACKLIGHT_ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -11.43 180)
+					(length 2.54)
+					(name "USB_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -13.97 180)
+					(length 2.54)
+					(name "USB_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -16.51 180)
+					(length 2.54)
+					(name "USB_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -20.32 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2086,6 +2296,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDS_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Consider connecting USB pigtail to GTX 345"
+		(exclude_from_sim no)
+		(at 138.684 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "065d4003-6f69-43f7-8409-5050fcc04594")
 	)
 	(text "Open Shield"
 		(exclude_from_sim no)
@@ -2169,20 +2490,28 @@
 		(uuid "5e17af87-6673-463d-9d4d-359d98900f4f")
 	)
 	(junction
-		(at 68.58 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e590385-949b-4eda-9862-944c2eec273d")
-	)
-	(junction
 		(at 68.58 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c37bbab0-640a-41e5-93ba-9e7416a47396")
 	)
 	(no_connect
+		(at 158.75 130.81)
+		(uuid "1a0975b8-7afe-4029-823f-0d802117b084")
+	)
+	(no_connect
 		(at 66.04 64.77)
 		(uuid "5fbd73ba-5556-4efd-8f6a-63eee56b7303")
+	)
+	(wire
+		(pts
+			(xy 97.79 144.78) (xy 97.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "08fe6373-7b88-4a7f-8dba-9a441414236e")
 	)
 	(wire
 		(pts
@@ -2206,16 +2535,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 46.99) (xy 68.58 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d0571a-a9ab-4803-805c-0783142958ce")
-	)
-	(wire
-		(pts
 			(xy 66.04 95.25) (xy 92.71 95.25)
 		)
 		(stroke
@@ -2223,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "18b5e668-e8a5-42b9-8f29-dcd68fcfb3cc")
+	)
+	(wire
+		(pts
+			(xy 116.84 137.16) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302ac885-b461-4e64-bf75-0f18f953d979")
 	)
 	(wire
 		(pts
@@ -2246,13 +2575,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 46.99) (xy 68.58 46.99)
+			(xy 153.67 128.27) (xy 158.75 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43b843bf-a493-4897-902e-d19b026470b8")
+		(uuid "3cbfd3aa-dc29-49bc-b2b8-d233b2e8255a")
 	)
 	(wire
 		(pts
@@ -2286,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 106.68) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "49c2413b-375a-4f11-931f-e943073a84de")
+	)
+	(wire
+		(pts
 			(xy 95.25 149.86) (xy 95.25 144.78)
 		)
 		(stroke
@@ -2303,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "597ecfe3-48a4-4611-b7a8-29467cd1db73")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cceb1de-854c-4e78-a39c-a2af432f91df")
 	)
 	(wire
 		(pts
@@ -2366,6 +2715,36 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "89b17e3c-5f31-482c-86cb-2b91a9546cf1")
+	)
+	(wire
+		(pts
+			(xy 102.87 163.83) (xy 191.77 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "8a373cb9-d361-4016-a222-8b7f232a5b67")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a813683-2aaa-4520-833d-d766b7221a7a")
+	)
+	(wire
+		(pts
 			(xy 59.69 58.42) (xy 77.47 58.42)
 		)
 		(stroke
@@ -2393,6 +2772,26 @@
 			(type default)
 		)
 		(uuid "8fa1abdd-8522-4167-8bc9-64d80f8ac4ab")
+	)
+	(wire
+		(pts
+			(xy 69.85 151.13) (xy 97.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8fbbe262-f5de-4d37-9b8b-6b2344e24054")
+	)
+	(wire
+		(pts
+			(xy 106.68 147.32) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910875b9-6309-49b2-b84f-d22e3793d40a")
 	)
 	(wire
 		(pts
@@ -2476,6 +2875,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 144.78) (xy 115.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab977d55-5436-4b5b-b294-ee5267aa67c9")
+	)
+	(wire
+		(pts
 			(xy 66.04 219.71) (xy 74.93 219.71)
 		)
 		(stroke
@@ -2483,6 +2892,26 @@
 			(type default)
 		)
 		(uuid "aee6af5b-792c-4513-a698-bd26fdae872a")
+	)
+	(wire
+		(pts
+			(xy 118.11 147.32) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8d2f06-e1bf-42de-b732-51ff05c6b4a6")
+	)
+	(wire
+		(pts
+			(xy 118.11 143.51) (xy 158.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7801335-0040-47f8-b83d-d89cee31d72d")
 	)
 	(wire
 		(pts
@@ -2503,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "c80e50c7-fc42-4bc6-bc6f-3191f0d5fb04")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc69a48-538a-4da0-ae58-f96f53f340c1")
 	)
 	(wire
 		(pts
@@ -2586,6 +3025,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 134.62) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16808c1-f7ca-42b8-aa79-3c9140c56ecb")
+	)
+	(wire
+		(pts
+			(xy 106.68 144.78) (xy 106.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f664ab1e-ed0f-4e21-b807-dedc12f2cda0")
+	)
+	(wire
+		(pts
 			(xy 66.04 214.63) (xy 74.93 214.63)
 		)
 		(stroke
@@ -2646,6 +3105,17 @@
 			(justify left)
 		)
 		(uuid "1dcd3604-f010-4807-83d6-be602f33a4aa")
+	)
+	(hierarchical_label "PILOT_USB_PWR"
+		(shape input)
+		(at 153.67 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dbe1a85-7e3e-4878-8ea1-f9574915813a")
 	)
 	(hierarchical_label "ADSB_SERIAL_OUT"
 		(shape output)
@@ -2713,6 +3183,17 @@
 		)
 		(uuid "76b4558b-b07e-459e-bf44-9ef4667f91a7")
 	)
+	(hierarchical_label "PILOT_USB_GND"
+		(shape passive)
+		(at 153.67 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8215def2-cb81-4abe-8e15-ea09c4727fad")
+	)
 	(hierarchical_label "GTX345_PWR"
 		(shape input)
 		(at 77.47 22.86 0)
@@ -2767,6 +3248,83 @@
 			(justify left)
 		)
 		(uuid "e8a97033-3350-47da-bcd3-35938af10d3f")
+	)
+	(symbol
+		(lib_id "Connector:USB_B")
+		(at 109.22 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02189a06-6bbf-4907-9ffd-07e2e25776ff")
+		(property "Reference" "MALE_USB"
+			(at 109.728 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type B connector"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ca756ca3-0767-4df3-8d37-369ce23e5a0a")
+		)
+		(pin "3"
+			(uuid "af332160-e8de-4a18-9098-f71739b23531")
+		)
+		(pin "4"
+			(uuid "675fd1ca-5389-4774-89c0-3de884a29700")
+		)
+		(pin "1"
+			(uuid "d93e89ba-f1ca-4cf6-aa4d-0278f79f1ccb")
+		)
+		(pin "2"
+			(uuid "b9dbeb54-5a08-496a-86c0-28e945f2be7b")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/3b1a4f6e-9608-4bfb-9e9e-83eb56f4de97"
+					(reference "MALE_USB")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Antenna")
@@ -2836,7 +3394,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
+		(lib_id "power:GNDS")
+		(at 69.85 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf81a9b-d1f7-4a50-a09e-b56eb4c58845")
+		(property "Reference" "#PWR017"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 69.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 69.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51a609b8-d3a9-424d-a531-f3da16555eeb")
+		)
+		(instances
+			(project ""
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/3b1a4f6e-9608-4bfb-9e9e-83eb56f4de97"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B")
 		(at 95.25 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -2844,16 +3469,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "573c3135-e660-4c01-b152-c52a4a5340ef")
-		(property "Reference" "GTX45R_USB"
-			(at 95.25 124.46 0)
+		(uuid "648bc664-4fef-4ac3-9da4-dbb7ccf69bdb")
+		(property "Reference" "GTX345_USB"
+			(at 95.25 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "USB_A"
+		(property "Value" "USB_B"
 			(at 95.25 124.46 0)
 			(effects
 				(font
@@ -2871,7 +3496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 91.44 135.89 0)
 			(effects
 				(font
@@ -2880,33 +3505,118 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Type B connector"
 			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ac542c35-5f47-4d83-9873-c00ce17cc3f7")
+		)
+		(pin "3"
+			(uuid "30b082ee-fefb-4b1c-9565-68029154efd6")
+		)
+		(pin "4"
+			(uuid "a1a46748-4570-4077-86e8-6f94112552d6")
+		)
+		(pin "1"
+			(uuid "d090c8aa-45b2-41c1-8448-85d237bad1a9")
+		)
+		(pin "2"
+			(uuid "c663fa63-fd53-4624-bd89-154c9522552d")
+		)
+		(instances
+			(project ""
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/3b1a4f6e-9608-4bfb-9e9e-83eb56f4de97"
+					(reference "GTX345_USB")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flyerx:Garmin_GSB15")
+		(at 184.15 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70036d23-4efd-4752-b9de-ade5b472e902")
+		(property "Reference" "PILOT_USB"
+			(at 172.72 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "2"
-			(uuid "2e54d07c-3e43-4e7f-8710-2f455e82fed5")
+		(property "Value" "~"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "a222f890-8712-495d-81c3-e803b07c50b3")
+		(property "Footprint" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "85b3f4b6-761c-451c-a68a-3fa4005efc52")
+		(property "Datasheet" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "743484bb-ef45-4380-a43f-24cbf23a4ef7")
+		(property "Description" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9587a115-100c-41c6-ba39-c689f694b904")
+			(uuid "efbed8d8-27ae-4c39-92db-029db70e96bf")
+		)
+		(pin "4"
+			(uuid "d6ddc69b-0caf-48bb-aa1f-ea4b156bad6e")
+		)
+		(pin "2"
+			(uuid "b93969ff-dcbc-4e8c-bf89-a49be63b4ddd")
+		)
+		(pin "3"
+			(uuid "03a5e1f6-892d-435e-b47f-2112c81a3c17")
+		)
+		(pin ""
+			(uuid "2eb8942a-bb4c-49a5-b70e-d7f375403c30")
+		)
+		(pin "5"
+			(uuid "e97ad183-24df-4861-9ea4-d1c354163a99")
+		)
+		(pin "6"
+			(uuid "5896e53a-169c-4d1f-993d-35720d0c049a")
 		)
 		(instances
-			(project "electrical"
+			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/3b1a4f6e-9608-4bfb-9e9e-83eb56f4de97"
-					(reference "GTX45R_USB")
+					(reference "PILOT_USB")
 					(unit 1)
 				)
 			)
