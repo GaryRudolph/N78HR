@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-10-23")
-		(rev "1.1.19")
+		(date "2025-11-03")
+		(rev "1.2.2")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -6424,16 +6424,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 255.27) (xy 105.41 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01c51759-d2ee-4fdb-ab48-3a599c786d7f")
-	)
-	(wire
-		(pts
 			(xy 67.31 166.37) (xy 80.01 166.37)
 		)
 		(stroke
@@ -6471,6 +6461,16 @@
 			(type default)
 		)
 		(uuid "05df5657-7318-4837-abdc-7d811186980b")
+	)
+	(wire
+		(pts
+			(xy 67.31 231.14) (xy 95.25 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06529881-fd23-4f2d-9cc9-6cb27755ff08")
 	)
 	(wire
 		(pts
@@ -6524,16 +6524,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 199.39) (xy 97.79 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5c9905-1f14-4104-ada8-076458f7ac4a")
-	)
-	(wire
-		(pts
 			(xy 82.55 129.54) (xy 68.58 129.54)
 		)
 		(stroke
@@ -6564,6 +6554,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 254) (xy 95.25 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0a5278-a216-4547-825f-8a89ff5620ab")
+	)
+	(wire
+		(pts
 			(xy 166.37 187.96) (xy 166.37 77.47)
 		)
 		(stroke
@@ -6571,6 +6571,16 @@
 			(type default)
 		)
 		(uuid "0d197c8e-566e-423d-bc2d-25ded4de5b54")
+	)
+	(wire
+		(pts
+			(xy 128.27 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2946bf-74f4-4f32-9208-f9b4a78e9255")
 	)
 	(wire
 		(pts
@@ -6591,6 +6601,16 @@
 			(type dash)
 		)
 		(uuid "11f5f712-20cf-499a-85ca-160384b8ee7b")
+	)
+	(wire
+		(pts
+			(xy 107.95 201.93) (xy 120.65 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1282c823-baba-42bf-9b4b-2efe947d38c8")
 	)
 	(wire
 		(pts
@@ -6874,6 +6894,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 199.39) (xy 97.79 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2a3003-6e27-4ea1-99c7-3abd490354c3")
+	)
+	(wire
+		(pts
 			(xy 199.39 139.7) (xy 210.82 139.7)
 		)
 		(stroke
@@ -6924,6 +6954,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 292.1) (xy 125.73 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3205d55d-78f1-4377-bd1a-bf31221afe44")
+	)
+	(wire
+		(pts
 			(xy 210.82 67.31) (xy 210.82 69.85)
 		)
 		(stroke
@@ -6954,13 +6994,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 38.1) (xy 118.11 38.1)
+			(xy 128.27 40.64) (xy 133.35 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "368d6122-b9ba-4cd5-8860-95d8c0a37d38")
+		(uuid "36b711ea-a2d7-41e8-adc5-16d9d3208f21")
 	)
 	(wire
 		(pts
@@ -6981,26 +7021,6 @@
 			(type default)
 		)
 		(uuid "37dd0ee0-c050-4123-af03-9f23a96e0ac6")
-	)
-	(wire
-		(pts
-			(xy 74.93 251.46) (xy 95.25 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39451300-0a9c-492c-be51-24ed15980c08")
-	)
-	(wire
-		(pts
-			(xy 76.2 254) (xy 95.25 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3958b6de-e420-47e2-a02c-e4a970b17d56")
 	)
 	(wire
 		(pts
@@ -7034,16 +7054,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 256.54) (xy 95.25 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9b7686-8747-423a-954d-0fa0ac8f6614")
-	)
-	(wire
-		(pts
 			(xy 77.47 177.8) (xy 77.47 172.72)
 		)
 		(stroke
@@ -7061,16 +7071,6 @@
 			(type default)
 		)
 		(uuid "3c9d9f9a-2278-4ebd-a8a1-82d140de4219")
-	)
-	(wire
-		(pts
-			(xy 105.41 248.92) (xy 111.76 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2be106-b1fc-404b-b4db-a53ae9319fa6")
 	)
 	(wire
 		(pts
@@ -7154,16 +7154,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 38.1) (xy 133.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437058aa-9371-4c35-83a9-e258419d52f9")
-	)
-	(wire
-		(pts
 			(xy 68.58 121.92) (xy 99.06 121.92)
 		)
 		(stroke
@@ -7211,16 +7201,6 @@
 			(type default)
 		)
 		(uuid "481281aa-e5b9-47f8-84cc-6d8f58f4718f")
-	)
-	(wire
-		(pts
-			(xy 107.95 199.39) (xy 113.03 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4824c6ef-b485-4da0-879b-aca30896732a")
 	)
 	(wire
 		(pts
@@ -7294,6 +7274,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 254) (xy 105.41 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51860953-5771-4e22-87cd-aafa8d48db9a")
+	)
+	(wire
+		(pts
 			(xy 83.82 130.81) (xy 99.06 130.81)
 		)
 		(stroke
@@ -7311,6 +7301,16 @@
 			(type default)
 		)
 		(uuid "55bd5a2a-b588-4ed7-be28-b22bd3b484d5")
+	)
+	(wire
+		(pts
+			(xy 67.31 289.56) (xy 105.41 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5692be17-fa06-40de-9b56-b9454e2f6068")
 	)
 	(wire
 		(pts
@@ -7574,6 +7574,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 251.46) (xy 111.76 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de6ec82-2ef2-4ac0-abde-3670f2d26053")
+	)
+	(wire
+		(pts
 			(xy 95.25 40.64) (xy 95.25 33.02)
 		)
 		(stroke
@@ -7584,6 +7594,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 256.54) (xy 95.25 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecb5858-aa8a-4312-91ab-7ef7347f7a3e")
+	)
+	(wire
+		(pts
 			(xy 67.31 116.84) (xy 83.82 116.84)
 		)
 		(stroke
@@ -7591,16 +7611,6 @@
 			(type default)
 		)
 		(uuid "6fc27d3d-9a5c-4281-9eab-8f274555a676")
-	)
-	(wire
-		(pts
-			(xy 128.27 40.64) (xy 133.35 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70149a6c-7a89-4d68-9c00-533390a62f39")
 	)
 	(wire
 		(pts
@@ -7654,16 +7664,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 292.1) (xy 105.41 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75775639-d72f-4ae7-82f7-7400b1486891")
-	)
-	(wire
-		(pts
 			(xy 152.4 93.98) (xy 152.4 121.92)
 		)
 		(stroke
@@ -7704,16 +7704,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 231.14) (xy 107.95 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797b5ef1-be1d-420e-922c-6664c36ca6d1")
-	)
-	(wire
-		(pts
 			(xy 86.36 162.56) (xy 99.06 162.56)
 		)
 		(stroke
@@ -7741,6 +7731,16 @@
 			(type default)
 		)
 		(uuid "7df7a2aa-19c9-4a45-bdb3-83de2a7f4452")
+	)
+	(wire
+		(pts
+			(xy 101.6 292.1) (xy 105.41 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e75c1df-9faa-445c-bfe9-fdb421e92bb5")
 	)
 	(wire
 		(pts
@@ -7814,13 +7814,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 248.92) (xy 95.25 248.92)
+			(xy 107.95 199.39) (xy 113.03 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "876c1c92-e9a1-46b1-8e1b-766e76d7cf81")
+		(uuid "87aaa50f-e1b1-47d7-8344-1b6e06f4a9cb")
 	)
 	(wire
 		(pts
@@ -7864,16 +7864,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 251.46) (xy 111.76 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1e4f8a-949d-4405-8074-bfd50f413718")
-	)
-	(wire
-		(pts
 			(xy 95.25 43.18) (xy 118.11 43.18)
 		)
 		(stroke
@@ -7881,6 +7871,16 @@
 			(type dash)
 		)
 		(uuid "8bdde44b-92ec-4b86-989a-dfc135fe20cb")
+	)
+	(wire
+		(pts
+			(xy 74.93 251.46) (xy 95.25 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee0ef6f-ca61-441c-a47c-dc5517cf2f54")
 	)
 	(wire
 		(pts
@@ -7944,16 +7944,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 201.93) (xy 97.79 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9317c612-61dc-45f7-a4cf-036af6cc798a")
-	)
-	(wire
-		(pts
 			(xy 109.22 162.56) (xy 114.3 162.56)
 		)
 		(stroke
@@ -7994,13 +7984,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 201.93) (xy 107.95 201.93)
+			(xy 73.66 248.92) (xy 95.25 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95e1c66b-d2b6-4b36-85fc-53440da97730")
+		(uuid "96e793fb-e22e-4aea-b7d6-4e38761db0a1")
 	)
 	(wire
 		(pts
@@ -8034,6 +8024,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 233.68) (xy 95.25 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f760d8f-cc45-4140-ad79-cf390c775127")
+	)
+	(wire
+		(pts
 			(xy 109.22 160.02) (xy 114.3 160.02)
 		)
 		(stroke
@@ -8061,6 +8061,16 @@
 			(type default)
 		)
 		(uuid "a4651273-ca04-43c8-9859-a283ecc233c3")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47e72ee-708b-4a84-b81f-395b44a5439a")
 	)
 	(wire
 		(pts
@@ -8184,23 +8194,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 43.18) (xy 133.35 43.18)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "b55d76ea-6465-4f43-af8c-2f11fc60fe7b")
-	)
-	(wire
-		(pts
-			(xy 67.31 231.14) (xy 95.25 231.14)
+			(xy 105.41 231.14) (xy 107.95 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5b65df1-ff2e-4fb7-bba8-98fae9900d80")
+		(uuid "b621b64c-a4df-491f-b2df-0eb4ce929137")
 	)
 	(wire
 		(pts
@@ -8244,13 +8244,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 233.68) (xy 95.25 233.68)
+			(xy 105.41 233.68) (xy 107.95 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba595fb7-5d93-41e2-a9d9-71024a4da025")
+		(uuid "bdd0a5a0-bce2-4f23-832c-fee12796b862")
 	)
 	(wire
 		(pts
@@ -8444,6 +8444,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 248.92) (xy 111.76 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1161eaa-092e-4dd4-8b62-33ab945cb237")
+	)
+	(wire
+		(pts
 			(xy 109.22 116.84) (xy 113.03 116.84)
 		)
 		(stroke
@@ -8451,16 +8461,6 @@
 			(type default)
 		)
 		(uuid "d1255769-0b5b-423d-9bf7-ca5fc2c0c2e2")
-	)
-	(wire
-		(pts
-			(xy 95.25 40.64) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1900f1e-fec1-41f8-83ad-7e8caaf250ab")
 	)
 	(wire
 		(pts
@@ -8481,26 +8481,6 @@
 			(type default)
 		)
 		(uuid "d3c02410-2fff-4e08-a150-d8800705b13a")
-	)
-	(wire
-		(pts
-			(xy 105.41 233.68) (xy 107.95 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46e07d9-9db8-4d7f-afa3-f2993790a9ea")
-	)
-	(wire
-		(pts
-			(xy 115.57 292.1) (xy 125.73 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e786f8-e071-475f-b71b-3105f4668d5f")
 	)
 	(wire
 		(pts
@@ -8551,6 +8531,16 @@
 			(type dash)
 		)
 		(uuid "d9f050ef-71a5-44af-acc2-cfd74007db1d")
+	)
+	(wire
+		(pts
+			(xy 96.52 38.1) (xy 118.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db335780-ca34-43e5-8c9a-67bfcb4092a3")
 	)
 	(wire
 		(pts
@@ -8611,6 +8601,16 @@
 			(type default)
 		)
 		(uuid "e0bae108-9dda-42c5-8b4d-35f753ccead6")
+	)
+	(wire
+		(pts
+			(xy 128.27 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e19ca35e-c0dc-4d0a-a42a-68d4e6bb2cef")
 	)
 	(wire
 		(pts
@@ -8714,6 +8714,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 256.54) (xy 105.41 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2323c6-17f0-4e9c-9feb-46ceb3635c13")
+	)
+	(wire
+		(pts
 			(xy 210.82 134.62) (xy 210.82 132.08)
 		)
 		(stroke
@@ -8734,23 +8744,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 256.54) (xy 105.41 260.35)
+			(xy 67.31 201.93) (xy 97.79 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1555d29-3495-4b33-b024-1c7eeb457d97")
-	)
-	(wire
-		(pts
-			(xy 67.31 289.56) (xy 105.41 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37b9342-1b29-471c-af39-4cffe00fd851")
+		(uuid "f39b7e24-8fc7-4a63-8838-e44ad6a8e008")
 	)
 	(wire
 		(pts
@@ -9170,14 +9170,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 100.33 231.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "075bced4-c65b-4b1b-a913-500726e46ee9")
-		(property "Reference" "FUELR"
-			(at 99.568 226.822 0)
+		(property "Reference" "FUEL"
+			(at 101.092 226.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,8 +9186,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM2"
-			(at 99.568 228.6 0)
+		(property "Value" "DTM2P"
+			(at 101.092 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9231,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "FUELR")
+					(reference "FUEL")
 					(unit 1)
 				)
 			)
@@ -9517,14 +9518,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 110.49 289.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "30c6fd42-d9b9-429b-ab7f-febb36dc2a37")
-		(property "Reference" "SMKR"
-			(at 109.22 284.734 0)
+		(property "Reference" "SMK"
+			(at 111.76 284.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,8 +9534,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM2"
-			(at 109.22 286.512 0)
+		(property "Value" "DTM2P"
+			(at 111.76 286.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9579,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "SMKR")
+					(reference "SMK")
 					(unit 1)
 				)
 			)
@@ -9666,7 +9668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b8c560d-4b0c-4202-8f1f-eee221ac69cb")
-		(property "Reference" "FPP"
+		(property "Reference" "FP"
 			(at 104.648 109.982 0)
 			(effects
 				(font
@@ -9675,7 +9677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4P"
 			(at 104.648 111.76 0)
 			(effects
 				(font
@@ -9726,7 +9728,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "FPP")
+					(reference "FP")
 					(unit 1)
 				)
 			)
@@ -9735,14 +9737,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 100.33 251.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "417ee62f-8794-4f73-a3a8-784c3e76d4bf")
-		(property "Reference" "COP"
-			(at 102.87 244.602 0)
+		(property "Reference" "CO"
+			(at 97.79 244.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,8 +9753,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM4P"
-			(at 102.616 246.38 0)
+		(property "Value" "DTM4R"
+			(at 98.044 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9804,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "COP")
+					(reference "CO")
 					(unit 1)
 				)
 			)
@@ -9816,7 +9819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4441b1d0-ea8c-4e28-8b5e-7934ea299862")
-		(property "Reference" "CHTS"
+		(property "Reference" "CHT"
 			(at 190.5 41.91 0)
 			(effects
 				(font
@@ -9912,7 +9915,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "CHTS")
+					(reference "CHT")
 					(unit 1)
 				)
 			)
@@ -9928,7 +9931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "499154be-2e73-4547-ba80-4dac0dce6fa0")
-		(property "Reference" "FPR"
+		(property "Reference" "FP"
 			(at 103.378 109.982 0)
 			(effects
 				(font
@@ -9937,7 +9940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4R"
 			(at 103.378 111.76 0)
 			(effects
 				(font
@@ -9988,7 +9991,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "FPR")
+					(reference "FP")
 					(unit 1)
 				)
 			)
@@ -10075,7 +10078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c252ee9-fb5f-40b5-953f-c7b90ebc303b")
-		(property "Reference" "RPMP"
+		(property "Reference" "RPM"
 			(at 104.648 135.128 0)
 			(effects
 				(font
@@ -10084,7 +10087,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4P"
 			(at 104.648 136.906 0)
 			(effects
 				(font
@@ -10135,7 +10138,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "RPMP")
+					(reference "RPM")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57850b42-f836-43d8-8da6-d3b101c6a9b3")
-		(property "Reference" "FFR"
+		(property "Reference" "FF"
 			(at 103.378 184.404 0)
 			(effects
 				(font
@@ -10231,7 +10234,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4R"
 			(at 103.378 186.182 0)
 			(effects
 				(font
@@ -10282,7 +10285,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "FFR")
+					(reference "FF")
 					(unit 1)
 				)
 			)
@@ -10298,7 +10301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aed56f4-7f92-4d7e-9b13-5663f51a1631")
-		(property "Reference" "FFP"
+		(property "Reference" "FF"
 			(at 104.648 184.404 0)
 			(effects
 				(font
@@ -10307,7 +10310,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4P"
 			(at 104.648 186.182 0)
 			(effects
 				(font
@@ -10358,7 +10361,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "FFP")
+					(reference "FF")
 					(unit 1)
 				)
 			)
@@ -10373,7 +10376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e6f961b-9214-496c-ba8c-844964dcb1c3")
-		(property "Reference" "EGTS"
+		(property "Reference" "EGT"
 			(at 191.516 101.346 0)
 			(effects
 				(font
@@ -10469,7 +10472,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "EGTS")
+					(reference "EGT")
 					(unit 1)
 				)
 			)
@@ -11032,7 +11035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6efa02fd-f882-41d2-b94c-efb52f3eb400")
-		(property "Reference" "MANR"
+		(property "Reference" "MAN"
 			(at 103.378 152.908 0)
 			(effects
 				(font
@@ -11041,7 +11044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4R"
 			(at 103.378 154.686 0)
 			(effects
 				(font
@@ -11092,7 +11095,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "MANR")
+					(reference "MAN")
 					(unit 1)
 				)
 			)
@@ -11172,14 +11175,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 100.33 251.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "715db562-dd4b-4c8f-9f20-6524fab8bd17")
-		(property "Reference" "COR"
-			(at 97.79 244.602 0)
+		(property "Reference" "CO"
+			(at 102.87 244.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11187,8 +11191,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM4R"
-			(at 97.79 246.38 0)
+		(property "Value" "DTM4P"
+			(at 102.87 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,7 +11242,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "COR")
+					(reference "CO")
 					(unit 1)
 				)
 			)
@@ -11254,7 +11258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72c5c486-35f7-4ceb-9fc2-fe3fc91d2d37")
-		(property "Reference" "RPMR"
+		(property "Reference" "RPM"
 			(at 103.378 135.128 0)
 			(effects
 				(font
@@ -11263,7 +11267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4R"
 			(at 103.378 136.906 0)
 			(effects
 				(font
@@ -11314,7 +11318,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "RPMR")
+					(reference "RPM")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a5803b0-2722-4650-a813-06444104341c")
-		(property "Reference" "CHTP"
+		(property "Reference" "CHT"
 			(at 195.58 41.91 0)
 			(effects
 				(font
@@ -11496,7 +11500,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "CHTP")
+					(reference "CHT")
 					(unit 1)
 				)
 			)
@@ -11505,14 +11509,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 123.19 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "80adac46-48ca-42b6-a216-4ae8fa8fd811")
-		(property "Reference" "CANP"
-			(at 123.952 32.766 0)
+		(property "Reference" "CAN"
+			(at 122.428 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,8 +11525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM3P"
-			(at 123.952 35.306 0)
+		(property "Value" "DTM3R"
+			(at 122.428 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +11573,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "CANP")
+					(reference "CAN")
 					(unit 1)
 				)
 			)
@@ -11577,14 +11582,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 123.19 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "84ce5cd6-d6f6-4432-9cbf-f25062f98e54")
-		(property "Reference" "CANR"
-			(at 122.428 33.02 0)
+		(property "Reference" "CAN"
+			(at 123.952 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11592,8 +11598,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM3R"
-			(at 122.428 35.56 0)
+		(property "Value" "DTM3P"
+			(at 123.952 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,7 +11646,7 @@
 		(instances
 			(project ""
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "CANR")
+					(reference "CAN")
 					(unit 1)
 				)
 			)
@@ -12083,7 +12089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1ee9aed-bd05-4969-a7c7-2a4c68757fcd")
-		(property "Reference" "OPR"
+		(property "Reference" "OP"
 			(at 103.378 169.164 0)
 			(effects
 				(font
@@ -12092,7 +12098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4R"
 			(at 103.378 170.942 0)
 			(effects
 				(font
@@ -12143,7 +12149,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "OPR")
+					(reference "OP")
 					(unit 1)
 				)
 			)
@@ -12159,7 +12165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2e6ddc1-f6e4-4285-8827-28d3cc65ec55")
-		(property "Reference" "MANP"
+		(property "Reference" "MAN"
 			(at 104.648 152.908 0)
 			(effects
 				(font
@@ -12168,7 +12174,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4P"
 			(at 104.648 154.686 0)
 			(effects
 				(font
@@ -12219,7 +12225,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "MANP")
+					(reference "MAN")
 					(unit 1)
 				)
 			)
@@ -12228,14 +12234,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 110.49 289.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a3e7e1f7-50d7-4215-a8df-eb4d14b0b93f")
-		(property "Reference" "SMKP"
-			(at 111.76 284.734 0)
+		(property "Reference" "SMK"
+			(at 109.22 284.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,8 +12250,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM2"
-			(at 111.76 286.512 0)
+		(property "Value" "DTM2R"
+			(at 109.22 286.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,7 +12295,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "SMKP")
+					(reference "SMK")
 					(unit 1)
 				)
 			)
@@ -12373,7 +12380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a810ff01-8a9a-4856-a13c-271bc827fd05")
-		(property "Reference" "EGTP"
+		(property "Reference" "EGT"
 			(at 197.104 101.6 0)
 			(effects
 				(font
@@ -12469,7 +12476,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "EGTP")
+					(reference "EGT")
 					(unit 1)
 				)
 			)
@@ -12556,7 +12563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3b832fd-cbc6-4d6a-9d86-f75afbbe64f7")
-		(property "Reference" "OPP"
+		(property "Reference" "OP"
 			(at 104.648 169.164 0)
 			(effects
 				(font
@@ -12565,7 +12572,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM4"
+		(property "Value" "DTM4P"
 			(at 104.648 170.942 0)
 			(effects
 				(font
@@ -12616,7 +12623,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "OPP")
+					(reference "OP")
 					(unit 1)
 				)
 			)
@@ -12625,14 +12632,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 102.87 199.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc187445-0985-4a00-be90-e1868a30a765")
-		(property "Reference" "OTR"
-			(at 102.108 203.454 0)
+		(property "Reference" "OT"
+			(at 103.632 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,8 +12648,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTM2"
-			(at 102.108 205.232 0)
+		(property "Value" "DTM2P"
+			(at 103.632 205.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12685,7 +12693,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "OTR")
+					(reference "OT")
 					(unit 1)
 				)
 			)
@@ -12694,14 +12702,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 102.87 199.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc6e000d-ebe5-4c44-a115-ec1669ce2859")
-		(property "Reference" "OTP"
-			(at 103.378 203.454 0)
+		(property "Reference" "OT"
+			(at 102.362 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,8 +12718,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM2"
-			(at 103.505 205.232 0)
+		(property "Value" "DTM2R"
+			(at 102.235 205.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12754,7 +12763,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "OTP")
+					(reference "OT")
 					(unit 1)
 				)
 			)
@@ -12972,14 +12981,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 100.33 231.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e04443b8-8be1-4933-b111-1c0b50de9fdf")
-		(property "Reference" "FUELP"
-			(at 100.838 226.822 0)
+		(property "Reference" "FUEL"
+			(at 99.822 226.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,8 +12997,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTM2"
-			(at 100.965 228.6 0)
+		(property "Value" "DTM2R"
+			(at 99.695 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13032,7 +13042,7 @@
 		(instances
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "FUELP")
+					(reference "FUEL")
 					(unit 1)
 				)
 			)
