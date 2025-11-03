@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-10-19")
-		(rev "1.1.15")
+		(date "2025-11-03")
+		(rev "1.2.2")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -3416,7 +3416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "rotax.kicad_sch"
+		(property "Sheetfile" "lycoming.kicad_sch"
 			(at 16.51 45.6696 0)
 			(effects
 				(font
