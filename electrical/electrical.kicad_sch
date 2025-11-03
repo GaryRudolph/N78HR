@@ -7,7 +7,7 @@
 	(title_block
 		(title "Electrical Overview")
 		(date "2025-11-03")
-		(rev "1.2.2")
+		(rev "1.2.3")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -133,13 +133,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 172.72) (xy 116.84 204.47)
+			(xy 116.84 172.72) (xy 116.84 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06b659ee-7882-4cc4-bee6-57c4c28d9900")
+	)
+	(wire
+		(pts
+			(xy 356.87 46.99) (xy 365.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0738b5e2-2934-4734-9519-09b8f1632bc0")
 	)
 	(wire
 		(pts
@@ -283,6 +293,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 116.84) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a1151a-e217-4ef1-8b74-e189318f6407")
+	)
+	(wire
+		(pts
 			(xy 257.81 181.61) (xy 312.42 181.61)
 		)
 		(stroke
@@ -353,6 +373,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 44.45) (xy 365.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21747c9c-2bbe-4949-94ca-33def86e7b2b")
+	)
+	(wire
+		(pts
 			(xy 97.79 83.82) (xy 102.87 83.82)
 		)
 		(stroke
@@ -390,6 +420,16 @@
 			(type default)
 		)
 		(uuid "249cb58d-3758-44d7-bcc5-b81185689ab7")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 152.4 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27aca059-18d2-4883-ba78-b3092233015b")
 	)
 	(wire
 		(pts
@@ -443,7 +483,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 190.5) (xy 189.23 190.5)
+			(xy 148.59 198.12) (xy 189.23 198.12)
 		)
 		(stroke
 			(width 0)
@@ -513,7 +553,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 119.38) (xy 148.59 119.38)
+			(xy 97.79 127) (xy 148.59 127)
 		)
 		(stroke
 			(width 0)
@@ -663,7 +703,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 149.86 116.84)
+			(xy 97.79 124.46) (xy 149.86 124.46)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +743,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 199.39) (xy 160.02 199.39)
+			(xy 189.23 204.47) (xy 160.02 204.47)
 		)
 		(stroke
 			(width 0)
@@ -723,7 +763,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 187.96) (xy 189.23 187.96)
+			(xy 149.86 195.58) (xy 189.23 195.58)
 		)
 		(stroke
 			(width 0)
@@ -743,7 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 196.85) (xy 161.29 196.85)
+			(xy 189.23 201.93) (xy 161.29 201.93)
 		)
 		(stroke
 			(width 0)
@@ -833,6 +873,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 116.84) (xy 153.67 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567d6204-38c0-45ba-bd1c-44ace3d091b1")
+	)
+	(wire
+		(pts
 			(xy 102.87 175.26) (xy 115.57 175.26)
 		)
 		(stroke
@@ -860,6 +910,16 @@
 			(type default)
 		)
 		(uuid "59f474d4-9170-4c7e-83ca-0568b263cb8c")
+	)
+	(wire
+		(pts
+			(xy 151.13 121.92) (xy 151.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c18e6d4-bcd0-4259-a727-56c341d8425d")
 	)
 	(wire
 		(pts
@@ -933,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 116.84) (xy 149.86 187.96)
+			(xy 149.86 124.46) (xy 149.86 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1033,6 +1093,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 119.38) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7547f3f8-a455-426c-985a-156173b8c729")
+	)
+	(wire
+		(pts
 			(xy 251.46 190.5) (xy 312.42 190.5)
 		)
 		(stroke
@@ -1063,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 119.38) (xy 148.59 190.5)
+			(xy 148.59 127) (xy 148.59 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 175.26) (xy 115.57 207.01)
+			(xy 115.57 175.26) (xy 115.57 210.82)
 		)
 		(stroke
 			(width 0)
@@ -1150,6 +1220,16 @@
 			(type default)
 		)
 		(uuid "8b951f2c-76dd-4f9e-8490-71d5a502ea14")
+	)
+	(wire
+		(pts
+			(xy 151.13 193.04) (xy 189.23 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c82b8ce-da5e-4a3f-be80-c10412294713")
 	)
 	(wire
 		(pts
@@ -1233,6 +1313,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 121.92) (xy 151.13 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d4eb66-7a67-4b9f-9b8f-98f6da35026f")
+	)
+	(wire
+		(pts
 			(xy 259.08 105.41) (xy 259.08 179.07)
 		)
 		(stroke
@@ -1260,6 +1350,16 @@
 			(type default)
 		)
 		(uuid "9d53c84b-4e3b-473e-9616-80a362ad41e8")
+	)
+	(wire
+		(pts
+			(xy 49.53 81.28) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5a3b2a-7404-4308-8120-ddc0d7c5d211")
 	)
 	(wire
 		(pts
@@ -1293,7 +1393,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 199.39) (xy 160.02 121.92)
+			(xy 153.67 187.96) (xy 189.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffd65e8-e811-4aa8-8154-9c447467bbcb")
+	)
+	(wire
+		(pts
+			(xy 160.02 204.47) (xy 160.02 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1443,6 +1553,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9493985-0f38-4cc1-9620-868fe801dbc5")
+	)
+	(wire
+		(pts
 			(xy 284.48 99.06) (xy 284.48 173.99)
 		)
 		(stroke
@@ -1453,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 123.19) (xy 102.87 123.19)
+			(xy 97.79 130.81) (xy 102.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 207.01) (xy 189.23 207.01)
+			(xy 115.57 210.82) (xy 189.23 210.82)
 		)
 		(stroke
 			(width 0)
@@ -1510,6 +1630,16 @@
 			(type default)
 		)
 		(uuid "c2859b62-da4f-468a-ae7a-3ffc7e96d8ab")
+	)
+	(wire
+		(pts
+			(xy 152.4 190.5) (xy 189.23 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e9bd16-ff9c-45e2-a399-fbd35d5dc30a")
 	)
 	(wire
 		(pts
@@ -1563,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 196.85) (xy 161.29 124.46)
+			(xy 161.29 201.93) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1833,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 204.47) (xy 189.23 204.47)
+			(xy 116.84 208.28) (xy 189.23 208.28)
 		)
 		(stroke
 			(width 0)
@@ -2032,6 +2162,28 @@
 		(uuid "47c79859-e042-440b-a1a3-a6e5daf96eac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.1192 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PILOT_USB_GND"
+		(shape passive)
+		(at 49.53 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa2ec8d-d580-46fb-9b3c-c3097e862d95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8394 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2459,7 @@
 	)
 	(global_label "LIGHTS_HI"
 		(shape output)
-		(at 102.87 123.19 0)
+		(at 102.87 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2317,7 +2469,7 @@
 		)
 		(uuid "84139daf-9b3a-4f4b-a81a-e780772df705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.1686 123.19 0)
+			(at 115.1686 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,6 +2607,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PILOT_USB_GND"
+		(shape passive)
+		(at 365.76 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "987961b8-b4e6-4d05-9057-6b253e780c35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.4506 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2631,6 +2805,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PILOT_USB_PWR"
+		(shape output)
+		(at 49.53 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c225f722-b68d-4adc-a57c-0f22eb2d4b78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6072 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2833,6 +3029,28 @@
 			)
 		)
 	)
+	(global_label "PILOT_USB_PWR"
+		(shape input)
+		(at 365.76 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef3d9aad-e4cf-44e2-ac71-0a333c4ce2ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.6828 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPS175_BAK_PWR"
 		(shape output)
 		(at 102.87 72.39 0)
@@ -2921,7 +3139,7 @@
 	)
 	(sheet
 		(at 58.42 29.21)
-		(size 39.37 94.615)
+		(size 39.37 103.632)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2945,7 +3163,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 58.42 124.4096 0)
+			(at 58.42 133.4266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3522,7 @@
 			)
 		)
 		(pin "PITCH_TRIM_1" output
-			(at 97.79 116.84 0)
+			(at 97.79 124.46 0)
 			(uuid "99be4146-f345-4e2a-9f7d-2945df0144d8")
 			(effects
 				(font
@@ -3314,7 +3532,7 @@
 			)
 		)
 		(pin "PITCH_TRIM_2" output
-			(at 97.79 119.38 0)
+			(at 97.79 127 0)
 			(uuid "8e5fc45e-9bdc-4a82-ab3d-2ef92728c24f")
 			(effects
 				(font
@@ -3374,8 +3592,58 @@
 			)
 		)
 		(pin "LIGHTS_HI" output
-			(at 97.79 123.19 0)
+			(at 97.79 130.81 0)
 			(uuid "9af7c15b-38c2-4d04-9700-45ec11d18c4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PILOT_USB_GND" passive
+			(at 58.42 83.82 180)
+			(uuid "f18834d9-fa96-4e14-9c99-fcd7474791f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PILOT_USB_PWR" output
+			(at 58.42 81.28 180)
+			(uuid "4547cd8c-5474-4f7c-8980-dc61ed686aa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PITCH_GND" passive
+			(at 97.79 116.84 0)
+			(uuid "7f086411-d8c7-435e-b085-b7d7f6e8a021")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PITCH_POS" input
+			(at 97.79 119.38 0)
+			(uuid "819f5d4d-19f1-4599-8a67-392e533f6463")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PITCH_REF" output
+			(at 97.79 121.92 0)
+			(uuid "8795a509-8fb3-4b9e-9f7b-146f433a19b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,6 +3928,26 @@
 		(pin "LIGHTS_HI" input
 			(at 356.87 38.1 0)
 			(uuid "f467f871-9b9d-46be-849e-551a9ac6fc6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PILOT_USB_GND" passive
+			(at 356.87 46.99 0)
+			(uuid "1fcd3f26-8a6f-4b5d-944b-c02db1c354c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PILOT_USB_PWR" input
+			(at 356.87 44.45 0)
+			(uuid "ceb0ae95-5e5d-4d1d-ab85-d87deae5ec58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4851,7 @@
 	)
 	(sheet
 		(at 189.23 173.99)
-		(size 38.1 34.925)
+		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4587,7 +4875,7 @@
 			)
 		)
 		(property "Sheetfile" "autopilot.kicad_sch"
-			(at 189.23 209.4996 0)
+			(at 189.23 212.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4934,7 @@
 			)
 		)
 		(pin "PITCH_TRIM_1" input
-			(at 189.23 187.96 180)
+			(at 189.23 195.58 180)
 			(uuid "1c51737d-68cb-47f3-9421-d21b2fe89b74")
 			(effects
 				(font
@@ -4656,7 +4944,7 @@
 			)
 		)
 		(pin "PITCH_TRIM_2" input
-			(at 189.23 190.5 180)
+			(at 189.23 198.12 180)
 			(uuid "6ed8bb05-431c-4322-a332-bc081114caf1")
 			(effects
 				(font
@@ -4706,7 +4994,7 @@
 			)
 		)
 		(pin "CAN_GSA_HI_IN" input
-			(at 189.23 204.47 180)
+			(at 189.23 208.28 180)
 			(uuid "1fbf8413-2070-4e43-bbc8-59aef1b49186")
 			(effects
 				(font
@@ -4716,7 +5004,7 @@
 			)
 		)
 		(pin "CAN_GSA_HI_OUT" output
-			(at 189.23 199.39 180)
+			(at 189.23 204.47 180)
 			(uuid "b5c47665-b026-4fe0-8256-2a80e5f673d0")
 			(effects
 				(font
@@ -4726,7 +5014,7 @@
 			)
 		)
 		(pin "CAN_GSA_LO_IN" input
-			(at 189.23 207.01 180)
+			(at 189.23 210.82 180)
 			(uuid "d1ee6848-4986-4419-8fbd-bdb5317c4ea4")
 			(effects
 				(font
@@ -4736,7 +5024,7 @@
 			)
 		)
 		(pin "CAN_GSA_LO_OUT" output
-			(at 189.23 196.85 180)
+			(at 189.23 201.93 180)
 			(uuid "3355ce09-5d1b-43e8-84c5-be8743d7386b")
 			(effects
 				(font
@@ -4763,6 +5051,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PITCH_GND" passive
+			(at 189.23 187.96 180)
+			(uuid "0f452897-62c5-42af-ac3c-7212f478a784")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PITCH_POS" output
+			(at 189.23 190.5 180)
+			(uuid "4e9570dd-10f3-4a49-85e6-123434998de2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PITCH_REF" input
+			(at 189.23 193.04 180)
+			(uuid "11a41e03-3b7d-4f76-a20b-97984dde9ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
