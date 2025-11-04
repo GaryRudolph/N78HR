@@ -7698,7 +7698,7 @@
 	)
 	(text "Pink"
 		(exclude_from_sim no)
-		(at 68.072 297.434 0)
+		(at 68.072 289.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7771,7 +7771,7 @@
 	)
 	(text "White/Grey"
 		(exclude_from_sim no)
-		(at 56.642 299.466 0)
+		(at 56.642 291.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8205,7 +8205,7 @@
 	)
 	(text "White/Red"
 		(exclude_from_sim no)
-		(at 56.896 305.054 0)
+		(at 56.896 297.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8458,7 +8458,7 @@
 	)
 	(text "White"
 		(exclude_from_sim no)
-		(at 68.072 302.26 0)
+		(at 68.326 294.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8574,7 +8574,7 @@
 	)
 	(text "Brown"
 		(exclude_from_sim no)
-		(at 67.818 299.974 0)
+		(at 68.072 292.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8596,7 +8596,7 @@
 	)
 	(text "Red"
 		(exclude_from_sim no)
-		(at 68.072 304.8 0)
+		(at 68.072 297.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8682,7 +8682,7 @@
 	)
 	(text "White/Orange"
 		(exclude_from_sim no)
-		(at 56.642 297.18 0)
+		(at 56.642 289.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8904,7 +8904,7 @@
 	)
 	(text "White"
 		(exclude_from_sim no)
-		(at 56.642 302.26 0)
+		(at 56.642 294.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9381,7 +9381,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 303.53) (xy 38.1 303.53)
+			(xy 57.15 295.91) (xy 38.1 295.91)
 		)
 		(stroke
 			(width 0)
@@ -10341,7 +10341,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 298.45) (xy 73.66 298.45)
+			(xy 67.31 290.83) (xy 77.47 290.83)
 		)
 		(stroke
 			(width 0)
@@ -10571,17 +10571,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 298.45) (xy 40.64 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475de645-aa0a-4858-999b-83ed268f0cb6")
-	)
-	(wire
-		(pts
-			(xy 67.31 306.07) (xy 77.47 306.07)
+			(xy 67.31 298.45) (xy 77.47 298.45)
 		)
 		(stroke
 			(width 0)
@@ -10628,26 +10618,6 @@
 			(type default)
 		)
 		(uuid "49ad0cf5-2081-4211-8dbf-71f5f3084f19")
-	)
-	(wire
-		(pts
-			(xy 77.47 306.07) (xy 77.47 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b00faf3-11e5-4528-89ad-d9247fb9223a")
-	)
-	(wire
-		(pts
-			(xy 76.2 303.53) (xy 76.2 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1c36ea-66b8-49ed-a3c0-20e47b5217ae")
 	)
 	(wire
 		(pts
@@ -10708,16 +10678,6 @@
 			(type default)
 		)
 		(uuid "4dfc75aa-ba60-4b50-a163-90b04e563e73")
-	)
-	(wire
-		(pts
-			(xy 74.93 293.37) (xy 77.47 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1e31ec-1a3e-4bb3-9ce9-1f6263d9ab4c")
 	)
 	(wire
 		(pts
@@ -11101,17 +11061,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 303.53) (xy 38.1 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dda22b9-2ddf-4c30-96d6-af1ddf9cf354")
-	)
-	(wire
-		(pts
-			(xy 67.31 303.53) (xy 76.2 303.53)
+			(xy 67.31 295.91) (xy 77.47 295.91)
 		)
 		(stroke
 			(width 0)
@@ -11401,7 +11351,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 290.83) (xy 38.1 290.83)
+			(xy 38.1 290.83) (xy 57.15 290.83)
 		)
 		(stroke
 			(width 0)
@@ -11431,7 +11381,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 293.37) (xy 38.1 293.37)
+			(xy 38.1 293.37) (xy 57.15 293.37)
 		)
 		(stroke
 			(width 0)
@@ -11741,16 +11691,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 295.91) (xy 77.47 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b043aca-bbb2-4c5b-b61a-74b10771310d")
-	)
-	(wire
-		(pts
 			(xy 167.64 85.09) (xy 167.64 82.55)
 		)
 		(stroke
@@ -11978,16 +11918,6 @@
 			(type default)
 		)
 		(uuid "a729db8a-a49b-4181-9e31-717a172c75bf")
-	)
-	(wire
-		(pts
-			(xy 57.15 298.45) (xy 40.64 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a747c6ea-586c-46ef-a596-6ca89d1f684b")
 	)
 	(wire
 		(pts
@@ -12321,26 +12251,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 300.99) (xy 74.93 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08a91ba-3149-4ede-b07c-8ff59c415451")
-	)
-	(wire
-		(pts
-			(xy 57.15 300.99) (xy 39.37 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a2871b-31a9-4c38-9560-646cc3857b65")
-	)
-	(wire
-		(pts
 			(xy 165.1 213.36) (xy 185.42 213.36)
 		)
 		(stroke
@@ -12531,7 +12441,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 306.07) (xy 57.15 306.07)
+			(xy 43.18 298.45) (xy 57.15 298.45)
 		)
 		(stroke
 			(width 0)
@@ -12541,7 +12451,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 300.99) (xy 74.93 300.99)
+			(xy 67.31 293.37) (xy 77.47 293.37)
 		)
 		(stroke
 			(width 0)
@@ -12851,16 +12761,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 298.45) (xy 73.66 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc14a55e-2b7f-4112-ab55-1e040fa47028")
-	)
-	(wire
-		(pts
 			(xy 152.4 124.46) (xy 162.56 124.46)
 		)
 		(stroke
@@ -12988,16 +12888,6 @@
 			(type default)
 		)
 		(uuid "e824eff3-b888-4e01-b805-3ffaf5826fc1")
-	)
-	(wire
-		(pts
-			(xy 73.66 290.83) (xy 77.47 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8769853-82ad-499e-9ede-194ac17724e1")
 	)
 	(wire
 		(pts
@@ -13188,16 +13078,6 @@
 			(type default)
 		)
 		(uuid "f4d61a07-bb58-416e-a391-cc40e37eb47c")
-	)
-	(wire
-		(pts
-			(xy 39.37 300.99) (xy 39.37 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5167aff-bb22-4a12-bb81-3d59ab16f76c")
 	)
 	(wire
 		(pts
@@ -15806,7 +15686,7 @@
 	)
 	(hierarchical_label "CWS"
 		(shape output)
-		(at 43.18 306.07 180)
+		(at 43.18 298.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18520,7 +18400,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
-		(at 62.23 290.83 0)
+		(at 62.23 288.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18529,7 +18409,7 @@
 		(dnp no)
 		(uuid "84e81ea7-ddb7-49e5-b82a-27694e5e15a3")
 		(property "Reference" "STK2"
-			(at 61.214 272.542 0)
+			(at 61.214 270.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18538,7 +18418,7 @@
 			)
 		)
 		(property "Value" "DTM12R"
-			(at 61.214 274.32 0)
+			(at 61.214 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18547,7 +18427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 290.83 0)
+			(at 62.23 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18556,7 +18436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 290.83 0)
+			(at 62.23 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18565,7 +18445,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 62.23 290.83 0)
+			(at 62.23 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18610,7 +18490,7 @@
 			(uuid "8005dac8-ecd5-419b-81ad-2bf0336739b5")
 		)
 		(instances
-			(project ""
+			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
 					(reference "STK2")
 					(unit 1)
@@ -20936,7 +20816,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
-		(at 62.23 290.83 0)
+		(at 62.23 288.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20945,7 +20825,7 @@
 		(dnp no)
 		(uuid "f7d95ebe-f388-457e-beeb-472569a3696d")
 		(property "Reference" "STK2"
-			(at 63.246 272.542 0)
+			(at 63.246 270.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20954,7 +20834,7 @@
 			)
 		)
 		(property "Value" "DTM12P"
-			(at 62.992 274.32 0)
+			(at 62.992 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20963,7 +20843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 290.83 0)
+			(at 62.23 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20972,7 +20852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 290.83 0)
+			(at 62.23 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20981,7 +20861,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 62.23 290.83 0)
+			(at 62.23 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21026,7 +20906,7 @@
 			(uuid "a02e0a1e-18c7-4e77-bc0f-dfcd944f8387")
 		)
 		(instances
-			(project ""
+			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/2852c073-fbc9-4469-a6bf-ba3e911c7f5a"
 					(reference "STK2")
 					(unit 1)
