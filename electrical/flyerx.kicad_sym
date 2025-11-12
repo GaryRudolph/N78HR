@@ -1060,7 +1060,7 @@
 						)
 					)
 				)
-				(number "R"
+				(number "Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1078,7 +1078,7 @@
 						)
 					)
 				)
-				(number "B"
+				(number "BK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1096,7 +1096,7 @@
 						)
 					)
 				)
-				(number "G"
+				(number "BL"
 					(effects
 						(font
 							(size 1.27 1.27)
