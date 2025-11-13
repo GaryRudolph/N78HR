@@ -6,8 +6,8 @@
 	(paper "A" portrait)
 	(title_block
 		(title "Lycoming")
-		(date "2025-11-03")
-		(rev "1.2.2")
+		(date "2025-11-12")
+		(rev "1.2.5")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -5228,7 +5228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80A"
+		(property "Value" "250A"
 			(at 64.77 95.2499 0)
 			(effects
 				(font

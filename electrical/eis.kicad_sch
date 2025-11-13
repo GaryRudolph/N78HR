@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-11-03")
-		(rev "1.2.2")
+		(date "2025-11-12")
+		(rev "1.2.5")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -6288,6 +6288,12 @@
 		(color 0 0 0 0)
 		(uuid "73866859-0c30-4d63-b900-0024436a4253")
 	)
+	(junction
+		(at 93.98 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b581e1c6-e341-43c9-9131-6b1d523fbabf")
+	)
 	(no_connect
 		(at 67.31 227.33)
 		(uuid "0892b92e-6f98-44fa-889f-6cbbfa00c7c1")
@@ -6401,6 +6407,16 @@
 			(type default)
 		)
 		(uuid "003e1877-7548-4307-a0a5-54412f0b295a")
+	)
+	(wire
+		(pts
+			(xy 93.98 34.29) (xy 102.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "03ac0fa2-c6a2-4542-80cd-9799a118ea52")
 	)
 	(wire
 		(pts
@@ -8962,7 +8978,7 @@
 		)
 		(uuid "15e127a0-b775-4554-99c9-f4308573bb07")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 109.22 162.56 0)
 		(effects
 			(font
@@ -9012,7 +9028,7 @@
 		)
 		(uuid "24509312-a8a2-4f2a-98a9-236ecbb36579")
 	)
-	(label "White"
+	(label "White{slash}Blue"
 		(at 109.22 165.1 0)
 		(effects
 			(font
@@ -9042,7 +9058,7 @@
 		)
 		(uuid "2c25db9c-81b8-4b01-9819-d2c2120aa198")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 109.22 125.73 0)
 		(effects
 			(font
@@ -9052,7 +9068,7 @@
 		)
 		(uuid "307e474d-a410-4ae4-a190-71b87285ae61")
 	)
-	(label "White"
+	(label "White{slash}Blue"
 		(at 109.22 119.38 0)
 		(effects
 			(font
@@ -9061,6 +9077,16 @@
 			(justify left bottom)
 		)
 		(uuid "3129a9e7-bad6-4473-82f7-192d7f1f5d1d")
+	)
+	(label "White{slash}Orange"
+		(at 99.06 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d303efa-5419-41bb-9ba2-117a52dac901")
 	)
 	(label "White{slash}Orange"
 		(at 67.31 36.83 0)
@@ -9092,7 +9118,7 @@
 		)
 		(uuid "55b10a9d-5de8-4ffc-9997-446ad6d0a223")
 	)
-	(label "White"
+	(label "White{slash}Blue"
 		(at 109.22 130.81 0)
 		(effects
 			(font
@@ -9101,6 +9127,16 @@
 			(justify left bottom)
 		)
 		(uuid "55f41881-8efd-49d2-8719-1872a4ff22b6")
+	)
+	(label "White"
+		(at 99.06 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62e05bda-a911-4fda-ba16-048176f3700f")
 	)
 	(label "Red"
 		(at 199.39 139.7 0)
@@ -9112,7 +9148,7 @@
 		)
 		(uuid "6798e448-00ff-4b54-b177-fd8be6f864d9")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 109.22 146.05 0)
 		(effects
 			(font
@@ -9162,7 +9198,7 @@
 		)
 		(uuid "93b47c09-f396-4ce5-89de-fe4e9d35e07f")
 	)
-	(label "White"
+	(label "White{slash}Blue"
 		(at 109.22 148.59 0)
 		(effects
 			(font
@@ -9191,6 +9227,16 @@
 			(justify left bottom)
 		)
 		(uuid "b67023da-57e9-4bfa-8992-2d309823e902")
+	)
+	(label "White{slash}Blue"
+		(at 99.06 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bae31c56-749c-4e46-888b-2279841b6c24")
 	)
 	(label "White{slash}Orange"
 		(at 109.22 143.51 0)
@@ -9242,7 +9288,7 @@
 		)
 		(uuid "e7284ccc-842e-4427-bc6b-ba7c3e8f9a4c")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 109.22 116.84 0)
 		(effects
 			(font
@@ -9252,7 +9298,7 @@
 		)
 		(uuid "ee5b4b1a-5bf0-4267-8a03-ef502d419428")
 	)
-	(label "White{slash}Blue"
+	(label "White"
 		(at 109.22 177.8 0)
 		(effects
 			(font
@@ -9262,7 +9308,7 @@
 		)
 		(uuid "f039f1ff-5d86-43d7-8d7f-e3e54ca3b01b")
 	)
-	(label "White"
+	(label "White{slash}Blue"
 		(at 109.22 180.34 0)
 		(effects
 			(font

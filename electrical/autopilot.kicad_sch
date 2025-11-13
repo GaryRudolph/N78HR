@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Autopilot")
-		(date "2025-11-03")
-		(rev "1.2.3")
+		(date "2025-11-12")
+		(rev "1.2.5")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -1455,6 +1455,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDS_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Short enough (i.e. <6 inches)\nso not using shielding"
 		(exclude_from_sim no)
@@ -1564,6 +1665,12 @@
 		(uuid "58d1d6d6-22e7-42ac-9e97-6f78a9478f9d")
 	)
 	(junction
+		(at 76.2 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5963c57f-8b4d-4ca2-bcee-2b46ba6c7683")
+	)
+	(junction
 		(at 74.93 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1599,9 +1706,19 @@
 		(color 0 0 0 0)
 		(uuid "dcf051aa-117a-4867-a606-28b7b1dc6683")
 	)
+	(junction
+		(at 200.66 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7759f6c-0c1b-4a9d-80a6-ef148509301b")
+	)
 	(no_connect
 		(at 55.88 157.48)
 		(uuid "24174878-919e-40cd-9bc3-7ec3b28520ba")
+	)
+	(no_connect
+		(at 144.78 115.57)
+		(uuid "25378a72-6183-4867-b149-c1254a1ec700")
 	)
 	(no_connect
 		(at 204.47 53.34)
@@ -1656,6 +1773,10 @@
 		(uuid "c82f82d9-1872-4fcc-a82f-a70a5489194a")
 	)
 	(no_connect
+		(at 134.62 115.57)
+		(uuid "d9957267-0698-4e6d-9587-e938c0b44990")
+	)
+	(no_connect
 		(at 55.88 180.34)
 		(uuid "d9ebf688-f38a-4ee3-9913-0679c7c9701f")
 	)
@@ -1685,6 +1806,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 41.91) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0210a0b2-f394-4df0-8468-0bf71f5002ba")
+	)
+	(wire
+		(pts
 			(xy 55.88 95.25) (xy 73.66 95.25)
 		)
 		(stroke
@@ -1702,6 +1833,16 @@
 			(type default)
 		)
 		(uuid "123ff2e7-694a-4ca4-83f3-c09f4c850245")
+	)
+	(wire
+		(pts
+			(xy 200.66 41.91) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "150dcbf1-7c6e-44e1-9256-f523453a10a8")
 	)
 	(wire
 		(pts
@@ -1795,6 +1936,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 36.83) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "38882706-81bb-401b-8e2e-c5d4ceeb4055")
+	)
+	(wire
+		(pts
 			(xy 58.42 182.88) (xy 58.42 185.42)
 		)
 		(stroke
@@ -1855,6 +2006,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 90.17) (xy 76.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5df10a0e-fc72-45a2-b5fb-eea9235875a9")
+	)
+	(wire
+		(pts
 			(xy 55.88 113.03) (xy 115.57 113.03)
 		)
 		(stroke
@@ -1862,6 +2023,16 @@
 			(type default)
 		)
 		(uuid "608ce8cd-39e1-4db1-b615-140a4ff0f7ee")
+	)
+	(wire
+		(pts
+			(xy 55.88 26.67) (xy 76.2 26.67)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "618543b4-6b13-4a46-b955-058960cd4fa9")
 	)
 	(wire
 		(pts
@@ -1975,6 +2146,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 26.67) (xy 76.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7c1e5908-5e66-4c62-8adb-b1e43ca731dd")
+	)
+	(wire
+		(pts
 			(xy 55.88 104.14) (xy 90.17 104.14)
 		)
 		(stroke
@@ -2025,6 +2206,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 90.17) (xy 55.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8b683a0a-97ab-43e6-ae30-6789231d83c2")
+	)
+	(wire
+		(pts
 			(xy 144.78 107.95) (xy 148.59 107.95)
 		)
 		(stroke
@@ -2032,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "8c620fa9-b426-40d9-9543-c85964d505c5")
+	)
+	(wire
+		(pts
+			(xy 200.66 36.83) (xy 204.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8e4b7aa5-118a-4195-8e4a-532301b69c6a")
 	)
 	(wire
 		(pts
@@ -2102,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "a1337113-24b1-4ca4-8f28-a91d06ffd97d")
+	)
+	(wire
+		(pts
+			(xy 76.2 149.86) (xy 55.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a15f7f0b-bb28-44e3-9d16-4459e9115344")
 	)
 	(wire
 		(pts
@@ -2453,6 +2664,16 @@
 		)
 		(uuid "ff2b0f93-c6ff-42fb-bfd5-571d4cca41d8")
 	)
+	(label "White"
+		(at 204.47 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "024dfb3e-5188-486f-b841-07685652aa60")
+	)
 	(label "White{slash}Orange"
 		(at 134.62 102.87 180)
 		(effects
@@ -2463,6 +2684,26 @@
 		)
 		(uuid "1c52244d-8b97-4f3b-b546-ef702c45e2a8")
 	)
+	(label "White{slash}Blue"
+		(at 55.88 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29e19280-746b-4701-acee-c16358939da8")
+	)
+	(label "White{slash}Blue"
+		(at 55.88 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "362397c5-cd77-4ffc-a995-7c30d606df19")
+	)
 	(label "Red"
 		(at 55.88 110.49 0)
 		(effects
@@ -2472,6 +2713,16 @@
 			(justify left bottom)
 		)
 		(uuid "385c9800-dc4e-4a18-9657-207762b1edf3")
+	)
+	(label "White"
+		(at 55.88 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72da9bb0-6733-4560-995b-0e0b8d5fb3b1")
 	)
 	(label "Red"
 		(at 134.62 113.03 180)
@@ -2492,6 +2743,16 @@
 			(justify right bottom)
 		)
 		(uuid "86e88667-ec86-4c1e-9baa-68d365445cfd")
+	)
+	(label "White"
+		(at 55.88 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a816549c-9858-41ab-a8fb-6cd4c29ce005")
 	)
 	(label "White{slash}Blue"
 		(at 55.88 106.68 0)
@@ -2523,6 +2784,26 @@
 		)
 		(uuid "d566c3be-a394-4cfa-932f-b9304f871b70")
 	)
+	(label "White{slash}Blue"
+		(at 204.47 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc113fca-861d-492f-ae7a-37f028bd162d")
+	)
+	(label "White"
+		(at 55.88 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de8a5e78-24e8-437c-97d9-436a4575fdc7")
+	)
 	(label "Red{slash}White"
 		(at 55.88 113.03 0)
 		(effects
@@ -2532,6 +2813,16 @@
 			(justify left bottom)
 		)
 		(uuid "e01a60d0-6b65-4646-9d82-02ce5f52430b")
+	)
+	(label "White{slash}Blue"
+		(at 55.88 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9407edf-59db-4e33-9eea-23217cf29ade")
 	)
 	(label "White{slash}Blue"
 		(at 134.62 107.95 180)
@@ -3144,6 +3435,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 55.88 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c9b116-cd17-47a2-bbe7-4d76fac3d1a7")
+		(property "Reference" "#PWR054"
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "652aed41-481f-4773-b4b5-a7abdee6d936")
+		)
+		(instances
+			(project ""
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "flyerx:Garmin_GSA28")
 		(at 20.32 82.55 0)
 		(unit 1)
@@ -3244,6 +3602,73 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
 					(reference "GSA28_PITCH")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 204.47 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98b72ac-64b3-4f50-8958-ed6e20ee0aab")
+		(property "Reference" "#PWR057"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 209.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f93efc0c-9e14-4c1a-a194-08317332505b")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3356,6 +3781,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 55.88 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0b9253-ee0a-46d8-98ca-ab009eeefda6")
+		(property "Reference" "#PWR056"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 55.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59e98320-d501-42a9-9c4d-578aeb2d6812")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "flyerx:Garmin_GMC507")
 		(at 238.76 20.32 0)
 		(mirror y)
@@ -3445,6 +3937,73 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
 					(reference "GMC507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 55.88 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2db46fd-5ad6-4bc5-8524-78a730d52de9")
+		(property "Reference" "#PWR055"
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a0eb0d6-22c3-4512-b69d-16c301bb4f8b")
+		)
+		(instances
+			(project "electrical"
+				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/bd38efb0-077c-4462-9d19-e07b49d43233"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
