@@ -6,8 +6,8 @@
 	(paper "B" portrait)
 	(title_block
 		(title "Power Distribution")
-		(date "2025-11-12")
-		(rev "1.2.5")
+		(date "2025-11-13")
+		(rev "1.2.6")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -7888,7 +7888,7 @@
 	)
 	(text "Right Wing Root"
 		(exclude_from_sim no)
-		(at 125.222 323.85 0)
+		(at 117.348 322.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9110,12 +9110,6 @@
 		(uuid "17f5012f-99c2-4d61-87ca-c096a4628ab0")
 	)
 	(junction
-		(at 125.73 330.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "192a7a8b-5851-4a1c-b66a-d39d7bc83862")
-	)
-	(junction
 		(at 90.17 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9200,6 +9194,12 @@
 		(uuid "5a9a0a3e-3a4c-4ea5-8af5-648b7a878d75")
 	)
 	(junction
+		(at 116.84 326.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764e8ff3-0a90-4188-b872-a22d78c1adfd")
+	)
+	(junction
 		(at 63.5 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9278,12 +9278,6 @@
 		(uuid "99f7db64-418c-4942-b998-1346fced601a")
 	)
 	(junction
-		(at 125.73 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d90e7a6-063a-411d-b4ef-5f3acb9103aa")
-	)
-	(junction
 		(at 93.98 349.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9354,6 +9348,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d731266a-5cf3-4529-90e0-d18899122059")
+	)
+	(junction
+		(at 116.84 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd34fd2-acd8-4d10-9784-261ebb4d2265")
 	)
 	(junction
 		(at 167.64 82.55)
@@ -9496,7 +9496,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 330.2) (xy 125.73 326.39)
+			(xy 116.84 330.2) (xy 116.84 326.39)
 		)
 		(stroke
 			(width 0)
@@ -9536,7 +9536,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 334.01) (xy 125.73 330.2)
+			(xy 116.84 334.01) (xy 116.84 330.2)
 		)
 		(stroke
 			(width 0)
@@ -10083,16 +10083,6 @@
 			(type default)
 		)
 		(uuid "22a82686-d768-4b2d-af5c-6cd3b0a2b3ec")
-	)
-	(wire
-		(pts
-			(xy 125.73 326.39) (xy 129.54 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2418beaa-6197-4414-975a-bffbccd5c508")
 	)
 	(wire
 		(pts
@@ -11966,16 +11956,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 330.2) (xy 125.73 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c5ec7b-fd8e-41b0-a8fb-669adee99512")
-	)
-	(wire
-		(pts
 			(xy 247.65 213.36) (xy 251.46 213.36)
 		)
 		(stroke
@@ -12616,6 +12596,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 330.2) (xy 129.54 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b1a653-2600-421a-8613-fc24ac37a785")
+	)
+	(wire
+		(pts
 			(xy 133.35 356.87) (xy 135.89 356.87)
 		)
 		(stroke
@@ -12796,7 +12786,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 334.01) (xy 125.73 334.01)
+			(xy 129.54 334.01) (xy 116.84 334.01)
 		)
 		(stroke
 			(width 0)
@@ -12833,6 +12823,16 @@
 			(type default)
 		)
 		(uuid "dd4bc6c5-6744-4396-926e-e8fbf2fc646f")
+	)
+	(wire
+		(pts
+			(xy 116.84 326.39) (xy 129.54 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2d1408-3274-4061-adac-6a571410383a")
 	)
 	(wire
 		(pts
@@ -12886,7 +12886,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 326.39) (xy 125.73 326.39)
+			(xy 82.55 326.39) (xy 116.84 326.39)
 		)
 		(stroke
 			(width 0)
@@ -13314,6 +13314,16 @@
 		)
 		(uuid "32521ba4-09da-4308-9dbb-dc8ea079af77")
 	)
+	(label "Red"
+		(at 83.82 368.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cfa97d9-86bc-414f-83db-bf14b440257f")
+	)
 	(label "White"
 		(at 144.78 307.34 0)
 		(effects
@@ -13333,6 +13343,16 @@
 			(justify left bottom)
 		)
 		(uuid "442b6390-f47b-4f83-bd98-6806b10d5db8")
+	)
+	(label "Black"
+		(at 129.54 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fa0f052-dad6-47a3-9cba-4dff404837ab")
 	)
 	(label "White{slash}Blue"
 		(at 144.78 309.88 0)
@@ -13404,6 +13424,16 @@
 		)
 		(uuid "946a5e81-cd5c-4ff9-8cf4-d21fe3c8cfa1")
 	)
+	(label "Red"
+		(at 83.82 373.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc3a550c-eb0b-4c9f-898f-da64376e6eb3")
+	)
 	(label "White{slash}Blue"
 		(at 78.74 351.79 0)
 		(effects
@@ -13443,6 +13473,16 @@
 			(justify left bottom)
 		)
 		(uuid "ece7b3dc-4259-47a5-96f2-95e901d55229")
+	)
+	(label "Black"
+		(at 129.54 330.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee52abe3-a697-4880-a42b-627e65a31054")
 	)
 	(label "White{slash}Blue"
 		(at 144.78 280.67 0)
