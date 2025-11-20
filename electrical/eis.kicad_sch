@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-11-13")
-		(rev "1.2.6")
+		(date "2025-11-19")
+		(rev "1.2.8")
 		(company "N78HR")
 	)
 	(lib_symbols
