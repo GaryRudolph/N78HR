@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-11-03")
-		(rev "1.2.3")
+		(date "2025-11-19")
+		(rev "1.2.8")
 		(company "N78HR")
 	)
 	(lib_symbols)
