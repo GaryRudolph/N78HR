@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-11-19")
-		(rev "1.2.8")
+		(date "2025-12-19")
+		(rev "1.2.10")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -8992,7 +8992,7 @@
 		)
 		(uuid "06bd55d2-1064-4952-b0c0-e7c8b157c65c")
 	)
-	(label "Yellow"
+	(label "Red"
 		(at 199.39 106.68 0)
 		(effects
 			(font
@@ -9012,7 +9012,7 @@
 		)
 		(uuid "12fa10cc-60a8-4745-897e-8b3967ebdc5f")
 	)
-	(label "Red"
+	(label "Yellow"
 		(at 67.31 81.28 0)
 		(effects
 			(font
@@ -9042,7 +9042,7 @@
 		)
 		(uuid "1ae51b50-2fbe-4c6f-a362-1e69d2d78fb1")
 	)
-	(label "Yellow"
+	(label "Red"
 		(at 67.31 78.74 0)
 		(effects
 			(font
@@ -9052,7 +9052,7 @@
 		)
 		(uuid "1f4b101d-ad2d-450b-b62a-bb4cddeabaa2")
 	)
-	(label "Yellow"
+	(label "Red"
 		(at 198.12 77.47 0)
 		(effects
 			(font
@@ -9092,7 +9092,7 @@
 		)
 		(uuid "2b7d12ad-3300-4ce9-ace2-86a763a60c3d")
 	)
-	(label "Red"
+	(label "Yellow"
 		(at 199.39 109.22 0)
 		(effects
 			(font
@@ -9142,7 +9142,7 @@
 		)
 		(uuid "40b3c607-a238-47aa-8262-12db7f8bbaaa")
 	)
-	(label "Yellow"
+	(label "Red"
 		(at 199.39 137.16 0)
 		(effects
 			(font
@@ -9192,7 +9192,7 @@
 		)
 		(uuid "62e05bda-a911-4fda-ba16-048176f3700f")
 	)
-	(label "Red"
+	(label "Yellow"
 		(at 199.39 139.7 0)
 		(effects
 			(font
@@ -9232,7 +9232,7 @@
 		)
 		(uuid "8f25b87d-4a55-4276-b1f9-e7636b23a616")
 	)
-	(label "Red"
+	(label "Yellow"
 		(at 198.12 49.53 0)
 		(effects
 			(font
@@ -9242,7 +9242,7 @@
 		)
 		(uuid "90bb5d91-e2c9-43f1-9f48-0342b81d9012")
 	)
-	(label "Red"
+	(label "Yellow"
 		(at 198.12 80.01 0)
 		(effects
 			(font
@@ -9302,7 +9302,7 @@
 		)
 		(uuid "be2a5d4b-7ad6-458e-a426-7baf82b0d3c7")
 	)
-	(label "Yellow"
+	(label "Red"
 		(at 67.31 46.99 0)
 		(effects
 			(font
@@ -9312,7 +9312,7 @@
 		)
 		(uuid "be7bd537-9ddc-499f-971b-98b17e5c0b22")
 	)
-	(label "Red"
+	(label "Yellow"
 		(at 67.31 49.53 0)
 		(effects
 			(font
@@ -9322,7 +9322,7 @@
 		)
 		(uuid "bfd4652f-69c6-4361-926b-4f593ecbabe4")
 	)
-	(label "Yellow"
+	(label "Red"
 		(at 198.12 46.99 0)
 		(effects
 			(font
