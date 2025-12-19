@@ -5,8 +5,8 @@
 	(uuid "db569b4a-f74f-44d4-9226-69b3b4b288c2")
 	(paper "USLetter" portrait)
 	(title_block
-		(date "2025-11-19")
-		(rev "1.2.8")
+		(date "2025-12-19")
+		(rev "1.2.10")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -3462,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 133.35) (xy 153.67 133.35)
+			(xy 148.59 133.35) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 135.89) (xy 172.72 135.89)
+			(xy 162.56 135.89) (xy 172.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 130.81) (xy 153.67 130.81)
+			(xy 142.24 130.81) (xy 152.4 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3522,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 128.27) (xy 153.67 128.27)
+			(xy 142.24 128.27) (xy 152.4 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3862,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 135.89) (xy 153.67 135.89)
+			(xy 147.32 135.89) (xy 152.4 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4002,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 130.81) (xy 175.26 130.81)
+			(xy 162.56 130.81) (xy 175.26 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4062,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 128.27) (xy 175.26 128.27)
+			(xy 162.56 128.27) (xy 175.26 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4162,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 133.35) (xy 175.26 133.35)
+			(xy 162.56 133.35) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4261,6 +4261,26 @@
 		(uuid "3723a391-bdef-4e87-a160-8ce0b4e6ccdd")
 	)
 	(label "White{slash}Blue"
+		(at 162.56 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d9cec1f-34e8-47dc-af04-f713ee2e1654")
+	)
+	(label "White"
+		(at 162.56 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58f47d73-fcd1-4c08-95df-549197b6c7e6")
+	)
+	(label "White{slash}Blue"
 		(at 160.02 31.75 180)
 		(effects
 			(font
@@ -4269,6 +4289,16 @@
 			(justify right bottom)
 		)
 		(uuid "708565bd-08b9-4710-b4f2-c94e38e34100")
+	)
+	(label "White{slash}Orange"
+		(at 162.56 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a50b0752-038d-41c5-ad8e-fad61b8b9e01")
 	)
 	(label "White"
 		(at 160.02 34.29 180)
@@ -5033,7 +5063,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 158.75 130.81 0)
+		(at 157.48 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5042,7 +5072,7 @@
 		(dnp no)
 		(uuid "2de9921b-0252-4a34-b5f4-1e3e9ab51ad0")
 		(property "Reference" "ELT"
-			(at 159.258 123.952 0)
+			(at 157.988 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5081,7 @@
 			)
 		)
 		(property "Value" "DTM4P"
-			(at 159.258 125.73 0)
+			(at 157.988 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 130.81 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 130.81 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5108,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 158.75 130.81 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5206,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 158.75 130.81 0)
+		(at 157.48 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5185,7 +5215,7 @@
 		(dnp no)
 		(uuid "430c8322-66c6-43ec-b9d1-11f6592af458")
 		(property "Reference" "ELT"
-			(at 157.988 123.952 0)
+			(at 156.718 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5224,7 @@
 			)
 		)
 		(property "Value" "DTM4R"
-			(at 157.988 125.73 0)
+			(at 156.718 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 130.81 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 130.81 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5251,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 158.75 130.81 0)
+			(at 157.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
