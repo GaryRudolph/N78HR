@@ -6,8 +6,8 @@
 	(paper "A" portrait)
 	(title_block
 		(title "Lycoming")
-		(date "2025-11-19")
-		(rev "1.2.8")
+		(date "2025-12-20")
+		(rev "1.2.11")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -2985,7 +2985,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Separate ground wires\nfor each SureFly"
+	(text "Followed instructions so\nground wire coiled up"
 		(exclude_from_sim no)
 		(at 104.14 133.858 0)
 		(effects
@@ -3190,12 +3190,6 @@
 		(uuid "abfd9581-ba44-42ea-9480-3eed5546cdc9")
 	)
 	(junction
-		(at 129.54 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc0ed9c9-bb15-46c9-83b1-af950621a0ec")
-	)
-	(junction
 		(at 77.47 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3216,6 +3210,10 @@
 	(no_connect
 		(at 58.42 144.78)
 		(uuid "6a963699-a840-44df-8191-2596917865df")
+	)
+	(no_connect
+		(at 125.73 139.7)
+		(uuid "6bda1885-2b4f-437b-bd29-249825d4e6a6")
 	)
 	(no_connect
 		(at 52.07 59.69)
@@ -3394,16 +3392,6 @@
 			(type default)
 		)
 		(uuid "26e255b8-c1a1-464d-b7ac-01d0a64e6e70")
-	)
-	(wire
-		(pts
-			(xy 129.54 139.7) (xy 92.71 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "273ae31e-ab77-457a-a10b-d7ce09f81f81")
 	)
 	(wire
 		(pts
@@ -3654,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "66a2ea55-b9ab-427c-b84a-d933bd7eba16")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 125.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3faa86-bd9f-453c-b7e8-4f303c127c9b")
 	)
 	(wire
 		(pts
