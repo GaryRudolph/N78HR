@@ -452,11 +452,11 @@ a negligible 0.003" of cable. **Authority loss < 3%.**
 #### Option 3a: Linear Slide
 
 ```
-           [===]               ← Spring housing (top of bracket)
-           |spr|  
-             O                ← Idler on linear slide, pushed down
-          (idler)   
-                      
+    | ──── [===]               ← Spring housing (top of bracket)
+    |      |spr|  
+    |        O                ← Idler on linear slide, pushed down
+    |     (idler)   
+    |                
     O ─────────────── O     ← Fixed 1 & 2 on airframe bracket (bottom)
 ```
 
