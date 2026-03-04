@@ -351,30 +351,18 @@ mechanism — **less than 1% authority loss**.
 
 ### Option 3: Idler Pulley Tensioner
 
-**Description:** A set of three MS20219-2 pulleys arranged as a classic cable
-tensioner: two fixed pulleys and one spring-loaded idler pulley on a pivoting
-arm. The bridle cable routes over the first fixed pulley, under the idler, and
-over the second fixed pulley (an S-wrap). A torsion spring on the idler arm
-continuously pushes the idler outward, maintaining cable tension regardless of
-slack.
+**Description:** Three MS20219-2 pulleys: two fixed to an airframe bracket at
+the bottom, one spring-loaded idler above. The cable runs straight across the
+tops of the fixed pulleys at neutral — no deflection, zero added cable tension.
+When slack develops, compression springs push the idler downward, deflecting
+the cable between the fixed pulleys and taking up the excess cable length. The
+cable's own tension provides the restoring force, keeping the springs soft.
 
-**Pulley arrangement:**
-
-```
-  Fixed 1          Fixed 2
-    O ─────────────── O      ← Fixed to airframe
-     \               /
-      \    Idler    /
-       \    O      /         ← Spring-loaded arm
-        \  ↓↓↓  /
-         (spring pushes idler down/outward)
-```
-
-**Design parameters:**
+**Common design parameters:**
 - All three pulleys: MS20219-2 (1.4375" groove dia, 1.755" OD)
 - Fixed pulley spacing: S = 1.75" center-to-center
-- Idler arm length: L_arm = 1.5" (pivot to idler center)
-- Idler offset at neutral: h₀ = 0.75" below the line between fixed pulleys
+- Idler centered at S/2 = 0.875" from each fixed pulley
+- Idler offset at neutral: h₀ = 0 (cable straight, no deflection)
 
 **Slack absorption calculation:**
 
@@ -384,137 +372,180 @@ Cable path through the three-pulley system:
 Path(h) = 2 × √[(S/2)² + h²]  (simplified, ignoring pulley radii)
 ```
 
-At neutral (h = h₀ = 0.75"):
+At neutral (h = 0, cable straight):
 
 ```
-Path₀ = 2 × √[0.766 + 0.563] = 2 × √1.328 = 2 × 1.152 = 2.305"
+Path₀ = S = 1.75"
 ```
 
-At max slack (idler extends to h₀ + Δ):
+At max slack (idler deflects cable by Δ):
 
 ```
 Path = Path₀ + 0.20   (must absorb 0.20" of slack)
-2.505 = 2 × √[0.766 + (0.75 + Δ)²]
-1.2525² = 0.766 + 0.563 + 1.5Δ + Δ²
-1.569 = 1.328 + 1.5Δ + Δ²
-Δ² + 1.5Δ − 0.241 = 0
-Δ = (−1.5 + √[2.25 + 0.964]) / 2 = (−1.5 + 1.793) / 2 = 0.146"
+1.95 = 2 × √[0.875² + Δ²]
+0.975² = 0.766 + Δ²
+Δ² = 0.951 − 0.766 = 0.185
+Δ = 0.430"
 ```
 
-The idler pulley must move **0.15" outward** to absorb 0.20" of slack.
+The idler pulley must push the cable **0.43" downward** to absorb 0.20" of
+slack. More travel is needed than a pre-deflected design because the first
+increment of deflection from a straight cable adds very little path length.
 
-On a 1.5" arm, this corresponds to an angular deflection of:
+**Force analysis:**
 
-```
-Δθ = arcsin(0.15 / 1.5) = 5.7°
-```
-
-**Torsion spring calculation:**
-
-The cable exerts a net inward force on the idler. The spring must overcome this
-force plus provide residual tension. Force balance at the idler:
+At neutral (h = 0), the cable is straight and exerts zero perpendicular force
+on the idler. The springs push the idler down freely when cable tension drops.
+When the cable is under tension T and the idler deflects it by a small amount
+h, the cable provides a restoring force:
 
 ```
-F_cable = 2T × sin(α)
+F_restoring = 2T × sin(arctan(h / (S/2)))
+For small h: F_restoring ≈ 4Th / S
 ```
 
-where T is desired cable tension and α is the half-wrap angle:
+The cable's own tension keeps the idler at h ≈ 0. The springs only need enough
+force to push the idler down when the cable goes slack (~2 lbs at the idler) —
+they do not need to resist the yaw damper cable tension.
+
+**Impact on yaw damper (common to 3a and 3b):**
+
+When the yaw damper operates (T = 18 lbs), the ~2 lb spring force deflects
+the cable slightly:
 
 ```
-α = arctan(h / (S/2)) = arctan(0.75 / 0.875) = 41°
+Equilibrium: F_spring = 4Th / S
+h = F_spring × S / (4T) = 2 × 1.75 / (4 × 18) = 0.049"
+
+Extra cable path = 2√(0.766 + 0.049²) − 1.75
+                 = 2√(0.768) − 1.75
+                 = 1.753 − 1.75 = 0.003"
+
+Authority loss = 0.003 / 0.109 = 3%
 ```
 
-For T = 3 lbs (minimum to keep cable seated in all grooves):
+The cable tension dominates (effective stiffness 4T/S = 41 lbs/in vs. ~4 lbs/in
+spring rate). The idler deflects only 0.049" under yaw damper load, absorbing
+a negligible 0.003" of cable. **Authority loss < 3%.**
 
-```
-F_cable = 2 × 3 × sin(41°) = 3.9 lbs
-```
-
-Torque at idler arm pivot:
-
-```
-τ = F_cable × L_arm = 3.9 × 1.5 = 5.9 in-lbs
-```
-
-Over the 5.7° range of motion:
-
-```
-Torsion spring rate = τ / Δθ = 5.9 / 5.7 = 1.0 in-lbs/degree
-```
-
-The spring should provide approximately **5.9 in-lbs of preload** at the
-neutral position and maintain at least **5 in-lbs** at maximum extension.
-A torsion spring rate of **~1.0 in-lbs/degree** is practical and commercially
-available.
-
-**Impact on yaw damper:**
-
-When the yaw damper operates, the cable tension increases to 15–18 lbs. The
-idler retracts slightly under the increased load:
-
-```
-F_cable = 2 × 18 × sin(41°) = 23.6 lbs
-τ_needed = 23.6 × 1.5 = 35.4 in-lbs
-Additional rotation = (35.4 − 5.9) / 1.0 = 29.5°
-Idler retraction ≈ 1.5 × sin(29.5°) = 0.74"
-```
-
-This 0.74" retraction releases 2 × 0.74 ≈ 1.48" of cable back to the system.
-But the yaw damper only needs 0.109" of cable movement. The idler spring must
-be **stiff enough that the retraction under yaw damper load is small**.
-
-Revised with stiffer spring: to limit retraction to 0.01" (negligible):
-
-```
-Cable released = 2 × 0.01 = 0.02"
-Lost authority ≈ 0.02 / 0.109 = 18%    (acceptable)
-
-Required idler force at 18 lbs tension:
-F = 2 × 18 × sin(41°) = 23.6 lbs
-τ = 23.6 × 1.5 = 35.4 in-lbs
-Additional angular deflection for 0.01" retraction:
-  Δθ = arcsin(0.01/1.5) = 0.38°
-Spring rate = (35.4 − 5.9) / 0.38 = 78 in-lbs/degree
-```
-
-This is an extremely stiff torsion spring. The fundamental issue: the idler
-provides constant tension regardless of cable load. Under yaw damper operation,
-the increased cable tension must fight the spring. A compromise is needed.
-
-**Practical compromise: preloaded stiff spring with limited travel:**
-
-```
-Spring preload: 36 in-lbs (just above yaw damper cable torque of 35.4 in-lbs)
-Spring rate: 3 in-lbs/degree
-Travel range: 5.7° (for slack absorption)
-Force at max extension: 36 + 3 × 5.7 = 53 in-lbs
-Cable tension maintained: ~18 lbs (at the 41° wrap angle)
-```
-
-Under yaw damper operation (servo applies 18 in-lbs at capstan):
-The spring preload (36 in-lbs) exceeds the cable force torque (35.4 in-lbs),
-so the idler barely moves. Authority loss < 1%. The steeper wrap angle from
-the 1.75" spacing requires higher preload than wider spacing would, resulting
-in ~18 lbs of resting cable tension in the bridle.
-
-**Pros:**
-- Proven mechanism used extensively in automotive, industrial, and some
-  aircraft cable systems
-- Continuously maintains cable tension at all rudder positions
+**Common pros:**
+- Proven mechanism used extensively in automotive, industrial, and aircraft
+  cable systems
+- Continuously takes up slack at all rudder positions
 - Cable stays seated in all pulley grooves and capstan at all times
 - No cable sliding or friction-dependent mechanisms
+- Zero added cable tension at neutral — cable is straight, no spring force
+  on rudder pedals
+- Very soft springs (~2 lbs at idler) — no custom spring sizing needed
+- Off-the-shelf compression springs, preload adjustable with shims
+- < 3% yaw damper authority loss (cable tension provides restoring force)
 - Mechanically robust and inspectable
 
-**Cons:**
-- Adds weight: 3 × MS20219-2 pulleys (0.20 lbs) + arm + spring + bracket
-  (~0.5 lbs total)
+**Common cons:**
+- Adds weight: 3 × MS20219-2 pulleys (0.20 lbs) + mechanism + springs +
+  bracket (~0.5 lbs total)
 - Only 4" of total cable run available — two fixed pulleys at 1.755" OD with
   1.75" c-c spacing span ~3.5" edge-to-edge, leaving < 0.5" for brackets
-- Spring sizing is critical — too soft and it absorbs yaw damper authority; too
-  stiff and the cable tension is excessive at neutral
-- Adds mechanical complexity and potential failure modes
+- Requires 0.43" of vertical clearance below the cable line for idler travel
 - Must be inspectable per maintenance requirements
-- Torsion spring fatigue life must be verified for continuous oscillation
+
+#### Option 3a: Linear Slide
+
+```
+           [===]               ← Spring housing (top of bracket)
+           |spr|  
+             O                ← Idler on linear slide, pushed down
+          (idler)   
+                      
+    O ─────────────── O     ← Fixed 1 & 2 on airframe bracket (bottom)
+```
+
+The idler rides in a vertical guide slot. Two compression springs (one on each
+side of the idler carriage) push the idler downward.
+
+**Spring specification:**
+
+```
+Number of springs: 2 (one each side of idler carriage)
+Total preload at h = 0: 2 lbs (1 lb per spring)
+Spring rate: 2 lbs/in per spring (4 lbs/in combined)
+Working travel: 0.43"
+Force at max slack: 2 + 4 × 0.43 = 3.7 lbs
+Spring size: ~0.375" OD, 0.030" wire, 1.0" free length
+```
+
+Two springs provide redundancy — a single spring failure still provides ~1 lb
+to push the idler.
+
+**3a-specific pros:**
+- Two springs = redundancy
+- Pure linear motion — simple force path
+
+**3a-specific cons:**
+- Linear slide must be low-friction and resist jamming from vibration/debris
+- Guide slot tolerances are critical for smooth operation
+
+#### Option 3b: Pivoting Arm
+
+```
+         [spring]
+          ↓  ↓
+  ──pivot──── arm ── O (idler)
+    |                    
+    |bracket|             
+    |       |              
+    O ──────────────────────── O
+  Fixed 1  ↑  Fixed 2       ← Fixed to airframe bracket (bottom)
+           idler is
+           between
+           Fixed 1 & 2
+```
+
+The idler rides on a pivoting arm (L_arm = 1.5"). A compression spring at
+r = 1.0" from the pivot pushes the arm downward. On a 1.5" arm, the 0.43"
+idler displacement requires **17° of rotation**:
+
+```
+θ = arcsin(0.43 / 1.5) = 16.7° ≈ 17°
+```
+
+**Compression spring compatibility with 17° rotation:**
+
+```
+Axial compression: r × sin(17°) = 1.0 × 0.292 = 0.29"
+Lateral shift:     r × (1 − cos(17°)) = 1.0 × 0.044 = 0.04"
+Tilt angle:        arctan(0.04 / 0.29) = 8°
+```
+
+The 0.04" lateral shift is an 8° tilt — well within what a compression spring
+can accommodate with a rounded or ball-end contact.
+
+**Spring specification:**
+
+By torque balance at the pivot (2 lbs needed at idler, 1.5" from pivot):
+
+```
+F_spring × r = F_idler × L_arm
+F_spring = 2 × 1.5 / 1.0 = 3 lbs
+
+Number of springs: 1 compression spring at 1.0" from pivot
+Spring preload: 3 lbs (provides 2 lbs at idler)
+Spring rate: ~10 lbs/in
+Compression at max slack: 0.29"
+Force at max slack: 3 + 10 × 0.29 = 5.9 lbs (3.9 lbs at idler)
+```
+
+**3b-specific pros:**
+- Pivot bearing is simpler and more robust than a linear slide
+- No slide to jam from vibration or debris
+- Single compression spring — easy to source and replace
+- More forgiving of misalignment than a linear guide
+- Proven mechanism — belt tensioner arms with compression springs are
+  ubiquitous in automotive applications
+
+**3b-specific cons:**
+- Pivot must be robust and low-friction (bushing or bearing)
+- Arm geometry must clear adjacent structure during 17° rotation
 
 ---
 
@@ -610,7 +641,7 @@ and could restrict the aircraft's operational utility.
 
 Criteria are scored 1 (worst) to 5 (best):
 
-| Criteria (Weight) | Serial Spring | Parallel Spring | Idler Pulley | ~~Limit Travel~~ |
+| Criteria (Weight) | Serial Spring | Parallel Spring | Idler Pulley (3a/3b) | ~~Limit Travel~~ |
 |---|---|---|---|---|
 | **Yaw Damper Effectiveness** (25%) | 2 | 5 | 4 | 5 |
 | **Slack Elimination** (20%) | 3 | 4 | 5 | 5 |
@@ -626,7 +657,7 @@ Criteria are scored 1 (worst) to 5 (best):
 |---|---|
 | Serial Spring | 2×.25 + 3×.20 + 3×.20 + 2×.15 + 4×.20 = **2.80** |
 | Parallel Spring | 5×.25 + 4×.20 + 4×.20 + 2×.15 + 4×.20 = **3.95** |
-| Idler Pulley | 4×.25 + 5×.20 + 2×.20 + 4×.15 + 4×.20 = **3.80** |
+| Idler Pulley (3a/3b) | 4×.25 + 5×.20 + 2×.20 + 4×.15 + 4×.20 = **3.80** |
 | ~~Limit Travel~~ | 5×.25 + 5×.20 + 5×.20 + 5×.15 + **0**×.20 = **4.00** |
 
 Limit Travel scores 4.00 on paper, but with a 12 kt practical
@@ -661,13 +692,15 @@ travel (3.95). It:
    adjacent structure (~0.8" clearance needed perpendicular to cable run)
 4. Verify yaw damper authority is acceptable during flight test
 
-**Fallback: Option 3 — Idler Pulley Tensioner**
+**Fallback: Option 3b — Idler Pulley (Pivoting Arm)**
 
 If the parallel spring cannot be packaged or the cable bow contacts structure,
 the idler pulley (3.80) is the next best option. It continuously maintains
-cable tension at all positions and keeps the cable seated in all grooves, but
-requires more complex fabrication (three pulleys, pivoting arm, torsion spring)
-and higher resting cable tension (~18 lbs).
+cable tension at all positions and keeps the cable seated in all grooves.
+Option 3b (pivoting arm with compression spring) is preferred over 3a (linear
+slide) — the pivot is more robust than a slide and less susceptible to jamming.
+Both 3a and 3b share the same performance: zero added cable tension at neutral
+and < 3% yaw damper authority loss.
 
 ---
 
@@ -677,6 +710,61 @@ and higher resting cable tension (~18 lbs).
    aircraft is already at the FAR 23.233 floor (11.6 kt). Any rudder travel
    reduction is operationally unacceptable — Option 4 is eliminated.
 
+
+---
+
+## FDM Fabrication Notes
+
+For Options 3a and 3b, the bracket and idler mechanism can be FDM printed.
+The loads are low (~2–4 lbs spring force, cable tension carried by pulley
+axles) so strength is not the primary concern — friction and wear are.
+
+### Material Selection
+
+| Material | Strength | Friction (CoF) | Notes |
+|---|---|---|---|
+| PA-HT CF | Excellent | 0.3–0.6 (high) | CF particles are abrasive — poor for sliding surfaces |
+| Plain PETG | Good | 0.3–0.5 | Better than CF nylon, but FDM layer lines create directional friction |
+| Plain nylon (PA6/PA12) | Good | 0.15–0.25 | One of the lowest-friction FDM materials, good wear resistance |
+| Iglidur (igus) | Good | 0.10–0.20 | Purpose-built bearing filament, excellent for slides and bushings |
+
+### Option 3a (Linear Slide) — Material Concerns
+
+The slide carriage must move freely with only 2 lbs of spring force. CF nylon
+slide-on-slide surfaces will bind — the carbon fiber acts like fine sandpaper.
+Recommended approaches:
+
+1. **PA-HT CF bracket + PTFE tape on slide surfaces** — simplest. Print
+   everything in PA-HT CF, apply PTFE tape to the slide channel and carriage.
+   Tape is replaceable at inspection intervals.
+2. **PA-HT CF bracket + plain nylon carriage** — print the structural bracket
+   in PA-HT CF and the sliding carriage in unfilled nylon. Nylon-on-nylon is a
+   well-known low-friction pairing.
+3. **PA-HT CF bracket + Iglidur carriage or liners** — most engineered
+   solution. Iglidur is specifically designed for bearing surfaces.
+
+### Option 3b (Pivoting Arm) — Preferred for FDM
+
+The pivoting arm largely eliminates the slide friction concern. A **1/4"
+shoulder bolt with a bronze or Oilite bushing** provides a near-zero-friction
+pivot at these loads. The arm and bracket can both be printed in PA-HT CF
+without any friction concerns on sliding surfaces.
+
+This is a strong practical argument for 3b over 3a: a bolt-and-bushing pivot
+is more predictable, lower friction, and more robust than any FDM-printed
+linear slide — regardless of material.
+
+### General FDM Considerations
+
+- **Print orientation:** Orient bracket so the pulley axle holes and pivot
+  bolt hole are perpendicular to the layer lines (bolt loads in shear across
+  layers, not pulling layers apart)
+- **Infill:** 60–80% for the bracket body; 100% around bolt holes and pivot
+- **Wall count:** 4+ perimeters for bolt hole reinforcement
+- **Fasteners:** Use metal inserts (heat-set brass inserts) for any bolted
+  connections; do not thread directly into printed plastic
+- **Inspection:** FDM parts should be inspected for cracking at layer
+  boundaries, especially around stress concentrations (bolt holes, pivot)
 
 ---
 
