@@ -18,7 +18,9 @@ eliminate slack, not merely contained by guards.
 The rudder has the following dimensions:
 1. Two rudder cable attachment points on the horn, each 1.25" aft of rudder
    pivot and 3.25" lateral (6.5" total spread between attachment points)
-2. Rudder travel 64° (±32°)
+2. Rudder cables exit the fuselage 12" forward of the horn attachment points,
+   6" across (±3.0" from centerline)
+3. Rudder travel 64° (±32°)
 
 **Measured slack:** At full rudder deflection, the bridle cable deflects 0.65"
 perpendicular to the cable run across a 5.7" span.
@@ -72,6 +74,12 @@ to the left point; the right cable to the right point.
 **At neutral (θ = 0):**
 - Left attachment: (−3.25, −1.25)
 - Right attachment: (3.25, −1.25)
+- Left cable exit: (−3.0, 10.75) — 12" forward of attachment, 3.0" lateral
+- Right cable exit: (3.0, 10.75)
+
+Note: the cable exits (6" spread) are slightly narrower than the horn
+attachment points (6.5" spread), so the cables converge inward by 0.25" per
+side over the 12" run.
 
 **At deflection angle θ**, the attachment points rotate with the rudder:
 
@@ -81,13 +89,33 @@ Right: ( 3.25·cosθ + 1.25·sinθ,   3.25·sinθ − 1.25·cosθ)
 ```
 
 **Geometric slack** arises because the two attachment points trace arcs of
-different radii from the rudder cables. The loaded cable (being pulled) takes
-up less length than the return cable releases — the arc-vs-chord effect. The
-net shortening of the total cable path creates slack in the bridle cable.
+different radii from their respective cable exit points. The loaded cable
+(being pulled) takes up less length than the return cable releases — the
+arc-vs-chord effect. The net shortening of the total cable path creates slack
+in the bridle cable.
 
-The simplified 2D model predicts ~0.33" of slack at ±32° for D ≈ 10", which
-overestimates the measured value because the real cable geometry is 3D (cables
-approach the horn from below at compound angles, not purely in-plane).
+**2D model prediction at ±32°:**
+
+```
+At neutral:
+  Left cable:  √[(−3.25−(−3.0))² + (−1.25−10.75)²] = √[0.063 + 144.0] = 12.003"
+  Right cable: √[(3.25−3.0)² + (−1.25−10.75)²]      = 12.003"
+  Total path = 24.005"
+
+At θ = 32° (cos32° = 0.848, sin32° = 0.530):
+  Left att:  (−2.094, −2.782)
+  Right att: (3.419, 0.662)
+  Left cable:  √[(−2.094−(−3.0))² + (−2.782−10.75)²] = √[0.821 + 183.1] = 13.562"
+  Right cable: √[(3.419−3.0)² + (0.662−10.75)²]       = √[0.175 + 101.8] = 10.097"
+  Total path = 23.659"
+
+Geometric slack = 24.005 − 23.659 = 0.35"
+```
+
+The 2D model predicts **0.35" of slack** at ±32°, which overestimates the
+measured value (0.15"–0.20") by roughly 75%. This is expected because the real
+cable geometry is 3D (cables approach the horn from below at compound angles,
+not purely in-plane).
 
 ### Measured Slack
 
@@ -116,10 +144,8 @@ Slack ≈ 8h² / (3L)
 
 **Measured slack at ±32°: 0.15" – 0.20"**
 
-*Note: The simplified 2D geometric model overestimates slack at large routing
-distances because the real cable geometry is 3D (cables approach the horn from
-below at compound angles). The measured value is used as the design basis rather
-than the model prediction.*
+*The 2D model predicts 0.35" (see above) — roughly 75% higher than measured.
+The measured value is used as the design basis.*
 
 ### Critical Slack Threshold
 
