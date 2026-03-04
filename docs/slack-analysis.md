@@ -728,31 +728,160 @@ axles) so strength is not the primary concern — friction and wear are.
 | Plain nylon (PA6/PA12) | Good | 0.15–0.25 | One of the lowest-friction FDM materials, good wear resistance |
 | Iglidur (igus) | Good | 0.10–0.20 | Purpose-built bearing filament, excellent for slides and bushings |
 
-### Option 3a (Linear Slide) — Material Concerns
+### Option 3a (Linear Slide) — Friction Solutions
 
 The slide carriage must move freely with only 2 lbs of spring force. CF nylon
 slide-on-slide surfaces will bind — the carbon fiber acts like fine sandpaper.
-Recommended approaches:
+Four approaches ranked from best to simplest:
 
-1. **PA-HT CF bracket + PTFE tape on slide surfaces** — simplest. Print
-   everything in PA-HT CF, apply PTFE tape to the slide channel and carriage.
-   Tape is replaceable at inspection intervals.
-2. **PA-HT CF bracket + plain nylon carriage** — print the structural bracket
-   in PA-HT CF and the sliding carriage in unfilled nylon. Nylon-on-nylon is a
-   well-known low-friction pairing.
+#### ~~1. Flexure (compliant mechanism)~~ — not recommended for flight
+
+> **Fatigue concern — disqualified for this application.** Research on FDM
+> flexure fatigue life shows PETG and nylon flexures fail in **<1,000 cycles**
+> in 3D-printed form. Even optimized PA12 nylon only achieves ~10,000 cycles.
+> A yaw damper produces 1–10 corrections/second in turbulence — 1,000 cycles
+> is 2–17 minutes of flight. FDM layer boundaries act as crack initiation
+> sites under cyclic bending, reducing fatigue life by orders of magnitude
+> versus injection-molded parts. Not viable for a safety-critical,
+> high-cycle aircraft application.
+
+#### 1. Delrin guide rods — simplest mechanical guide (recommended)
+
+Two 1/4" Delrin (acetal) rods pressed into the bracket act as guide rails.
+The carriage has printed-to-size through-holes that slide directly on the rods.
+Delrin provides low friction (CoF ~0.15–0.20) with much better stiffness than
+PTFE (E ≈ 450,000 psi vs. 72,000 psi). At 1/4" diameter the rods are very
+stiff (I ∝ d⁴) — deflection under 2–4 lbs is negligible.
+
+- **Rod size:** 1/4" diameter × ~1" long, pressed into bracket at both ends
+- **Carriage hole:** print at 0.253"–0.255" (6.43–6.48 mm) for a sliding fit
+- **Bracket press-fit hole:** print at 0.245"–0.247" (6.22–6.27 mm)
+- **No bushings or sleeves needed** — the Delrin rod is the bearing surface
+- **Cost:** ~$2–3 per foot (cut two pins from one rod)
+- McMaster: [Delrin acetal resin rod](https://www.mcmaster.com/delrin-acetal-resin-rods)
+  — filter to 1/4" diameter.
+
+#### 2. Bearing wheels on guide channel
+
+Four miniature flanged bearings mounted as wheels on the carriage, rolling in
+vertical channels printed into the bracket. Converts sliding friction to
+rolling friction.
+
+```
+    channel wall       channel wall
+         |    [B]─carriage─[B]    |
+         |    [B]   idler  [B]    |
+         |                        |
+```
+
+Imperial bearing options:
+
+| Bearing | Bore | OD | Width | Axle pin |
+|---|---|---|---|---|
+| FR2-5-ZZ | 1/8" | 5/16" | 9/64" | 1/8" dowel pin |
+| RIF-618ZZ | 1/8" | 3/8" | 9/64" | 1/8" dowel pin |
+| FR188-ZZ | 1/4" | 1/2" | 3/16" | 1/4" shoulder screw |
+
+- **Qty:** 4 per carriage (2 per side)
+- **Channels:** printed vertical slots, width matched to bearing OD + ~0.010"
+  clearance per side
+- **Lowest friction** of the mechanical guide options (CoF ~0.003)
+- Most complex — 4 bearings, 4 axle pins, tight channel tolerances
+- McMaster: [flanged miniature ball bearings](https://www.mcmaster.com/miniature-ball-bearings)
+  — filter by bore size, flanged.
+
+#### 3. Surface treatments (simplest, least effective)
+
+If printing a plain slide channel, reduce friction with surface treatments:
+
+1. **PA-HT CF bracket + PTFE tape on slide surfaces** — print everything in
+   PA-HT CF, apply PTFE tape to the channel and carriage. Replaceable at
+   inspection intervals.
+2. **PA-HT CF bracket + plain nylon carriage** — print the sliding carriage in
+   unfilled nylon. Nylon-on-nylon is a known low-friction pairing.
 3. **PA-HT CF bracket + Iglidur carriage or liners** — most engineered
-   solution. Iglidur is specifically designed for bearing surfaces.
+   surface treatment. Iglidur is specifically designed for bearing surfaces.
 
 ### Option 3b (Pivoting Arm) — Preferred for FDM
 
-The pivoting arm largely eliminates the slide friction concern. A **1/4"
-shoulder bolt with a bronze or Oilite bushing** provides a near-zero-friction
-pivot at these loads. The arm and bracket can both be printed in PA-HT CF
-without any friction concerns on sliding surfaces.
+The pivoting arm largely eliminates the slide friction concern. The arm and
+bracket can both be printed in PA-HT CF without any friction concerns on
+sliding surfaces — all friction is handled by a proper bushing at the pivot.
 
 This is a strong practical argument for 3b over 3a: a bolt-and-bushing pivot
 is more predictable, lower friction, and more robust than any FDM-printed
 linear slide — regardless of material.
+
+**Pivot hardware:**
+
+| Component | Specification |
+|---|---|
+| Shaft | 1/4" shoulder bolt, 7/8" shoulder length |
+| Bearings | 2 × FR4-2RS flanged sealed, 1/4" ID × 5/8" OD × 0.196", flange ~11/16" OD |
+| Locknut | 1/4"-28 nylon-insert locknut (NE/NM series) |
+
+**Dual-bearing pivot layout (recommended):**
+
+Two opposed bearings eliminate cocking and keep the idler pulley tracking
+straight. With a 1.5" arm, even small tilt at the pivot amplifies into
+tracking error at the pulley groove — two bearings prevent this.
+
+```
+       locknut
+      ─────────
+      [bearing 2]   ← upper, flange faces outward
+      |         |
+      | arm hub |   ~0.5" between bearing centers
+      |         |
+      [bearing 1]   ← lower, flange faces outward
+      ─────────
+       bracket
+      bolt head
+```
+
+- Hub height: ~0.9" (2 × 0.196" bearing width + 0.5" spacing)
+- Shoulder bolt shoulder length: 7/8" (to span hub + bracket thickness)
+- Flanges face outward on each end, self-locating and retaining
+- Forces resolve into pure radial loads — no moment on bearings
+- Cost adder: one extra bearing (~$3–7)
+
+**Pivot bearing/bushing selection (ranked):**
+
+1. **FR4-2RS flanged sealed ball bearing (recommended)** — pre-lubricated,
+   sealed, CoF ~0.003 (essentially zero friction), zero play, maintenance-free.
+   1/4" ID × 5/8" OD × 0.196" width, flange OD ~11/16" × ~0.050" thick.
+   Chrome steel (SAE-52100), rubber sealed both sides. Static load 139 lbs /
+   dynamic 333 lbs — massively overbuilt for 2–4 lbs. ~$3–7 each (need 2). The flange
+   seats against the printed arm face, self-locating and preventing walk-through
+   — ideal for FDM housings. Requires a shallow counterbore (~11/16" dia ×
+   0.050" deep) on the entry side plus a ~7/8" OD boss around the bearing.
+   McMaster: [flanged miniature ball bearing — 1/4" bore, 5/8" OD, sealed](https://www.mcmaster.com/57155K528)
+   (57155K series, trade number FR4-2RS). If link doesn't resolve, search
+   "miniature ball bearing" and filter: 1/4" bore, 5/8" OD, flanged, sealed.
+2. **Igus iglide G flanged bushing (fallback)** — engineered polymer,
+   dry-running, CoF ~0.10–0.20, maintenance-free, vibration-tolerant.
+   1/4" ID × 5/16" OD × 1/4" length, flange OD 1/2". Compact — smaller
+   boss than the ball bearing option. ~$0.80 each (sold in 10-packs).
+   AutomationDirect: [A-GFI-0405-04](https://www.automationdirect.com/adc/shopping/catalog/power_transmission_(mechanical)/aluminum_linear_shafts_-a-_bearings/linear_shaft_bearings/a-gfi-0405-04)
+   (Igus part: GFI-0405-04, pack of 10 for ~$8).
+3. **Oilite (sintered bronze)** — self-lubricating, proven in aerospace. CoF
+   ~0.10–0.15. May weep oil over time; vibration accelerates oil migration.
+   McMaster: [oil-embedded flanged sleeve bearing — 1/4" shaft](https://www.mcmaster.com/6338K414)
+   If link doesn't resolve, search "oil-embedded flanged sleeve bearing" and
+   filter: 1/4" shaft diameter.
+
+**FDM hole sizing for press-fit:**
+- **FR4-2RS bearing (5/8" OD, qty 2):** print two bores at 15.8 mm (0.622")
+  spaced ~0.5" apart (center-to-center), each with a counterbore at 17.4 mm
+  (0.685") × 1.3 mm (0.050") deep. Flanges face outward on each end of the
+  hub, self-locating and retaining. Total hub height ~0.9".
+- **Iglide G bushing (5/16" OD):** print hole at 7.8–7.85 mm (0.307"–0.309").
+  Flanged version (1/2" flange OD) seats against the printed face, preventing
+  walk-out. Counterbore: 12.8 mm (0.504") dia for flange clearance.
+- **Oilite bushing (3/8" OD):** print hole at 9.4 mm (0.370"). The porous
+  sintered bronze surface grips well in FDM plastic. Counterbore: 12.8 mm
+  (0.504") × 1.6 mm (0.063") deep for the 1/2" flange.
+- Press in with an arbor press or vise
 
 ### General FDM Considerations
 
