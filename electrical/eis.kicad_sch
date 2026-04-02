@@ -6,8 +6,8 @@
 	(paper "USLedger" portrait)
 	(title_block
 		(title "EIS")
-		(date "2025-12-19")
-		(rev "1.2.10")
+		(date "2026-04-02")
+		(rev "1.2.13")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -6363,6 +6363,10 @@
 		(uuid "b6a0f0c9-772e-4673-b359-c70087b4cda6")
 	)
 	(no_connect
+		(at 115.57 289.56)
+		(uuid "ba251c81-0c9b-4b26-9722-add4db608af1")
+	)
+	(no_connect
 		(at 67.31 134.62)
 		(uuid "c24eb4db-49f1-4cba-a253-04db229c3d77")
 	)
@@ -6724,6 +6728,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 292.1) (xy 120.65 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a003743-a33f-4d68-997b-359378b66e73")
+	)
+	(wire
+		(pts
 			(xy 147.32 129.54) (xy 189.23 129.54)
 		)
 		(stroke
@@ -6961,16 +6975,6 @@
 			(type default)
 		)
 		(uuid "30e924b6-8e47-49f6-9009-92c9a6e7713b")
-	)
-	(wire
-		(pts
-			(xy 115.57 292.1) (xy 125.73 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3205d55d-78f1-4377-bd1a-bf31221afe44")
 	)
 	(wire
 		(pts
@@ -8244,16 +8248,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 289.56) (xy 125.73 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f911fe-2991-4bdc-9b84-104d495fc0ca")
-	)
-	(wire
-		(pts
 			(xy 67.31 96.52) (xy 151.13 96.52)
 		)
 		(stroke
@@ -9448,6 +9442,17 @@
 			(justify left)
 		)
 		(uuid "0869d8d3-4dd5-4656-b420-075e314e0af6")
+	)
+	(hierarchical_label "BATT_FAULT"
+		(shape input)
+		(at 120.65 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b7efb5c-9c16-4cc8-a721-8436e7908b05")
 	)
 	(hierarchical_label "GEA24_PWR"
 		(shape input)
@@ -13810,74 +13815,6 @@
 			(project "electrical"
 				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
 					(reference "FUEL")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 120.65 289.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e18c616f-71d0-47b8-ad85-f0f088b888ca")
-		(property "Reference" "SMOKE_LOW_SW"
-			(at 127 288.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FLOAT_SENSOR"
-			(at 120.65 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "865f1b70-8293-47d0-9faa-a6ab7e922f92")
-		)
-		(pin "2"
-			(uuid "359af356-d771-4d0f-82e2-8ad790388557")
-		)
-		(instances
-			(project "electrical"
-				(path "/e8ec215a-dbe2-4eba-a577-e50a0a128049/72184f52-5cc1-469a-bd6f-4bd63aea59bf"
-					(reference "SMOKE_LOW_SW")
 					(unit 1)
 				)
 			)

@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Electrical Overview")
-		(date "2025-11-19")
-		(rev "1.2.8")
+		(date "2026-04-02")
+		(rev "1.2.13")
 		(company "N78HR")
 	)
 	(lib_symbols)
@@ -163,7 +163,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 58.42 33.02)
+			(xy 41.91 33.02) (xy 58.42 33.02)
 		)
 		(stroke
 			(width 0)
@@ -643,7 +643,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 43.18) (xy 58.42 43.18)
+			(xy 41.91 43.18) (xy 58.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 40.64) (xy 58.42 40.64)
+			(xy 41.91 40.64) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1253,6 +1253,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 45.72) (xy 20.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc26fdd-71fb-477b-a831-8fc23aedf64d")
+	)
+	(wire
+		(pts
 			(xy 309.88 48.26) (xy 300.99 48.26)
 		)
 		(stroke
@@ -1513,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 38.1) (xy 58.42 38.1)
+			(xy 41.91 38.1) (xy 58.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1670,6 +1680,16 @@
 			(type default)
 		)
 		(uuid "c6b27165-5076-4a53-99ce-b346c9623506")
+	)
+	(wire
+		(pts
+			(xy 21.59 45.72) (xy 20.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72da136-c323-44d6-b17f-9782e0ed887e")
 	)
 	(wire
 		(pts
@@ -1833,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 35.56) (xy 58.42 35.56)
+			(xy 41.91 35.56) (xy 58.42 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 30.48) (xy 58.42 30.48)
+			(xy 41.91 30.48) (xy 58.42 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1970,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "f1c2c19d-d3c6-4313-ba91-756c659a5caf")
+	)
+	(wire
+		(pts
+			(xy 20.32 175.26) (xy 58.42 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f445048c-99a6-444a-be50-1a1b0a278f25")
 	)
 	(wire
 		(pts
@@ -3660,8 +3690,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 29.21)
-		(size 20.32 15.875)
+		(at 21.59 29.21)
+		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3676,7 +3706,7 @@
 		)
 		(uuid "2dfb13c9-19ab-4b61-8910-6455da71626b")
 		(property "Sheetname" "Lycoming"
-			(at 16.51 28.4984 0)
+			(at 21.59 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3715,7 @@
 			)
 		)
 		(property "Sheetfile" "lycoming.kicad_sch"
-			(at 16.51 45.6696 0)
+			(at 21.59 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3724,7 @@
 			)
 		)
 		(pin "AIRCRAFT_POWER" output
-			(at 36.83 30.48 0)
+			(at 41.91 30.48 0)
 			(uuid "1e37fd75-60c1-4e9c-b982-4ee59ce70c47")
 			(effects
 				(font
@@ -3704,7 +3734,7 @@
 			)
 		)
 		(pin "AIRCRAFT_GROUND" output
-			(at 36.83 33.02 0)
+			(at 41.91 33.02 0)
 			(uuid "1e179e23-b5e5-45a5-aeda-b7a4c6379b85")
 			(effects
 				(font
@@ -3714,7 +3744,7 @@
 			)
 		)
 		(pin "IGN_PWR" input
-			(at 36.83 35.56 0)
+			(at 41.91 35.56 0)
 			(uuid "fc24ff7c-625f-444e-9a89-d82027e283e9")
 			(effects
 				(font
@@ -3724,7 +3754,7 @@
 			)
 		)
 		(pin "START_PWR" input
-			(at 36.83 38.1 0)
+			(at 41.91 38.1 0)
 			(uuid "e8a85e0d-60de-46ce-8d70-39289e9d5204")
 			(effects
 				(font
@@ -3734,7 +3764,7 @@
 			)
 		)
 		(pin "START_VOLTS" output
-			(at 36.83 40.64 0)
+			(at 41.91 40.64 0)
 			(uuid "4bc37e00-5e65-4024-809c-75b0169bbe73")
 			(effects
 				(font
@@ -3744,13 +3774,23 @@
 			)
 		)
 		(pin "ALT_ON" input
-			(at 36.83 43.18 0)
+			(at 41.91 43.18 0)
 			(uuid "c90b7089-3a08-4230-8aa7-e701a08dd045")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BAK_BAT_FAULT" output
+			(at 21.59 45.72 180)
+			(uuid "ecaf8b32-dbc2-40bf-b479-bff01c84a83d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4577,6 +4617,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BATT_FAULT" input
+			(at 58.42 175.26 180)
+			(uuid "7f6ed6ee-747c-4d78-a866-1d20e4421e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
