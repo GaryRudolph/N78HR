@@ -4909,7 +4909,7 @@
 						)
 					)
 				)
-				(number "P4X01_5"
+				(number "P4X01_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4927,7 +4927,7 @@
 						)
 					)
 				)
-				(number "P4X01_4"
+				(number "P4X01_5"
 					(effects
 						(font
 							(size 1.27 1.27)

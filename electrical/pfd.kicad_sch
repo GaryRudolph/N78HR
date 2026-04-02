@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "PFD & ADAHRS")
-		(date "2025-11-19")
-		(rev "1.2.8")
+		(date "2026-04-02")
+		(rev "1.2.12")
 		(company "N78HR")
 	)
 	(lib_symbols
@@ -1214,7 +1214,7 @@
 							)
 						)
 					)
-					(number "P4X01_5"
+					(number "P4X01_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 							)
 						)
 					)
-					(number "P4X01_4"
+					(number "P4X01_5"
 						(effects
 							(font
 								(size 1.27 1.27)
